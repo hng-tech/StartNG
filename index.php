@@ -47,7 +47,7 @@
               <div class="modal-content">
                 <div class="modal-body text-center">
                   <h4 class="text-center font-weight-bold my-4">Success!! </h4>
-                  <span class="my-4">We will notify you when internship registration opens</when>
+                  <span class="my-4">We will notify you when internship registration opens</br>
                     Follow us on twitter to get updated news <a href="https://twitter.com/hnginternship"><img src="https://www.itsnicethat.com/system/files/062012/4fd07cea5c3e3c0d810000db/images_slice_large/Twitternew.jpg" width="10%" /></a></span>
                 </div>
               </div>
