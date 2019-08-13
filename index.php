@@ -36,7 +36,7 @@
       <div class="col-sm-12 col-lg-6  px-4 pt-2">
         <div class="text-center mt-sm-0 mt-md-5">
           <h5 class="font-weight-bold">Pre-Internship registration has closed</h5>
-          <h5 class="font-weight-bold my-3">Visit <a href="https://hng.tech">HNG.Tech</a> to register for the main internship</h5>
+          <h5 class="font-weight-bold my-3">Visit <a href="https://hng.tech/join-now">HNG.Tech</a> to register for the main internship</h5>
           <p>Follow us on twitter to get updated news <a href="https://twitter.com/hnginternship"><img src="https://www.itsnicethat.com/system/files/062012/4fd07cea5c3e3c0d810000db/images_slice_large/Twitternew.jpg" width="10%" /></a></p>
         </div>
       </div>
