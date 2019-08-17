@@ -34,6 +34,7 @@
       <div class="col-sm-12 col-lg-6  px-4 pt-2">
         <div class="text-center mt-sm-0 mt-md-5">
           <h4 class="font-weight-bold pt-md-3">Pre-Internship registration has closed</h4>
+          <!-- from startdotng social 170819 do as it says -->
           <h5 class="my-3">Register for the main internship <a href="https://forms.gle/XHdS1aPL5piMcaDP6">here</a></h5>
         </div>
         <div class="mt-3 text-center">
