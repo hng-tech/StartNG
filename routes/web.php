@@ -20,7 +20,7 @@ Route::get('/login', 'DataController@index');
 Route::post('/certificate', 'DataController@certificate');
 
 Route::get('/certificate/{slug}', function($slug) {
-
+    return view('certificate')->with('name',$slug);
 });
 
 Route::get('/verify/{verify_id}', 'DataController@verify');

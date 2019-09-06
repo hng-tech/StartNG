@@ -15,32 +15,33 @@ class DataController extends Controller
 
     public function certificate(\Illuminate\Http\Request $request) {
 
-        $intern_json = Storage::get('json/start-intern-data.json');
+        $intern_json = Storage::get('start-intern-data.json');
         $array = json_decode($intern_json,true);
 
         $shn = $request -> input('shn_code');
 
         for ($i=0; $i < count($array); $i++) { 
-            if ($array[i]['code'] === $shn) {
-                return redirect('/certificate/'.$array[i]['slug']);
+            if ($array[$i]['code'] == $shn) {
+                return redirect('/certificate/'.$array[$i]['slug']);
+                break;
             }
             else {
                 continue;
             }
         }
 
-        return view('login')->with('error','The code entered is not a valid shn code');
+        return redirect('/login')->with('error','The code entered is not a valid shn code');
 
     }
 
     public function verify($id) {
 
-        $intern_json = Storage::get('json/start-intern-data.json');
+        $intern_json = Storage::get('start-intern-data.json');
         $array = json_decode($intern_json,true);
 
         for ($i=0; $i < count($array); $i++) { 
-            if ($array[i]['verify_id'] === $id) {
-                return redirect('/certificate/'.$array[i]['slug']);
+            if ($array[$i]['verify_id'] === $id) {
+                return redirect('/certificate/'.$array[$i]['slug']);
             }
             else {
                 continue;
