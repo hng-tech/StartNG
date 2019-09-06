@@ -14,3 +14,13 @@
 Route::get('/', function () {
     return view('welcome');
 });
+
+Route::get('/login', 'DataController@index');
+
+Route::post('/certificate', 'DataController@certificate');
+
+Route::get('/certificate/{slug}', function($slug) {
+
+});
+
+Route::get('/verify/{verify_id}', 'DataController@verify');
