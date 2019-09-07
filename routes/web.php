@@ -15,12 +15,26 @@ Route::get('/', function () {
     return view('welcome');
 });
 
-Route::get('/login', 'DataController@index');
+Route::get('/certification', 'DataController@index');
 
-Route::post('/certificate', 'DataController@certificate');
+Route::post('/certification', 'DataController@certificate');
 
-Route::get('/certificate/{slug}', function($slug) {
-    return view('certificate')->with('name',$slug);
+Route::get('/certification/{slug}', function($slug) {
+    
+    $intern_json = Storage::get('start-intern-data.json');
+    $array = json_decode($intern_json,true);
+
+    for ($i=0; $i < count($array); $i++) { 
+        if ($array[$i]['slug'] == $slug) {
+            $obj = $array[$i];
+            break;
+        }
+        else {
+            continue;
+        }
+    }
+
+    return view('certificate')->with('name',$obj);
 });
 
 Route::get('/verify/{verify_id}', 'DataController@verify');
