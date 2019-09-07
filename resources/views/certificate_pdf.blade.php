@@ -7,17 +7,26 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Certificate</title>
+    <!-- <link href='https://fonts.googleapis.com/css?family=Roboto' rel='stylesheet'>  -->
+
     <style>
-    h1 {}
+    @media print {
+        body {
+            width: 872pt;
+            height: 595pt;
+            font-family: 'Roboto';
+        }
+        h1, h2, h4 { color: blue; margin-bottom:-20px;}
         .support {
             display: inline-block;
-            height: 50px;
+            height: 50pt;
         }
+    }
     </style>
 </head>
 <body>
-    <h1>Certificate</h1>
-    <h2>of completion</h2>
+    <h1>CERTIFICATE</h1>
+    <h2>OF COMPLETION</h2>
 
     <p>This is to certify that</p>
     <h3>{{ strtoupper($data['name']) }}</h3>
@@ -41,9 +50,5 @@
     </div> -->
 
 
-
-    THIS IS THE PDF File for {{ strtoupper($data['name']) }}<br> 
-    Your SHN CODE is {{ strtoupper($data['code']) }}<br>
-    Your SCORE is {{ ($data['task1']/20)*100 }}%<br>
 </body>
 </html>
