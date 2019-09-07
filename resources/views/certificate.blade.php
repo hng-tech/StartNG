@@ -25,13 +25,19 @@
         body {
             font-family: 'Lato';
         }
-        h1 { margin-top: 100px;}
+        h1 { margin-top: 70px;}
         h1, h4 {
             text-align: center;
             color: #084482;
             font-weight: bold;
         }
+        h4 {margin-bottom: 30px;}
         p {font-size: 1.12rem; font-weight: bold;}
+        @media (max-width: 480px) {
+            h1 { font-size: 30px; };
+            /* h4 { font-size: 12px; }; */
+        }
+    </styl
     </style>
 </head>
 </head>
