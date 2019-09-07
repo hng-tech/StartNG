@@ -19,37 +19,52 @@
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-
+    <link href='http://fonts.googleapis.com/css?family=Lato:400,700' rel='stylesheet' type='text/css'>
+    <style>
+        body {
+            font-family: 'Lato';
+            color: #084482;
+        }
+        h1 {font-size: 30px; font-weight: bold; margin-top: 18vh;}
+        #shn-code {width: 30vw;}
+        form {margin-top: 30px;}
+        footer {
+            padding: 10px 0 0px;
+            position: fixed;
+            bottom: 0;
+            color: white;
+            text-align:center;
+        }
+    </style>
 </head>
 <body>
     <div class="container-fluid">
         <nav class="navbar navbar-light mt-sm-2">
             <a class="navbar-brand" href="#">
-                <img src="./startng.png" alt="" srcset="">
+                <img src="{{ asset('images/startng.png') }}" alt="" srcset="">
             </a>
             <button class="btn btn-primary" type="submit">Join</button>
-        </nav>
-        <img src={{asset('image/startng.png') }} alt="" srcset="" height="50px">
+        </nav> 
         <div style='text-align:center;'>
             <h1>HNG-Internship Certification</h1>
             <p>We look out for the best interns who have been tested with real life projects</p>
             @if (isset($error))
             <h6>{{$error}}</h6>
             @endif
-            <form action="/certification" method="post" class="form-inline mr-auto ml-auto">
-            <input class="form-control mr-sm-2 " type="text" name="shn_code" placeholder="Input your shn code" aria-label="Search">
+            <form action="/certification" method="post" class="form-inline d-flex justify-content-center">
+            <input class="form-control mr-sm-2" id="shn-code" type="text" name="shn_code" placeholder="Input your shn code" aria-label="shn code">
             <input type="hidden" name="_token" value="<?php echo csrf_token(); ?>">
 
             
             <button type="submit" class="btn btn-primary"><i class="fa fa-search"></i> SEARCH</button>
             </form>
             
-            <footer class="bg-primary">
-                <p>&copy; 2019 HNG Internship. All rights reserved.</p>
-            </footer>
+            
         </div>
         
     </div>
-    
+    <footer class="container-fluid bg-primary">
+        <p>&copy; 2019 HNG Internship. All rights reserved.</p>
+    </footer>
 </body>
 </html>
