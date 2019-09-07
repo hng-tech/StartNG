@@ -51,7 +51,7 @@
         <div class="form-group mr-2 mb-2">
             <input type="text" class="form-control" id="certificate-link" size="60" value="https://start.ng/certification/{{$name['slug']}}/download">
         </div>
-        <button type="submit" class="btn btn-outline-primary mb-2" onclick="copyLink()><i class="fa fa-clone"></i> Copy Link</button>
+        <button type="submit" class="btn btn-outline-primary mb-2" onclick="copyLink()"><i class="fa fa-clone"></i> Copy Link</button>
     </form>
 
     <a href="/certification/{{$name['slug']}}/download" >

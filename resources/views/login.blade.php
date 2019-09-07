@@ -35,6 +35,9 @@
             color: white;
             text-align:center;
         }
+        @media (max-width: 780px) {
+            #shn-code {width: 50%;}
+        }
     </style>
 </head>
 <body>
@@ -49,14 +52,14 @@
             <h1>HNG-Internship Certification</h1>
             <p>We look out for the best interns who have been tested with real life projects</p>
             @if (isset($error))
-            <h6>{{$error}}</h6>
+            <h6 style="color:red;">{{$error}}</h6>
             @endif
             <form action="/certification" method="post" class="form-inline d-flex justify-content-center">
-            <input class="form-control mr-sm-2" id="shn-code" type="text" name="shn_code" placeholder="Input your shn code" aria-label="shn code">
+            <input class="form-control mr-2" id="shn-code" type="text" name="shn_code" placeholder="Input your shn code" aria-label="shn code">
             <input type="hidden" name="_token" value="<?php echo csrf_token(); ?>">
 
             
-            <button type="submit" class="btn btn-primary"><i class="fa fa-search"></i> SEARCH</button>
+            <button type="submit" class="btn btn-primary "><i class="fa fa-search"></i> SEARCH</button>
             </form>
             
             

@@ -24,15 +24,16 @@
     }
     </style>
 </head>
-<body>
-    <h1>CERTIFICATE</h1>
-    <h2>OF COMPLETION</h2>
+<body >
+  <div style="width: 872pt;background-color: #ff3; height: 595pt; font-family: 'Arial';">  
+    <h1 style="color: blue; margin-bottom:-20px;">CERTIFICATE</h1>
+    <h2 style="color: blue; margin-bottom:-20px;">OF COMPLETION</h2>
 
     <p>This is to certify that</p>
     <h3>{{ strtoupper($data['name']) }}</h3>
     <p>has successfully completed</p>
 
-    <h4>Startdotng (the HNG Pre-Internship)</h4>
+    <h4 style="color: blue; margin-bottom:-20px;">Startdotng (the HNG Pre-Internship)</h4>
     <p>with {{ ($data['task1']/20)*100 }} points out of 100 on <br>
     <strong>September 8, 2019</strong></p>
 
@@ -49,6 +50,6 @@
         <img src="{{ asset('images/imo.png') }}" alt="imo state logo" srcset="">
     </div> -->
 
-
+  </div>
 </body>
 </html>
