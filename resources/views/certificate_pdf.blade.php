@@ -7,7 +7,13 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Certificate</title>
-
+    <style>
+    h1 {}
+        .support {
+            display: inline-block;
+            height: 50px;
+        }
+    </style>
 </head>
 <body>
     <h1>Certificate</h1>
@@ -25,14 +31,14 @@
     <p>CEO, HNG Internship</p>
 
     <p>Supported by</p>
-    <div>
-        <img src="{{ asset('images/hng.png') }}" alt="" srcset="">
-        <img src="{{ asset('images/hotetsng.png') }}" alt="" srcset="">
-        <img src="{{ asset('images/ondo.png') }}" alt="" srcset="">
-        <img src="{{ asset('images/flutterwave.png') }}" alt="" srcset="">
-        <img src="{{ asset('images/chatdesk.png') }}" alt="" srcset="">
-        <img src="{{ asset('images/imo.png') }}" alt="" srcset="">
-    </div>
+    <!-- <div class="support">
+        <img src="{{ asset('images/hng.png') }}" alt="hng logo" srcset="">
+        <img src="{{ asset('images/hotetsng.png') }}" alt="hotels.ng logo" srcset="">
+        <img src="{{ asset('images/ondo.png') }}" alt="ondo state logo" srcset="">
+        <img src="{{ asset('images/flutterwave.png') }}" alt="flutterwave logo" srcset="">
+        <img src="{{ asset('images/chatdesk.png') }}" alt="chatdesk logo" srcset="">
+        <img src="{{ asset('images/imo.png') }}" alt="imo state logo" srcset="">
+    </div> -->
 
 
 
