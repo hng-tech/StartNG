@@ -1,3 +1,4 @@
 *
 !public/
 !.gitignore
+!start-intern-data.json
