@@ -46,8 +46,8 @@
     <h1>Download My Certificate</h1>
     <h4>Congratulations on completing the Internship</h4>
 
-    <p>Name: {{ strtoupper($name['name']) }}<br>
-    Code: {{ strtoupper($name['code']) }}<br>
+    <p>Name: {{ ucfirst($name['name']) }}<br>
+    Code: {{ strtolower($name['code']) }}<br>
     Email: {{ ($name['task1']/20)*100 }}%</p>
 
 
@@ -55,9 +55,9 @@
     <h5>Copy Link to Certificate</h5>
     <form class="form-inline mb-3">
         <div class="form-group mr-2 mb-2">
-            <input type="text" class="form-control" id="certificate-link" size="60" value="https://start.ng/certification/{{$name['slug']}}/download">
+            <input type="text" class="form-control" id="certificate-link" size="60" value="https://start.ng/verify/{{$name['verify_id']}}">
         </div>
-        <button type="submit" class="btn btn-outline-primary mb-2" onclick="copyLink()"><i class="fa fa-clone"></i> Copy Link</button>
+        <button class="btn btn-outline-primary mb-2" onclick="copyLink()"><i class="fa fa-clone"></i> Copy Link</button>
     </form>
 
     <a href="/certification/{{$name['slug']}}/download" >
@@ -66,7 +66,6 @@
 </div>
     <script>
         function copyLink() {
-            e.preventDefault();
         /* Get the text field */
         var copyText = document.getElementById("certificate-link");
 
