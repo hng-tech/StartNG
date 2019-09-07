@@ -22,7 +22,7 @@ class DataController extends Controller
 
         for ($i=0; $i < count($array); $i++) { 
             if ($array[$i]['code'] == $shn) {
-                return redirect('/certificate/'.$array[$i]['slug']);
+                return redirect('/certification/'.$array[$i]['slug']);
                 break;
             }
             else {
@@ -30,7 +30,7 @@ class DataController extends Controller
             }
         }
 
-        return redirect('/login')->with('error','The code entered is not a valid shn code');
+        return view('login')->with('error','The code entered is not a valid shn code');
 
     }
 
@@ -41,7 +41,7 @@ class DataController extends Controller
 
         for ($i=0; $i < count($array); $i++) { 
             if ($array[$i]['verify_id'] === $id) {
-                return redirect('/certificate/'.$array[$i]['slug']);
+                return redirect('/certification/'.$array[$i]['slug']);
             }
             else {
                 continue;
@@ -51,4 +51,5 @@ class DataController extends Controller
         return view('404');
         
     }
+
 }
