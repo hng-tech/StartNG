@@ -4,6 +4,7 @@ namespace App\Http\Controllers;
 
 use Illuminate\Http\Request;
 use Storage;
+use PDF;
 
 class DataController extends Controller
 {
@@ -50,6 +51,26 @@ class DataController extends Controller
 
         return view('404');
         
+    }
+
+    public function exportPDF($slug) {
+        $intern_json = Storage::get('start-intern-data.json');
+        $array = json_decode($intern_json,true);
+
+        for ($i=0; $i < count($array); $i++) { 
+            if ($array[$i]['slug'] == $slug) {
+                $obj = $array[$i];
+                break;
+            }
+            else {
+                continue;
+            }
+        }
+
+        $data = ['data' => $obj];
+        $pdf = PDF::loadView('certificate_pdf', $data);
+
+        return $pdf->download($slug.'.pdf');
     }
 
 }
