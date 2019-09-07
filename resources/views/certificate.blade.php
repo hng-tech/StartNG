@@ -34,8 +34,8 @@
         h4 {margin-bottom: 30px;}
         p {font-size: 1.12rem; font-weight: bold;}
         @media (max-width: 480px) {
-            h1 { font-size: 30px; };
-            /* h4 { font-size: 12px; }; */
+            h1 { font-size: 30px; margin-top: 40px;}
+            h4 { font-size: 12px; }
         }
     </styl
     </style>
