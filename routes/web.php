@@ -1,6 +1,6 @@
 <?php
 
-use PDF;
+
 
 /*
 |--------------------------------------------------------------------------
@@ -41,22 +41,4 @@ Route::get('/certification/{slug}', function($slug) {
 
 Route::get('/verify/{verify_id}', 'DataController@verify');
 
-Route::get('/certification/{slug}/download', function ($slug) {
-    $intern_json = Storage::get('start-intern-data.json');
-    $array = json_decode($intern_json,true);
-
-    for ($i=0; $i < count($array); $i++) { 
-        if ($array[$i]['slug'] == $slug) {
-            $data = $array[$i];
-            break;
-        }
-        else {
-            continue;
-        }
-    }
-
-    $pdf = PDF::loadView('certificate_pdf', $data);
-
-    return $pdf->download($slug.'.pdf');
-    
-});
+Route::get('/certification/{slug}/download', "DataController@exportPDF");
