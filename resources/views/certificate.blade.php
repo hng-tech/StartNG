@@ -25,34 +25,56 @@
         body {
             font-family: 'Lato';
         }
+        h1 { margin-top: 100px;}
+        h1, h4 {
+            text-align: center;
+            color: #084482;
+            font-weight: bold;
+        }
+        p {font-size: 1.12rem; font-weight: bold;}
     </style>
 </head>
 </head>
 <body>
 <div class="container">
     <h1>Download My Certificate</h1>
-    <h3>Congratulations on completing the Internship</h3>
+    <h4>Congratulations on completing the Internship</h4>
 
-    Name: {{ strtoupper($name['name']) }}<br>
+    <p>Name: {{ strtoupper($name['name']) }}<br>
     Code: {{ strtoupper($name['code']) }}<br>
-    Email: {{ ($name['task1']/20)*100 }}%<br>
+    Email: {{ ($name['task1']/20)*100 }}%</p>
 
 
 
     <h5>Copy Link to Certificate</h5>
-    <form class="form-inline">
+    <form class="form-inline mb-3">
         <div class="form-group mr-2 mb-2">
-            <label for="inputPassword2" class="sr-only">Password</label>
-            <input type="password" class="form-control" id="inputPassword2"size="60" placeholder="https://start.ng/certification/{{$name['slug']}}/download">
+            <input type="text" class="form-control" id="certificate-link" size="60" value="https://start.ng/certification/{{$name['slug']}}/download">
         </div>
-        <button type="submit" class="btn btn-primary mb-2" ><i class="fa fa-clone"></i> Copy Link</button>
+        <button type="submit" class="btn btn-outline-primary mb-2" onclick="copyLink()><i class="fa fa-clone"></i> Copy Link</button>
     </form>
 
     <a href="/certification/{{$name['slug']}}/download" >
     <button class="btn btn-primary"><i class="fa fa-download"></i>&nbsp; DOWNLOAD</button>
     </a>
 </div>
-    
+    <script>
+        function copyLink() {
+            e.preventDefault();
+        /* Get the text field */
+        var copyText = document.getElementById("certificate-link");
+
+        /* Select the text field */
+        copyText.select();
+        copyText.setSelectionRange(0, 99999); /*For mobile devices*/
+
+        /* Copy the text inside the text field */
+        document.execCommand("copy");
+
+        /* Alert the copied text */
+        alert("Copied the text: " + copyText.value);
+        }
+    </script>
 
 </body>
 </html>
