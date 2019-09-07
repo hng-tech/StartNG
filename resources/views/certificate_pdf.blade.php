@@ -25,7 +25,7 @@
     </style>
 </head>
 <body >
-  <div style="width: 872pt;background-color: #ff3; height: 595pt; font-family: 'Arial';">  
+  <div id="certificate" style="width: 872pt;background-color: #ff3; height: 595pt; font-family: 'Arial';">  
     <h1 style="color: blue; margin-bottom:-20px;">CERTIFICATE</h1>
     <h2 style="color: blue; margin-bottom:-20px;">OF COMPLETION</h2>
 

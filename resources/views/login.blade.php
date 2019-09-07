@@ -59,7 +59,7 @@
             <input type="hidden" name="_token" value="<?php echo csrf_token(); ?>">
 
             
-            <button type="submit" class="btn btn-primary "><i class="fa fa-search"></i> SEARCH</button>
+            <button type="submit" class="btn btn-primary"><i class="fa fa-search"></i>&nbsp; SEARCH</button>
             </form>
             
             
