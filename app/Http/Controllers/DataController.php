@@ -41,7 +41,7 @@ class DataController extends Controller
         $array = json_decode($intern_json,true);
 
         for ($i=0; $i < count($array); $i++) { 
-            if ($array[$i]['verify_id'] === $id) {
+            if ($array[$i]['verify_id'] == $id) {
                 return redirect('/certification/'.$array[$i]['slug']);
             }
             else {
