@@ -68,7 +68,7 @@ class DataController extends Controller
         }
 
         $data = ['data' => $obj];
-        $pdf = PDF::loadView('certificate_pdf', $data);
+        $pdf = PDF::loadView('certificate_pdf', $data)->setPaper('a4', 'landscape');
 
         return $pdf->download($slug.'.pdf');
     }
