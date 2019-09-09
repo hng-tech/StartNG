@@ -21,7 +21,7 @@
     <!-- <span style='margin-left:70pt;padding-top:170pt;'>{{ strtoupper($data['name']) }}</span>
     <span style='margin-left:70pt;padding-top:190pt;'>{{ ($data['task1']/20)*100 }}</span> -->
     <h3 style='margin-left:70pt;padding-top:170pt; font-size:25px; font-family: Comic Sans MS, Comic Sans, cursive;font-style: italic;'>{{ strtoupper($data['name']) }}</h3>
-    <p style='margin-left:70pt;'>with {{ ($data['task1']/20)*100 }} points out of 100 on <strong>September 8, 2019</strong></p>
+    <p style='margin-left:70pt;'>with {{ $data['score'] }} out of 100 obtainable points on <strong>September 8, 2019</strong></p>
     {{-- <img src="{{ public_path('/images/startng.png') }}" alt="" srcset=""> --}}
     
     <!-- <table>
