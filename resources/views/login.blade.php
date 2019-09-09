@@ -50,19 +50,25 @@
         h5 {margin-top: 17pt; font-size: 28pt;}
         p {font-size:16pt;}
         .link {
-            float: right;
             margin-top: 17pt;
             font-size: 10pt;
+        }
+        .link-img {
+            float:right;
         }
         .intern-name {
             /* font-family: 'BlackChancery', 'Roboto'; */
         }
-        .support {margin: 0 15pt 24pt 0;}
+        .support {margin: 0 15pt 24pt 0; height: 28pt;}
     </style>
 </head>
 <body>
 <div class="container" style="">
+<div class="link-img">
     <p class="link">HNG Internship has confirmed the participation of this individual in<br> this program. Confirm at <a href="http://">start.ng/verify/seyi-onifade-shn001</a></p>
+    <img src="{{ asset('images/seal.png') }}" alt="" style="margin: 60pt 0 0 80pt;width:184pt;">
+</div>
+    
     <h1>CERTIFICATE</h1>
     <h3>OF COMPLETION</h3>
     <P style="margin-top: 31pt;">This is to certify that</P>
@@ -73,12 +79,13 @@
     <p style="font-size:24pt;margin-bottom: -5pt;">Seyi Onifade </p>
     <p style="">CEO, HNG Internship</p>
     <p style="margin-top: 28pt;">Supported by</p>
-    <img src="{{ asset('images/startng.png') }}" alt="" class="support">
-    <img src="{{ asset('images/startng.png') }}" alt="" class="support">
-    <img src="{{ asset('images/startng.png') }}" alt="" class="support">
-    <img src="{{ asset('images/startng.png') }}" alt="" class="support">
-    <img src="{{ asset('images/startng.png') }}" alt="" class="support">
-    <img src="{{ asset('images/startng.png') }}" alt="" class="support">
+    <img src="{{ asset('images/hng.png') }}" alt="" class="support">
+    <img src="{{ asset('images/hotelsng.png') }}" alt="" class="support">
+    <img src="{{ asset('images/ondo.png') }}" alt="" class="support">
+    <img src="{{ asset('images/flutterwave.png') }}" alt="" class="support">
+    <img src="{{ asset('images/chatdesk.png') }}" alt="" class="support">
+    <img src="{{ asset('images/imo.png') }}" alt="" class="support">
+    <img src="{{ asset('images/imo.png') }}" alt="" class="support">
 </div>
 
 
