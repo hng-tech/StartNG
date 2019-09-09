@@ -42,3 +42,20 @@ Route::get('/certification/{slug}', function($slug) {
 Route::get('/verify/{verify_id}', 'DataController@verify');
 
 Route::get('/certification/{slug}/download', "DataController@exportPDF");
+
+Route::get('/pdf/{slug}', function($slug) {
+    $intern_json = Storage::get('start-intern-data.json');
+    $array = json_decode($intern_json,true);
+
+    for ($i=0; $i < count($array); $i++) { 
+        if ($array[$i]['slug'] == $slug) {
+            $obj = $array[$i];
+            break;
+        }
+        else {
+            continue;
+        }
+    }
+
+    return view('certificate_pdf')->with('data',$obj);
+});

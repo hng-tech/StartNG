@@ -68,9 +68,8 @@ class DataController extends Controller
         }
 
         $data = ['data' => $obj];
-        $pdf = PDF::loadView('certificate_pdf', $data)->setPaper('a4', 'landscape');
-
-        return $pdf->download($slug.'.pdf');
+        $pdf = PDF::loadView('certificate_pdf', $data)->setPaper('A5')->setOrientation('Landscape')->setOption('zoom',1.1);
+        return $pdf->stream($slug.'.pdf');
     }
 
 }
