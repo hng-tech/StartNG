@@ -1,0 +1,48 @@
+body {
+    margin: 0;
+    padding: 0;
+  }
+  .page-wrapper {
+    max-height: 100vh;
+    box-sizing: border-box;
+  }
+  .bg-main {
+    background-color: #24126a;
+  }
+  .text-main {
+    color: #24126a;
+  }
+  .content {
+    min-height: 94vh;
+  }
+  .start-info {
+    background-image: url(../img/laptop.png),
+      radial-gradient(383.23px at 68.61% 55.1%, #5761d7 0%, #24126a 100%);
+    background-repeat: no-repeat;
+    background-position: 50% 80%;
+    min-height: 50vh;
+  }
+  .img-thumb {
+    width: 3em;
+    height: 3em;
+  }
+  
+  @media (max-width: 600px) {
+    h2 {
+      font-size: 1.2em;
+    }
+    .start-info {
+      background-image: url("{{ asset('images/laptop-sm.png') }}"),
+        radial-gradient(383.23px at 68.61% 55.1%, #5761d7 0%, #24126a 100%);
+      background-position: 50% 100%;
+    }
+  }
+  @media (min-width: 800px) and (max-width: 1024px) {
+    .start-info {
+      background-image: url("{{ asset('images/laptop.png') }}"),
+        radial-gradient(383.23px at 68.61% 55.1%, #5761d7 0%, #24126a 100%);
+      background-repeat: no-repeat;
+      background-position: center;
+    }
+  }
+  
