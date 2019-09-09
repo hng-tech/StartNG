@@ -14,7 +14,7 @@
 */
 
 Route::get('/', function () {
-    return view('welcome');
+    return view('index');
 });
 
 Route::get('/certification', 'DataController@index');
@@ -42,6 +42,8 @@ Route::get('/certification/{slug}', function($slug) {
 Route::get('/verify/{verify_id}', 'DataController@verify');
 
 Route::get('/certification/{slug}/download', "DataController@exportPDF");
+
+Route::get('/certificate/{slug}/download', "DataController@export");
 
 Route::get('/pdf/{slug}', function($slug) {
     $intern_json = Storage::get('start-intern-data.json');
