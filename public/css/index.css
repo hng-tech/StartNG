@@ -32,14 +32,14 @@ body {
       font-size: 1.2em;
     }
     .start-info {
-      background-image: url(../img/laptop-sm.png),
+      background-image: url("{{ asset('images/laptop-sm.png') }}"),
         radial-gradient(383.23px at 68.61% 55.1%, #5761d7 0%, #24126a 100%);
       background-position: 50% 100%;
     }
   }
   @media (min-width: 800px) and (max-width: 1024px) {
     .start-info {
-      background-image: url(../img/laptop.png),
+      background-image: url("{{ asset('images/laptop.png') }}"),
         radial-gradient(383.23px at 68.61% 55.1%, #5761d7 0%, #24126a 100%);
       background-repeat: no-repeat;
       background-position: center;
