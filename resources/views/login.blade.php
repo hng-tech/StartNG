@@ -45,10 +45,10 @@
             /* background-image: url('{{ asset('images/startng.png') }}'); */
         }
         h1, h5 {color: #084482;font-weight:bold;}
-        h1 {margin-top: 45pt; font-size:48pt;}
-        h3 {margin-top: -10pt; font-size: 36pt;color: #FFA800;font-weight:bold;}
-        h5 {margin-top: 17pt; font-size: 28pt;}
-        p {font-size:16pt;}
+        h1 {margin-top: 35pt; font-size:48pt;}
+        h3 {margin-top: -10pt; font-size: 32pt;color: #FFA800;font-weight:bold;}
+        h5 {margin-top: 17pt; font-size: 25pt;}
+        p {font-size:14pt;}
         .link {
             margin-top: 17pt;
             font-size: 10pt;
@@ -57,7 +57,7 @@
             float:right;
         }
         .intern-name {
-            /* font-family: 'BlackChancery', 'Roboto'; */
+            font-family: 'Calibri', 'Roboto';
         }
         .support {margin: 0 15pt 24pt 0; height: 28pt;}
     </style>
@@ -75,9 +75,10 @@
     <p style="font-size:37pt;">Seyi Onifade Olutotr</p>
     <p style="margin-bottom: -12pt;">has successfully completed</p>
     <h5>Startdotng (the HNG Pre-Internship)</h5>
-    <p style="margin-bottom: 50pt;">with 80% task completion on <strong>21st September, 2019</strong></p>
-    <p style="font-size:24pt;margin-bottom: -5pt;">Seyi Onifade </p>
-    <p style="">CEO, HNG Internship</p>
+    <p style="margin-bottom: 30pt;">with 80% task completion on <strong>21st September, 2019</strong></p>
+    <p style="font-size:24pt;margin-bottom: -3pt;">Seyi Onifade </p>
+    <p><strong>Seyi Onifade</strong></p>
+    <p  style="font-size:12pt;margin-top: -10pt;">CEO, HNG Internship</p>
     <p style="margin-top: 28pt;">Supported by</p>
     <img src="{{ asset('images/hng.png') }}" alt="" class="support">
     <img src="{{ asset('images/hotelsng.png') }}" alt="" class="support">
