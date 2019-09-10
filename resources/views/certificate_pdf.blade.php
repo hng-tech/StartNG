@@ -13,11 +13,12 @@
 
     <!-- CSS and JS -->
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous" />
-    <link rel="stylesheet" type="text/css" href="{{ asset('styles/index.css') }}" />
-    <script src="scripts/index.js"></script>
+    <link rel="stylesheet" type="text/css" href="{{ public_path('/css/index.css') }}" />
+    {{-- <script src="scripts/index.js"></script> --}}
     <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jspdf/1.3.2/jspdf.min.js"></script>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <link href='http://fonts.googleapis.com/css?family=Lato:400,700' rel='stylesheet' type='text/css'>
     <link href="http://allfont.net/allfont.css?fonts=blackchancery" rel="stylesheet" type="text/css" />
@@ -25,7 +26,7 @@
         
         body {
             font-family: 'Lato';
-            /* background-image: url('{{ asset('images/startng.png') }}'); */
+            background-image: url('{{ asset('images/bg.png') }}');
         }
         h1, h5 {color: #084482;font-weight:bold;}
         h1 {margin-top: 35pt; font-size:48pt;}
@@ -46,19 +47,19 @@
     </style>
 </head>
 <body>
-<div class="container" style="">
+<div class="container" style="" id="content">
 <div class="link-img">
-    <p class="link">HNG Internship has confirmed the participation of this individual in<br> this program. Confirm at <a href="http://">start.ng/verify/seyi-onifade-shn001</a></p>
-    <img src="{{ asset('images/seal.png') }}" alt="" style="margin: 60pt 0 0 80pt;width:184pt;">
+    <p class="link">HNG Internship has confirmed the participation of this individual in<br> this program. Confirm at <a href="http://">start.ng/verify/{{$data['verify_id']}}</a></p>
+    <img src="{{ asset('/images/seal.png') }}" alt="" style="margin: 60pt 0 0 80pt;width:184pt;">
 </div>
     
     <h1>CERTIFICATE</h1>
     <h3>OF COMPLETION</h3>
     <P style="margin-top: 31pt;">This is to certify that</P>
-    <p style="font-size:37pt;">{{$data['name']}}</p>
+    <p style="font-size:37pt;">{{strtoupper($data['name'])}}</p>
     <p style="margin-bottom: -12pt;">has successfully completed</p>
-    <h5>Startdotng (the HNG Pre-Internship)</h5>
-    <p style="margin-bottom: 30pt;">with 80% task completion on <strong>21st September, 2019</strong></p>
+    <h5>Startdotng (Beginner Software Development Training)</h5>
+    <p style="margin-bottom: 30pt;">with {{$data['score']}} out of 100 obtainable points on <strong>21st September, 2019</strong></p>
     <p style="font-size:24pt;margin-bottom: -3pt;">Seyi Onifade </p>
     <p><strong>Seyi Onifade</strong></p>
     <p  style="font-size:12pt;margin-top: -10pt;">CEO, HNG Internship</p>
@@ -71,6 +72,68 @@
     <img src="{{ asset('images/imo.png') }}" alt="" class="support">
     <img src="{{ asset('images/imo.png') }}" alt="" class="support">
 </div>
+
+    <a href="javascript:demoFromHTML()" >
+    <button class="btn btn-primary"><i class="fa fa-download"></i>&nbsp; DOWNLOAD</button>
+    </a>
+
+    <script>
+        function copyLink() {
+        /* Get the text field */
+        var copyText = document.getElementById("certificate-link");
+
+        /* Select the text field */
+        copyText.select();
+        copyText.setSelectionRange(0, 99999); /*For mobile devices*/
+
+        /* Copy the text inside the text field */
+        document.execCommand("copy");
+
+        /* Alert the copied text */
+        alert("Copied the text: " + copyText.value);
+        }
+
+        function demoFromHTML() {
+        var pdf = new jsPDF('landscape', 'pt', 'a4');
+        // source can be HTML-formatted string, or a reference
+        // to an actual DOM element from which the text will be scraped.
+        source = $('#content')[0];
+
+        // we support special element handlers. Register them with jQuery-style 
+        // ID selector for either ID or node name. ("#iAmID", "div", "span" etc.)
+        // There is no support for any other type of selectors 
+        // (class, of compound) at this time.
+        specialElementHandlers = {
+            // element with id of "bypass" - jQuery style selector
+            '#bypassme': function (element, renderer) {
+                // true = "handled elsewhere, bypass text extraction"
+                return true
+            }
+        };
+        margins = {
+            top: 80,
+            bottom: 60,
+            left: 40,
+            width: 522
+        };
+        // all coords and widths are in jsPDF instance's declared units
+        // 'inches' in this case
+        pdf.fromHTML(
+            source, // HTML string or DOM elem ref.
+            margins.left, // x coord
+            margins.top, { // y coord
+                'width': margins.width, // max width of content on PDF
+                'elementHandlers': specialElementHandlers
+            },
+
+            function (dispose) {
+                // dispose: object with X, Y of the last line add to the PDF 
+                //          this allow the insertion of new lines after html
+                pdf.save('Test.pdf');
+            }, margins
+        );
+    }
+    </script>
 
 </body>
 </html>

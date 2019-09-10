@@ -4,6 +4,8 @@ namespace App\Http\Controllers;
 
 use Illuminate\Http\Request;
 use Storage;
+use Spatie\Browsershot\Browsershot;
+use SnappyImage;
 use PDF;
 
 class DataController extends Controller
@@ -68,8 +70,31 @@ class DataController extends Controller
         }
 
         $data = ['data' => $obj];
-        $pdf = PDF::loadView('certificate_pdf', $data)->setPaper('A5')->setOrientation('Landscape')->setOption('zoom',1.1);
-        return $pdf->stream($slug.'.pdf');
+        // $pdf = PDF::loadView('certificate_pdf', $data)->setPaper('A5')->setOrientation('Landscape')->setOption('zoom',1.1);
+        // return $pdf->stream($slug.'.pdf');
+        // Browsershot::url('/certification/'.$slug.'/download')->save($slug.'.jpg')->setNodeBinary('/usr/local/bin/node')
+        // ->setNpmBinary('/usr/local/bin/npm');
+        $image = SnappyImage::loadView('certificate_pdf', $data);
+        return $image->download($slug.'.jpg');
+    }
+
+    public function export($slug) {
+        $intern_json = Storage::get('start-intern-data.json');
+        $array = json_decode($intern_json,true);
+
+        for ($i=0; $i < count($array); $i++) { 
+            if ($array[$i]['slug'] == $slug) {
+                $obj = $array[$i];
+                break;
+            }
+            else {
+                continue;
+            }
+        }
+
+        $name = ['name' => $obj];
+        $pdf = PDF::loadView('certificate', $name);
+        return $pdf->stream('download.pdf');
     }
 
 }
