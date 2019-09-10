@@ -44,7 +44,7 @@ class DataController extends Controller
 
         for ($i=0; $i < count($array); $i++) { 
             if ($array[$i]['verify_id'] == $id) {
-                return redirect('/certification/'.$array[$i]['slug']);
+                return redirect('/certification/'.$array[$i]['slug'].'/download');
             }
             else {
                 continue;
@@ -69,13 +69,11 @@ class DataController extends Controller
             }
         }
 
-        $data = ['data' => $obj];
+        return view('certificate_pdf')->with('data',$obj);
         // $pdf = PDF::loadView('certificate_pdf', $data)->setPaper('A5')->setOrientation('Landscape')->setOption('zoom',1.1);
         // return $pdf->stream($slug.'.pdf');
         // Browsershot::url('/certification/'.$slug.'/download')->save($slug.'.jpg')->setNodeBinary('/usr/local/bin/node')
         // ->setNpmBinary('/usr/local/bin/npm');
-        $image = SnappyImage::loadView('certificate_pdf', $data);
-        return $image->download($slug.'.jpg');
     }
 
     public function export($slug) {

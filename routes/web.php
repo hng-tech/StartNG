@@ -36,7 +36,7 @@ Route::get('/certification/{slug}', function($slug) {
         }
     }
 
-    return view('certificate_pdf')->with('data',$obj);
+    return view('certificate')->with('name',$obj);
 });
 
 Route::get('/verify/{verify_id}', 'DataController@verify');
@@ -59,5 +59,5 @@ Route::get('/pdf/{slug}', function($slug) {
         }
     }
 
-    return view('certificate_pdf')->with('data',$obj);
+    return view('certificate')->with('name',$obj);
 });

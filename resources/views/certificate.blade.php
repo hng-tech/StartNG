@@ -14,8 +14,8 @@
 
     <!-- CSS and JS -->
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous" />
-    <link rel="stylesheet" type="text/css" href="styles/index.css" />
-    <script src="scripts/index.js"></script>
+    <link rel="stylesheet" type="text/css" href="{{asset('/css/index.css')}}" />
+    {{-- <script src="scripts/index.js"></script> --}}
     <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jspdf/1.3.2/jspdf.min.js"></script>
@@ -47,9 +47,9 @@
     <h1>Download My Certificate</h1>
     <h4>Congratulations on completing the Internship</h4>
 
-    <p>Name: {{ ucfirst($name['name']) }}<br>
-    Code: {{ strtolower($name['code']) }}<br>
-    Email: {{ ($name['task1']/20)*100 }}%</p>
+    <p>Name: {{ strtoupper($name['name']) }}<br>
+    Code: {{ strtoupper($name['code']) }}<br>
+    Score: {{ $name['score'] }}%</p>
 
 
 
@@ -61,11 +61,15 @@
         <button class="btn btn-outline-primary mb-2" onclick="copyLink()"><i class="fa fa-clone"></i> Copy Link</button>
     </form>
 
-    <a href="/certification/{{$name['slug']}}/download" >
+    <a href="/certification/{{$name['slug']}}/download">
     <button class="btn btn-primary"><i class="fa fa-download"></i>&nbsp; DOWNLOAD</button>
     </a>
+
+    {{-- Enter the code for the instructions here --}}
+
 </div>
-    <script>
+
+<script>
         function copyLink() {
         /* Get the text field */
         var copyText = document.getElementById("certificate-link");
@@ -80,48 +84,7 @@
         /* Alert the copied text */
         alert("Copied the text: " + copyText.value);
         }
-
-        function demoFromHTML() {
-        var pdf = new jsPDF('p', 'pt', 'letter');
-        // source can be HTML-formatted string, or a reference
-        // to an actual DOM element from which the text will be scraped.
-        source = $('#content')[0];
-
-        // we support special element handlers. Register them with jQuery-style 
-        // ID selector for either ID or node name. ("#iAmID", "div", "span" etc.)
-        // There is no support for any other type of selectors 
-        // (class, of compound) at this time.
-        specialElementHandlers = {
-            // element with id of "bypass" - jQuery style selector
-            '#bypassme': function (element, renderer) {
-                // true = "handled elsewhere, bypass text extraction"
-                return true
-            }
-        };
-        margins = {
-            top: 80,
-            bottom: 60,
-            left: 40,
-            width: 522
-        };
-        // all coords and widths are in jsPDF instance's declared units
-        // 'inches' in this case
-        pdf.fromHTML(
-            source, // HTML string or DOM elem ref.
-            margins.left, // x coord
-            margins.top, { // y coord
-                'width': margins.width, // max width of content on PDF
-                'elementHandlers': specialElementHandlers
-            },
-
-            function (dispose) {
-                // dispose: object with X, Y of the last line add to the PDF 
-                //          this allow the insertion of new lines after html
-                pdf.save('Test.pdf');
-            }, margins
-        );
-    }
-    </script>
+</script>
 
 </body>
 </html>

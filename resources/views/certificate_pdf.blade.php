@@ -49,7 +49,7 @@
 <body>
 <div class="container" style="" id="content">
 <div class="link-img">
-    <p class="link">HNG Internship has confirmed the participation of this individual in<br> this program. Confirm at <a href="http://">start.ng/verify/{{$data['verify_id']}}</a></p>
+    <p class="link">HNG Internship has confirmed the participation of this individual in<br> this program. Confirm at <a href="https://start.ng/verify/{{$data['verify_id']}}">start.ng/verify/{{$data['verify_id']}}</a></p>
     <img src="{{ asset('/images/seal.png') }}" alt="" style="margin: 60pt 0 0 80pt;width:184pt;">
 </div>
     
@@ -73,67 +73,8 @@
     <img src="{{ asset('images/imo.png') }}" alt="" class="support">
 </div>
 
-    <a href="javascript:demoFromHTML()" >
-    <button class="btn btn-primary"><i class="fa fa-download"></i>&nbsp; DOWNLOAD</button>
-    </a>
-
-    <script>
-        function copyLink() {
-        /* Get the text field */
-        var copyText = document.getElementById("certificate-link");
-
-        /* Select the text field */
-        copyText.select();
-        copyText.setSelectionRange(0, 99999); /*For mobile devices*/
-
-        /* Copy the text inside the text field */
-        document.execCommand("copy");
-
-        /* Alert the copied text */
-        alert("Copied the text: " + copyText.value);
-        }
-
-        function demoFromHTML() {
-        var pdf = new jsPDF('landscape', 'pt', 'a4');
-        // source can be HTML-formatted string, or a reference
-        // to an actual DOM element from which the text will be scraped.
-        source = $('#content')[0];
-
-        // we support special element handlers. Register them with jQuery-style 
-        // ID selector for either ID or node name. ("#iAmID", "div", "span" etc.)
-        // There is no support for any other type of selectors 
-        // (class, of compound) at this time.
-        specialElementHandlers = {
-            // element with id of "bypass" - jQuery style selector
-            '#bypassme': function (element, renderer) {
-                // true = "handled elsewhere, bypass text extraction"
-                return true
-            }
-        };
-        margins = {
-            top: 80,
-            bottom: 60,
-            left: 40,
-            width: 522
-        };
-        // all coords and widths are in jsPDF instance's declared units
-        // 'inches' in this case
-        pdf.fromHTML(
-            source, // HTML string or DOM elem ref.
-            margins.left, // x coord
-            margins.top, { // y coord
-                'width': margins.width, // max width of content on PDF
-                'elementHandlers': specialElementHandlers
-            },
-
-            function (dispose) {
-                // dispose: object with X, Y of the last line add to the PDF 
-                //          this allow the insertion of new lines after html
-                pdf.save('Test.pdf');
-            }, margins
-        );
-    }
-    </script>
+    {{-- This is the download button, look for a suitable place to put it --}}
+    <button class="btn btn-primary" onclick="window.print()"><i class="fa fa-download"></i>&nbsp; DOWNLOAD</button>
 
 </body>
 </html>
