@@ -3,7 +3,6 @@
 <head>
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="ie=edge" />
-    <meta name="viewport" content="width=device-width" />
     <meta name="description" content="HNG Internship 6.0 offers the best on hands practice in the world of programming. Join the pre-internship">
     <meta name="keywords" content="hng, start, internship, beginner, developer" />
     <meta property="og:title" content="StartNG Certification" />
