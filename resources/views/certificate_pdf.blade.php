@@ -2,8 +2,8 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <meta name="viewport" content="width=device-width" />
     <meta name="description" content="HNG Internship 6.0 offers the best on hands practice in the world of programming. Join the pre-internship">
     <meta name="keywords" content="hng, start, internship, beginner, developer" />
     <meta property="og:title" content="StartNG Certification" />
@@ -50,6 +50,11 @@
                 display: none;
             }
         }
+        /* @media screen (max-width: 800px;) {
+            .container {
+                display: none !important;
+            }
+        } */
     </style>
 </head>
 <body>
@@ -58,7 +63,7 @@
     <p class="link">HNG Internship has confirmed the participation of this individual in<br> this program. Confirm at <a href="https://start.ng/verify/{{$data['verify_id']}}">start.ng/verify/{{$data['verify_id']}}</a></p>
     <img src="{{ asset('/images/seal.png') }}" alt="" style="margin: 60pt 0 0 80pt;width:184pt;"><br>
     <!-- <button style="margin: 35pt 0 0 130pt;" class="btn btn-primary" onclick="window.print()"><i class="fa fa-download"></i>&nbsp; DOWNLOAD</button> -->
-    <p class="link">Note: you can take <b>screenshot</b> of this page on desktop to share <br>on social media or share the link for reference purposes</p>
+    <p class="link" style="color: #FFA800;">Note: you can take <b>screenshot</b> of this page on desktop to share <br>on social media or share the link for reference purposes</p>
 </div>
     
     <h1>CERTIFICATE</h1>
