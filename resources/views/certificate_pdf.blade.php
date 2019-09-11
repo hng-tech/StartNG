@@ -26,10 +26,10 @@
         
         body {
             font-family: 'Lato';
-            background-image: url('{{ asset('images/bg.png') }}');
+            background-image: url('{{ asset('images/bgg.png') }}');
         }
         h1, h5 {color: #084482;font-weight:bold;}
-        h1 {margin-top: 35pt; font-size:48pt;}
+        h1 {margin-top: 25pt; font-size:48pt;}
         h3 {margin-top: -10pt; font-size: 32pt;color: #FFA800;font-weight:bold;}
         h5 {margin-top: 17pt; font-size: 25pt;}
         p {font-size:14pt;}
@@ -50,13 +50,14 @@
 <div class="container" style="" id="content">
 <div class="link-img">
     <p class="link">HNG Internship has confirmed the participation of this individual in<br> this program. Confirm at <a href="https://start.ng/verify/{{$data['verify_id']}}">start.ng/verify/{{$data['verify_id']}}</a></p>
-    <img src="{{ asset('/images/seal.png') }}" alt="" style="margin: 60pt 0 0 80pt;width:184pt;">
+    <img src="{{ asset('/images/seal.png') }}" alt="" style="margin: 60pt 0 0 80pt;width:184pt;"><br>
+    <button style="margin: 35pt 0 0 130pt;" class="btn btn-primary" onclick="window.print()"><i class="fa fa-download"></i>&nbsp; DOWNLOAD</button>
 </div>
     
     <h1>CERTIFICATE</h1>
     <h3>OF COMPLETION</h3>
-    <P style="margin-top: 31pt;">This is to certify that</P>
-    <p style="font-size:37pt;">{{strtoupper($data['name'])}}</p>
+    <P style="margin-top: 21pt;">This is to certify that</P>
+    <p style="font-size:37pt;margin-bottom: 5pt;">{{strtoupper($data['name'])}}</p>
     <p style="margin-bottom: -12pt;">has successfully completed</p>
     <h5>Startdotng (Beginner Software Development Training)</h5>
     <p style="margin-bottom: 30pt;">with {{$data['score']}} out of 100 obtainable points on <strong>21st September, 2019</strong></p>
@@ -65,16 +66,13 @@
     <p  style="font-size:12pt;margin-top: -10pt;">CEO, HNG Internship</p>
     <p style="margin-top: 28pt;">Supported by</p>
     <img src="{{ asset('images/hng.png') }}" alt="" class="support">
-    <img src="{{ asset('images/hotelsng.png') }}" alt="" class="support">
+    <img src="{{ asset('images/hotels.png') }}" alt="" class="support">
     <img src="{{ asset('images/ondo.png') }}" alt="" class="support">
-    <img src="{{ asset('images/flutterwave.png') }}" alt="" class="support">
-    <img src="{{ asset('images/chatdesk.png') }}" alt="" class="support">
-    <img src="{{ asset('images/imo.png') }}" alt="" class="support">
-    <img src="{{ asset('images/imo.png') }}" alt="" class="support">
+    <img src="{{ asset('images/flutterwave.png') }}" alt="" class="support" style="height: 24pt;">
+    <img src="{{ asset('images/chatdesk.png') }}" alt="" class="support" style="height: 21pt;">
+    <img src="{{ asset('images/ekiti.jpg') }}" alt="" class="support">
+    <img src="{{ asset('images/imo.jpg') }}" alt="" class="support">
 </div>
-
-    {{-- This is the download button, look for a suitable place to put it --}}
-    <button class="btn btn-primary" onclick="window.print()"><i class="fa fa-download"></i>&nbsp; DOWNLOAD</button>
 
 </body>
 </html>
