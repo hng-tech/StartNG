@@ -21,7 +21,8 @@
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jspdf/1.3.2/jspdf.min.js"></script>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <link href='http://fonts.googleapis.com/css?family=Lato:400,700' rel='stylesheet' type='text/css'>
-    <link href="http://allfont.net/allfont.css?fonts=blackchancery" rel="stylesheet" type="text/css" />
+    <link href='http://fonts.googleapis.com/css?family=Oleo+Script' rel='stylesheet' type='text/css'>
+    <link href='http://fonts.googleapis.com/css?family=Pacifico' rel='stylesheet' type='text/css'>
     <style>
         
         body {
@@ -56,7 +57,8 @@
 <div class="link-img">
     <p class="link">HNG Internship has confirmed the participation of this individual in<br> this program. Confirm at <a href="https://start.ng/verify/{{$data['verify_id']}}">start.ng/verify/{{$data['verify_id']}}</a></p>
     <img src="{{ asset('/images/seal.png') }}" alt="" style="margin: 60pt 0 0 80pt;width:184pt;"><br>
-    <button style="margin: 35pt 0 0 130pt;" class="btn btn-primary" onclick="window.print()"><i class="fa fa-download"></i>&nbsp; DOWNLOAD</button>
+    <!-- <button style="margin: 35pt 0 0 130pt;" class="btn btn-primary" onclick="window.print()"><i class="fa fa-download"></i>&nbsp; DOWNLOAD</button> -->
+    <p class="link">Note: you can take <b>screenshot</b> of this page on desktop to share <br>on social media or share the link for reference purposes</p>
 </div>
     
     <h1>CERTIFICATE</h1>
@@ -66,9 +68,8 @@
     <p style="margin-bottom: -12pt;">has successfully completed</p>
     <h5>Startdotng (Beginner Software Development Training)</h5>
     <p style="margin-bottom: 30pt;">with {{$data['score']}} out of 100 obtainable points on <strong>21st September, 2019</strong></p>
-    <p style="font-size:24pt;margin-bottom: -3pt;">Seyi Onifade </p>
-    <p><strong>Seyi Onifade</strong></p>
-    <p  style="font-size:12pt;margin-top: -10pt;">CEO, HNG Internship</p>
+    <p style="font-size:24pt;margin-bottom: -3pt; font-family: Pacifico, 'Oleo Script';"><i>Seyi Onifade </i></p>
+    <p  style="font-size:12pt;margin-top: 0;">CEO, HNG Internship</p>
     <p style="margin-top: 28pt;">Supported by</p>
     <img src="{{ asset('images/hng.png') }}" alt="" class="support">
     <img src="{{ asset('images/hotels.png') }}" alt="" class="support">
