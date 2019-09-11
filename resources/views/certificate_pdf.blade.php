@@ -44,6 +44,11 @@
             font-family: 'Calibri', 'Roboto';
         }
         .support {margin: 0 15pt 24pt 0; height: 28pt;}
+        @media print {
+            button {
+                display: none;
+            }
+        }
     </style>
 </head>
 <body>
@@ -68,7 +73,7 @@
     <img src="{{ asset('images/hng.png') }}" alt="" class="support">
     <img src="{{ asset('images/hotels.png') }}" alt="" class="support">
     <img src="{{ asset('images/ondo.png') }}" alt="" class="support">
-    <img src="{{ asset('images/flutterwave.png') }}" alt="" class="support" style="height: 24pt;">
+    <img src="{{ asset('images/flutterwave.png') }}" alt="" class="support" style="height: 21pt;">
     <img src="{{ asset('images/chatdesk.png') }}" alt="" class="support" style="height: 21pt;">
     <img src="{{ asset('images/ekiti.jpg') }}" alt="" class="support">
     <img src="{{ asset('images/imo.jpg') }}" alt="" class="support">
