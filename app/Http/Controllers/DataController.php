@@ -22,6 +22,7 @@ class DataController extends Controller
         $array = json_decode($intern_json,true);
 
         $shn = $request -> input('shn_code');
+        $shn = strtolower($shn);
 
         for ($i=0; $i < count($array); $i++) { 
             if ($array[$i]['code'] == $shn) {
