@@ -60,6 +60,8 @@
         </div>
         <button class="btn btn-outline-primary mb-2" onclick="copyLink()"><i class="fa fa-clone"></i> Copy Link</button>
     </form>
+    
+    <p style="color: #FFA800; font-size: 1rem;">Note: you can print the certificate on desktop or share the link for reference purposes</p>
 
     <a href="/certification/{{$name['slug']}}/download">
     <button class="btn btn-primary"><i class="fa fa-download"></i>&nbsp; DOWNLOAD</button>
