@@ -63,7 +63,7 @@
     <p class="link">HNG Internship has confirmed the participation of this individual in<br> this program. Confirm at <a href="https://start.ng/verify/{{$data['verify_id']}}">start.ng/verify/{{$data['verify_id']}}</a></p>
     <img src="{{ asset('/images/seal.png') }}" alt="" style="margin: 60pt 0 0 80pt;width:184pt;"><br>
     <!-- <button style="margin: 35pt 0 0 130pt;" class="btn btn-primary" onclick="window.print()"><i class="fa fa-download"></i>&nbsp; DOWNLOAD</button> -->
-    <p class="link" style="color: #FFA800;">Note: you can take <b>screenshot</b> of this page on desktop to share <br>on social media or share the link for reference purposes</p>
+    <p class="link" style="color: red;">Note: you can take a <b>screenshot</b> of this page on desktop to share <br>on social media or share the link for reference purposes</p>
 </div>
     
     <h1>CERTIFICATE</h1>
