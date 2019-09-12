@@ -40,6 +40,7 @@
         .link-img {
             float:right;
         }
+        .link-img img {margin: 60pt 0 0 80pt;width:184pt;}
         .intern-name {
             font-family: 'Calibri', 'Roboto';
         }
@@ -49,18 +50,21 @@
                 display: none;
             }
         }
-        /* @media screen (max-width: 800px;) {
-            .container {
-                display: none !important;
+        @media screen (max-width: 800px;) {
+            .link-img {
+                width: 15vw;
             }
-        } */
+            .link-img img {
+                width: 100%;
+            }
+        }
     </style>
 </head>
 <body>
 <div class="container" style="" id="content">
 <div class="link-img">
     <p class="link">HNG Internship has confirmed the participation of this individual in<br> this program. Confirm at <a href="https://start.ng/verify/{{$data['verify_id']}}">start.ng/verify/{{$data['verify_id']}}</a></p>
-    <img src="{{ asset('/images/seal.png') }}" alt="" style="margin: 60pt 0 0 80pt;width:184pt;"><br>
+    <img src="{{ asset('/images/seal.png') }}" alt="" style=""><br>
     <!-- <button style="margin: 35pt 0 0 130pt;" class="btn btn-primary" onclick="window.print()"><i class="fa fa-download"></i>&nbsp; DOWNLOAD</button> -->
 </div>
     
