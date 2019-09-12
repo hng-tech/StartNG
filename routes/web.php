@@ -29,6 +29,7 @@ Route::get('/certification/{slug}', function($slug) {
     for ($i=0; $i < count($array); $i++) { 
         if ($array[$i]['slug'] == $slug) {
             $obj = $array[$i];
+            return view('certificate')->with('name',$obj);
             break;
         }
         else {
@@ -36,7 +37,7 @@ Route::get('/certification/{slug}', function($slug) {
         }
     }
 
-    return view('certificate')->with('name',$obj);
+    return view('404');
 });
 
 Route::get('/verify/{verify_id}', 'DataController@verify');
@@ -52,6 +53,7 @@ Route::get('/pdf/{slug}', function($slug) {
     for ($i=0; $i < count($array); $i++) { 
         if ($array[$i]['slug'] == $slug) {
             $obj = $array[$i];
+            return view('certificate')->with('name',$obj);
             break;
         }
         else {
@@ -59,5 +61,5 @@ Route::get('/pdf/{slug}', function($slug) {
         }
     }
 
-    return view('certificate')->with('name',$obj);
+    return view('404');
 });
