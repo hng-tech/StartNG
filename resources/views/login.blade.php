@@ -38,7 +38,7 @@
         }
         @media (max-width: 780px) {
             #shn-code {width: 50%;}
-            
+            footer {margin-top: 20vh;}
         }
         
     </style>
@@ -49,7 +49,7 @@
             <a class="navbar-brand" href="#">
                 <img src="{{ asset('images/startng.png') }}" alt="" srcset="">
             </a>
-            <button class="btn btn-primary" type="submit">Join</button>
+            <!-- <button class="btn btn-primary" type="submit">Join</button> -->
         </nav> 
         <div style='text-align:center;'>
             <h1>HNG-Internship Certification</h1>

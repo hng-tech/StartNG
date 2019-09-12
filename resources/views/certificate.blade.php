@@ -45,7 +45,7 @@
 <body>
 <div class="container">
     <h1>Download My Certificate</h1>
-    <h4>Congratulations on completing the Internship</h4>
+    <h4>Congratulations on completing the Beginner Software Development Training</h4>
 
     <p>Name: {{ strtoupper($name['name']) }}<br>
     Code: {{ strtoupper($name['code']) }}<br>
@@ -64,7 +64,7 @@
     <p style="color: #FFA800; font-size: 1rem;">Note: you can print the certificate on desktop or share the link for reference purposes</p>
 
     <a href="/certification/{{$name['slug']}}/download">
-    <button class="btn btn-primary"><i class="fa fa-download"></i>&nbsp; DOWNLOAD</button>
+    <button class="btn btn-primary"><i class="fa fa-download"></i>&nbsp; VIEW CERTIFICATE</button>
     </a>
 
     {{-- Enter the code for the instructions here --}}
