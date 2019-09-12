@@ -16,7 +16,7 @@ body {
     min-height: 94vh;
   }
   .start-info {
-    background-image: url(../img/laptop.png),
+    background-image: url("{{ asset('images/laptop.png') }}"),
       radial-gradient(383.23px at 68.61% 55.1%, #5761d7 0%, #24126a 100%);
     background-repeat: no-repeat;
     background-position: 50% 80%;
