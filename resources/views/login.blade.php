@@ -38,7 +38,7 @@
         }
         @media (max-width: 780px) {
             #shn-code {width: 50%;}
-            footer {margin-top: 20vh;}
+            footer {display: none;}
         }
         
     </style>
