@@ -42,10 +42,12 @@ class DataController extends Controller
 
         $intern_json = Storage::get('start-intern-data.json');
         $array = json_decode($intern_json,true);
+        $id = strtoupper($id);
 
         for ($i=0; $i < count($array); $i++) { 
             if ($array[$i]['verify_id'] == $id) {
-                return redirect('/certification/'.$array[$i]['slug'].'/download');
+                return redirect('/confirmation/'.$array[$i]['slug']);
+                break;
             }
             else {
                 continue;

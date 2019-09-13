@@ -46,14 +46,14 @@ Route::get('/certification/{slug}/download', "DataController@exportPDF");
 
 Route::get('/certificate/{slug}/download', "DataController@export");
 
-Route::get('/pdf/{slug}', function($slug) {
+Route::get('/confirmation/{slug}', function($slug) {
     $intern_json = Storage::get('start-intern-data.json');
     $array = json_decode($intern_json,true);
 
     for ($i=0; $i < count($array); $i++) { 
         if ($array[$i]['slug'] == $slug) {
             $obj = $array[$i];
-            return view('certificate')->with('name',$obj);
+            return view('verification')->with('name',$obj);
             break;
         }
         else {
