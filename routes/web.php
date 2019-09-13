@@ -40,8 +40,6 @@ Route::get('/certification/{slug}', function($slug) {
     return view('404');
 });
 
-Route::get('/verify/{verify_id}', 'DataController@verify');
-
 Route::get('/certification/{slug}/download', "DataController@exportPDF");
 
 Route::get('/certificate/{slug}/download', "DataController@export");
@@ -63,3 +61,5 @@ Route::get('/confirmation/{slug}', function($slug) {
 
     return view('404');
 });
+
+Route::get('/verify/{verify_id}', 'DataController@verify');
