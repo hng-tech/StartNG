@@ -150,13 +150,10 @@
             </div>
 
 
-            <p>2. 41 - 50 - Pass
-            3. 51 - 65 - Credit
-            4. 66 - 80 - Upper Credit
-            81 - 100 - Distinction</p>
+            <p>41 - 50 - Pass, 51 - 65 - Credit, 66 - 80 - Upper Credit, 81 - 100 - Distinction</p>
             
-            <a href="/certification" >
-            <button class="btn btn-primary">Return</button>
+            <a href="/" >
+            <button class="btn btn-primary mt-4 mb-2">Go to homepage</button>
             </a>
             
         </div>
