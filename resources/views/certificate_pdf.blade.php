@@ -75,6 +75,8 @@
     <p style="margin-bottom: -12pt;">has successfully completed</p>
     <h5>Startdotng (Beginner Software Development Training)</h5>
     {{-- <p style="margin-bottom: 30pt;">with {{$data['score']}} out of 100 obtainable points on <strong>9th September, 2019</strong></p> --}}
+    <p> with</p>
+    <h5>Grade <h5>
     <!-- <p style="font-size:24pt;margin-bottom: -3pt; font-family: Pacifico, 'Oleo Script';"><i>Seyi Onifade </i></p>
     <p  style="font-size:12pt;margin-top: 0;">CEO, HNG Internship</p> -->
     <p style="margin-top: 28pt;">Supported by</p>
