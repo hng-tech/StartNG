@@ -24,11 +24,12 @@
         }
         h1 { font-weight: bold; margin-top: 8vh;}
         footer {
-            padding: 10px 0 0px;
-            position: fixed;
-            bottom: 0;
+            padding: 10px 0;
+            /* position: fixed;
+            bottom: 0; */
             color: white;
             text-align:center;
+            margin-top: 50px
         }
     </style>
 </head>
@@ -47,7 +48,6 @@
             <h3> {{$name['name']}} - {{$name['code']}} </h3> participated in StartdotNG (Pre-Internship Program). <br>
             The Candidtae had the following scores for the tasks performed
             Task 1 : {{$name['task1']}} <br>
-            Class / Q&A: Introduction and Surviving the Internship. Understanding Slack, Pivotal Tracker, Google Docs, Sheets, getting started with Cloudinary.<Br>
             Task 2 : {{$name['task2']}} <br>
             Task 3 : {{$name['task3']}} <br>
             Task 4 : {{$name['task4']}} <br>
@@ -61,21 +61,26 @@
             81 - 100 - Distinction
 
 
-            <div class="row">
+            <div class="container row ">
                 <div class="col-4">
                     <div class="list-group" id="list-tab" role="tablist">
-                    <a class="list-group-item list-group-item-action active" id="list-home-list" data-toggle="list" href="#list-home" role="tab" aria-controls="home">Home</a>
-                    <a class="list-group-item list-group-item-action" id="list-profile-list" data-toggle="list" href="#list-profile" role="tab" aria-controls="profile">Profile</a>
-                    <a class="list-group-item list-group-item-action" id="list-messages-list" data-toggle="list" href="#list-messages" role="tab" aria-controls="messages">Messages</a>
-                    <a class="list-group-item list-group-item-action" id="list-settings-list" data-toggle="list" href="#list-settings" role="tab" aria-controls="settings">Settings</a>
+                    <a class="list-group-item list-group-item-action active" id="task-one-list" data-toggle="list" href="#task-one" role="tab" aria-controls="home">Task 1</a>
+                    <a class="list-group-item list-group-item-action" id="task-two-list" data-toggle="list" href="#task-two" role="tab" aria-controls="profile">Task 2</a>
+                    <a class="list-group-item list-group-item-action" id="task-three-list" data-toggle="list" href="#task-three" role="tab" aria-controls="messages">Task 3</a>
+                    <a class="list-group-item list-group-item-action" id="task-four-list" data-toggle="list" href="#task-four" role="tab" aria-controls="settings">Task 4</a>
+                    <a class="list-group-item list-group-item-action" id="task-five-list" data-toggle="list" href="#task-five" role="tab" aria-controls="setting">Task 5</a>
                     </div>
                 </div>
                 <div class="col-8">
                     <div class="tab-content" id="nav-tabContent">
-                    <div class="tab-pane fade show active" id="list-home" role="tabpanel" aria-labelledby="list-home-list">...</div>
-                    <div class="tab-pane fade" id="list-profile" role="tabpanel" aria-labelledby="list-profile-list">...</div>
-                    <div class="tab-pane fade" id="list-messages" role="tabpanel" aria-labelledby="list-messages-list">...</div>
-                    <div class="tab-pane fade" id="list-settings" role="tabpanel" aria-labelledby="list-settings-list">...</div>
+                    <div class="tab-pane fade show active" id="task-one" role="tabpanel" aria-labelledby="task-one-list">
+                        <h5>Task Description</h5>
+                        Class / Q&A: Introduction and Surviving the Internship. Understanding Slack, Pivotal Tracker, Google Docs, Sheets, getting started with Cloudinary.<Br>
+                    </div>
+                    <div class="tab-pane fade" id="task-two" role="tabpanel" aria-labelledby="task-two-list">...</div>
+                    <div class="tab-pane fade" id="task-three" role="tabpanel" aria-labelledby="task-three-list">...</div>
+                    <div class="tab-pane fade" id="task-four" role="tabpanel" aria-labelledby="task-four-list">...</div>
+                    <div class="tab-pane fade" id="task-five" role="tabpanel" aria-labelledby="task-five-list">...</div>
                     </div>
                 </div>
             </div>
