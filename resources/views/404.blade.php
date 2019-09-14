@@ -47,7 +47,7 @@
             <h1>Oops... Page not found</h1>
             <p>Click the button below to return to homepage</p>
             
-            <a href="/certification" >
+            <a href="/" >
             <button class="btn btn-primary">Return</button>
             </a>
             
