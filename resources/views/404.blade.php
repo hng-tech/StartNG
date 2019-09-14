@@ -22,7 +22,7 @@
     <link href='http://fonts.googleapis.com/css?family=Lato:400,700' rel='stylesheet' type='text/css'>
     <style>
         body {
-            font-family: 'Lato';
+            font-family: 'Lato', Arial, Helvetica, sans-serif;
             color: #084482;
         }
         h1 {font-size: 30px; font-weight: bold; margin-top: 18vh;}

@@ -19,7 +19,7 @@
 
     <style>
         body {
-            font-family: 'Lato';
+            font-family: 'Lato', Arial, Helvetica, sans-serif;
             color: #084482;
         }
         h1 { font-weight: bold; margin: 50px 0 30px;}
@@ -51,9 +51,9 @@
             <p>This is to verify that</p>
             <h3> {{$name['name']}} - {{$name['code']}} </h3> 
             <p>participated in</p>
-            <h5> StartdotNG (Pre-Internship Program)</h5>
-            <p> and had </p>
-            <h5>{{$name['grade']}} representing {{$name['score']}}<h5>
+            <h5> StartdotNG (Beginner Software Training)</h5>
+            <p> and had a score of</p>
+            <h5>{{$name['score']}} ({{$name['grade']}}) <h5>
 
             
 
@@ -71,27 +71,27 @@
                 </div>
                 <div class="col-md-7 border">
                     <div class="tab-content" id="nav-tabContent">
-                        <div class="tab-pane fade show active" id="task-one" role="tabpanel" aria-labelledby="task-one-list">
-                            <h5>Task Description</h5><br>
+                        <div class="tab-pane fade show active text-left" id="task-one" role="tabpanel" aria-labelledby="task-one-list">
+                            <h5 class="btn btn-primary bg">Task Description</h5><br>
                             <p>Class / Q&A: Introduction and Surviving the Internship. Understanding Slack, Pivotal Tracker, Google Docs, Sheets, getting started with Cloudinary.</p>
                             <h6>Grade: {{$name['task1']}}/20 </h6>
                         </div>
-                        <div class="tab-pane fade" id="task-two" role="tabpanel" aria-labelledby="task-two-list">
+                        <div class="tab-pane fade text-left" id="task-two" role="tabpanel" aria-labelledby="task-two-list">
                             <h5>Task Description</h5>
                             <p>Class / Q&A: Introduction and Surviving the Internship. Understanding Slack, Pivotal Tracker, Google Docs, Sheets, getting started with Cloudinary.</p>
                             <h6>Grade: {{$name['task2']}}/20 </h6>
                         </div>
-                        <div class="tab-pane fade" id="task-three" role="tabpanel" aria-labelledby="task-three-list">
+                        <div class="tab-pane fade text-left" id="task-three" role="tabpanel" aria-labelledby="task-three-list">
                             <h5>Task Description</h5>
                             <p>Class / Q&A: Introduction and Surviving the Internship. Understanding Slack, Pivotal Tracker, Google Docs, Sheets, getting started with Cloudinary.</p>
                             <h6>Grade: {{$name['task3']}}/20 </h6>
                         </div>
-                        <div class="tab-pane fade" id="task-four" role="tabpanel" aria-labelledby="task-four-list">
+                        <div class="tab-pane fade text-left" id="task-four" role="tabpanel" aria-labelledby="task-four-list">
                             <h5>Task Description</h5>
                             <p>Class / Q&A: Introduction and Surviving the Internship. Understanding Slack, Pivotal Tracker, Google Docs, Sheets, getting started with Cloudinary.</p>
                             <h6>Grade: {{$name['task4']}}/20 </h6>
                         </div>
-                        <div class="tab-pane fade" id="task-five" role="tabpanel" aria-labelledby="task-five-list">
+                        <div class="tab-pane fade text-left" id="task-five" role="tabpanel" aria-labelledby="task-five-list">
                             <h5>Task Description</h5>
                             <p>Class / Q&A: Introduction and Surviving the Internship. Understanding Slack, Pivotal Tracker, Google Docs, Sheets, getting started with Cloudinary.</p>
                             <h6>Grade: {{$name['task5']}}/20 </h6>
