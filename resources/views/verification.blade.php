@@ -73,27 +73,76 @@
                     <div class="tab-content" id="nav-tabContent">
                         <div class="tab-pane fade show active text-left" id="task-one" role="tabpanel" aria-labelledby="task-one-list">
                             <h5 class="btn btn-primary bg">Task Description</h5><br>
-                            <p>Class / Q&A: Introduction and Surviving the Internship. Understanding Slack, Pivotal Tracker, Google Docs, Sheets, getting started with Cloudinary.</p>
+                            <ul>
+                                <li>Create a google doc
+                                <li>Write your CV in the document</li>
+                                <li>Create a basic html page that says your name, address and phone number</li>
+                                <li>Create a github account</li>
+                                <li>Create Pivotal Tracker Account</li>
+                                <li>Create cloudinary account</li>
+                                <li>Update task status on google sheet</li>
+                                <li>Create a google sheet, your task submissions should be done on this sheet</li>
+                                <li>Visit: timbu.com, make a post about the website on any social media platform. (add a link to the website or a page on the website in your post)</li>
+                            </ul>
                             <h6>Grade: {{$name['task1']}}/20 </h6>
                         </div>
                         <div class="tab-pane fade text-left" id="task-two" role="tabpanel" aria-labelledby="task-two-list">
-                            <h5>Task Description</h5>
-                            <p>Class / Q&A: Introduction and Surviving the Internship. Understanding Slack, Pivotal Tracker, Google Docs, Sheets, getting started with Cloudinary.</p>
+                        <h5 class="btn btn-primary bg">Task Description</h5><br>
+                            <ul>
+                                <li>Update your html page with the content of your cv (no css, no js).. But make it look presentable with html only. Hint: you can use table.</li>
+                                <li>Push the page to Github using the terminal / git bash, do not upload using web view.</li>
+                                <li>Write a short article on what you have done so far using google docs.</li>
+                                <li>Extra point for creativity.</li>
+                                <li>Update task status on google sheet.</li>
+                                <li>Make a post on any social media linking to flutterwave.</li>
+                                <li>Make a post on any platform linking to timbu.com.</li>
+
+                            </ul>
                             <h6>Grade: {{$name['task2']}}/20 </h6>
                         </div>
                         <div class="tab-pane fade text-left" id="task-three" role="tabpanel" aria-labelledby="task-three-list">
-                            <h5>Task Description</h5>
-                            <p>Class / Q&A: Introduction and Surviving the Internship. Understanding Slack, Pivotal Tracker, Google Docs, Sheets, getting started with Cloudinary.</p>
+                        <h5 class="btn btn-primary bg">Task Description</h5><br>
+                            <ul>
+                                <li>Update your CV with some CSS (no frameworks, no js).</li>
+                                <li>Be creative and make it look presentable.</li>
+                                <li>Update your article from task two on the new things you have learnt.</li>
+                                <li>Push your code to github, using a different branch.</li>
+                                <li>Create pull request, do not merge. Submit the link.</li> 
+                                <li>Extra point for creativity.</li> 
+                                <li>Update task status on google sheet.</li> 
+                            </ul>
                             <h6>Grade: {{$name['task3']}}/20 </h6>
                         </div>
                         <div class="tab-pane fade text-left" id="task-four" role="tabpanel" aria-labelledby="task-four-list">
-                            <h5>Task Description</h5>
-                            <p>Class / Q&A: Introduction and Surviving the Internship. Understanding Slack, Pivotal Tracker, Google Docs, Sheets, getting started with Cloudinary.</p>
+                            <h5 class="btn btn-primary bg">Task Description</h5><br>
+                            <ul>
+                                Create any 1 of the following: Extra point for doing more than required.
+                                <li>A simple JS program to produce a multiplication table. The function should accept 2 parameters, beginAt (where the multiplication table should start from) and endAt (where it should end) e.g, if beginAt = 2, and endAt = 6, then the multiplication table displayed should start from 2 X 0 and end at 6 x 12.
+                                <li>A JS program that accepts creates an email from first and last name. The function should accept 2 parameters, firstName and lastName, the function should create the email by taking the first letter of firstname, adding it to the full last name, and attach the string (@start.ng) to it. E.g, if firstName = Mike, and lastName = Juma, the function should produce: mjuma@start.ng. Note: email should be lower case.</li> 
+                                <li>A JS program that tests if a string is a palindrome.</li> 
+                                <li>A JS program that displays the current date and time.</li> 
+                                <li>A JS program that takes in a random integer between 1 to 20, the user is then prompted to input a guess number,If the user matches the guess number, the program displays a message “Good work” otherwise, display a message “Not match”.</li> 
+                                <li>Post your solution on any online js editor/compiler.</li> 
+                                <li>Push your code to GitHub.</li> 
+                                <li>Update task status on google sheet.</li> 
+
+                            </ul>
                             <h6>Grade: {{$name['task4']}}/20 </h6>
                         </div>
                         <div class="tab-pane fade text-left" id="task-five" role="tabpanel" aria-labelledby="task-five-list">
-                            <h5>Task Description</h5>
-                            <p>Class / Q&A: Introduction and Surviving the Internship. Understanding Slack, Pivotal Tracker, Google Docs, Sheets, getting started with Cloudinary.</p>
+                        <h5 class="btn btn-primary bg">Task Description</h5><br>
+                            <ul>
+                                <li>Update your CV with some JS (no frameworks).</li> 
+                                <li>Make a contact page.</li> 
+                                <li>The contact form should submit to a JSON file using PHP (no database connection required).</li> 
+                                <li>Link to your social media.</li> 
+                                <li>Add other things as you wish.</li> 
+                                <li>Extra Points for creativity.</li> 
+                                <li>Host your CV on GitHub pages.</li> 
+                                <li>Update your doc showing what you have learnt so far.</li> 
+                                <li>Update your status on task submission sheet.</li> 
+
+                            </ul>
                             <h6>Grade: {{$name['task5']}}/20 </h6>
                         </div>
                     </div>

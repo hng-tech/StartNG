@@ -25,7 +25,7 @@
     <style>
         
         body {
-            font-family: 'Lato';
+            font-family: 'Lato', Arial, Helvetica, sans-serif;
             background-image: url('{{ asset('images/bgg.png') }}');
         }
         h1, h5 {color: #084482;font-weight:bold;}
