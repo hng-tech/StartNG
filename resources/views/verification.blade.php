@@ -22,7 +22,10 @@
             font-family: 'Lato';
             color: #084482;
         }
-        h1 { font-weight: bold; margin-top: 8vh;}
+        h1 { font-weight: bold; margin: 50px 0 30px;}
+        .task-details {
+            margin: 50px 0;
+        }
         footer {
             padding: 10px 0;
             /* position: fixed;
@@ -30,11 +33,12 @@
             color: white;
             text-align:center;
             margin-top: 50px;
-            margin-bottom: -30px;
+            /* margin-bottom: -30px; */
         }
     </style>
 </head>
 <body>
+    <div class="container-fluid">
         <nav class="container-fluid navbar navbar-light mt-sm-2">
             <a class="navbar-brand" href="#">
                 <img src="{{ asset('images/startng.png') }}" alt="" srcset="">
@@ -45,16 +49,18 @@
             <h1>Cerificate Verification</h1>
 
             <p>This is to verify that</p>
-            <h3> {{$name['name']}} - {{$name['code']}} </h3> participated in StartdotNG (Pre-Internship Program). <br>
-            The Candidtae had the following scores for the tasks performed
-            Score : {{$name['score']}} <br>
-            Grade : {{$name['grade']}} <br>
+            <h3> {{$name['name']}} - {{$name['code']}} </h3> 
+            <p>participated in</p>
+            <h5> StartdotNG (Pre-Internship Program)</h5>
+            <p> and had </p>
+            <h5>{{$name['grade']}} representing {{$name['score']}}<h5>
 
             
 
 
-            <div class=" row ">
-                <div class="col-4">
+            <div class="row task-details">
+                <div class="offset-md-1"></div>
+                <div class="col-md-3">
                     <div class="list-group" id="list-tab" role="tablist">
                     <a class="list-group-item list-group-item-action active" id="task-one-list" data-toggle="list" href="#task-one" role="tab" aria-controls="home">Task 1</a>
                     <a class="list-group-item list-group-item-action" id="task-two-list" data-toggle="list" href="#task-two" role="tab" aria-controls="profile">Task 2</a>
@@ -63,10 +69,10 @@
                     <a class="list-group-item list-group-item-action" id="task-five-list" data-toggle="list" href="#task-five" role="tab" aria-controls="setting">Task 5</a>
                     </div>
                 </div>
-                <div class="col-7 border">
+                <div class="col-md-7 border">
                     <div class="tab-content" id="nav-tabContent">
                         <div class="tab-pane fade show active" id="task-one" role="tabpanel" aria-labelledby="task-one-list">
-                            <h5>Task Description</h5>
+                            <h5>Task Description</h5><br>
                             <p>Class / Q&A: Introduction and Surviving the Internship. Understanding Slack, Pivotal Tracker, Google Docs, Sheets, getting started with Cloudinary.</p>
                             <h6>Grade: {{$name['task1']}}/20 </h6>
                         </div>
@@ -95,18 +101,18 @@
             </div>
 
 
-            2. 41 - 50 - Pass
+            <p>2. 41 - 50 - Pass
             3. 51 - 65 - Credit
             4. 66 - 80 - Upper Credit
-            81 - 100 - Distinction
+            81 - 100 - Distinction</p>
             
             <a href="/certification" >
             <button class="btn btn-primary">Return</button>
             </a>
             
         </div>
-        
-    <footer class="container-fluid bg-primary">
+    </div>  
+    <footer class="bg-primary container-fluid">
         <p>&copy; 2019 HNG Internship. All rights reserved.</p>
     </footer>
 
