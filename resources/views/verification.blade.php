@@ -29,13 +29,13 @@
             bottom: 0; */
             color: white;
             text-align:center;
-            margin-top: 50px
+            margin-top: 50px;
+            margin-bottom: -30px;
         }
     </style>
 </head>
 <body>
-<div class="container-fluid">
-        <nav class="navbar navbar-light mt-sm-2">
+        <nav class="container-fluid navbar navbar-light mt-sm-2">
             <a class="navbar-brand" href="#">
                 <img src="{{ asset('images/startng.png') }}" alt="" srcset="">
             </a>
@@ -47,21 +47,13 @@
             <p>This is to verify that</p>
             <h3> {{$name['name']}} - {{$name['code']}} </h3> participated in StartdotNG (Pre-Internship Program). <br>
             The Candidtae had the following scores for the tasks performed
-            Task 1 : {{$name['task1']}} <br>
-            Task 2 : {{$name['task2']}} <br>
-            Task 3 : {{$name['task3']}} <br>
-            Task 4 : {{$name['task4']}} <br>
-            Task 5 : {{$name['task5']}} <br>
             Score : {{$name['score']}} <br>
             Grade : {{$name['grade']}} <br>
 
-            2. 41 - 50 - Pass
-            3. 51 - 65 - Credit
-            4. 66 - 80 - Upper Credit
-            81 - 100 - Distinction
+            
 
 
-            <div class="container row ">
+            <div class=" row ">
                 <div class="col-4">
                     <div class="list-group" id="list-tab" role="tablist">
                     <a class="list-group-item list-group-item-action active" id="task-one-list" data-toggle="list" href="#task-one" role="tab" aria-controls="home">Task 1</a>
@@ -71,19 +63,42 @@
                     <a class="list-group-item list-group-item-action" id="task-five-list" data-toggle="list" href="#task-five" role="tab" aria-controls="setting">Task 5</a>
                     </div>
                 </div>
-                <div class="col-8">
+                <div class="col-7 border">
                     <div class="tab-content" id="nav-tabContent">
-                    <div class="tab-pane fade show active" id="task-one" role="tabpanel" aria-labelledby="task-one-list">
-                        <h5>Task Description</h5>
-                        Class / Q&A: Introduction and Surviving the Internship. Understanding Slack, Pivotal Tracker, Google Docs, Sheets, getting started with Cloudinary.<Br>
-                    </div>
-                    <div class="tab-pane fade" id="task-two" role="tabpanel" aria-labelledby="task-two-list">...</div>
-                    <div class="tab-pane fade" id="task-three" role="tabpanel" aria-labelledby="task-three-list">...</div>
-                    <div class="tab-pane fade" id="task-four" role="tabpanel" aria-labelledby="task-four-list">...</div>
-                    <div class="tab-pane fade" id="task-five" role="tabpanel" aria-labelledby="task-five-list">...</div>
+                        <div class="tab-pane fade show active" id="task-one" role="tabpanel" aria-labelledby="task-one-list">
+                            <h5>Task Description</h5>
+                            <p>Class / Q&A: Introduction and Surviving the Internship. Understanding Slack, Pivotal Tracker, Google Docs, Sheets, getting started with Cloudinary.</p>
+                            <h6>Grade: {{$name['task1']}}/20 </h6>
+                        </div>
+                        <div class="tab-pane fade" id="task-two" role="tabpanel" aria-labelledby="task-two-list">
+                            <h5>Task Description</h5>
+                            <p>Class / Q&A: Introduction and Surviving the Internship. Understanding Slack, Pivotal Tracker, Google Docs, Sheets, getting started with Cloudinary.</p>
+                            <h6>Grade: {{$name['task2']}}/20 </h6>
+                        </div>
+                        <div class="tab-pane fade" id="task-three" role="tabpanel" aria-labelledby="task-three-list">
+                            <h5>Task Description</h5>
+                            <p>Class / Q&A: Introduction and Surviving the Internship. Understanding Slack, Pivotal Tracker, Google Docs, Sheets, getting started with Cloudinary.</p>
+                            <h6>Grade: {{$name['task3']}}/20 </h6>
+                        </div>
+                        <div class="tab-pane fade" id="task-four" role="tabpanel" aria-labelledby="task-four-list">
+                            <h5>Task Description</h5>
+                            <p>Class / Q&A: Introduction and Surviving the Internship. Understanding Slack, Pivotal Tracker, Google Docs, Sheets, getting started with Cloudinary.</p>
+                            <h6>Grade: {{$name['task4']}}/20 </h6>
+                        </div>
+                        <div class="tab-pane fade" id="task-five" role="tabpanel" aria-labelledby="task-five-list">
+                            <h5>Task Description</h5>
+                            <p>Class / Q&A: Introduction and Surviving the Internship. Understanding Slack, Pivotal Tracker, Google Docs, Sheets, getting started with Cloudinary.</p>
+                            <h6>Grade: {{$name['task5']}}/20 </h6>
+                        </div>
                     </div>
                 </div>
             </div>
+
+
+            2. 41 - 50 - Pass
+            3. 51 - 65 - Credit
+            4. 66 - 80 - Upper Credit
+            81 - 100 - Distinction
             
             <a href="/certification" >
             <button class="btn btn-primary">Return</button>
@@ -91,7 +106,6 @@
             
         </div>
         
-    </div>
     <footer class="container-fluid bg-primary">
         <p>&copy; 2019 HNG Internship. All rights reserved.</p>
     </footer>
