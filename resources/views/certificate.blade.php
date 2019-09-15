@@ -60,16 +60,16 @@
         </div>
         <button class="btn btn-outline-primary mb-2" onclick="copyLink()"><i class="fa fa-clone"></i> Copy Link</button>
     </form>
-    
+
     <p style="color: #FFA800; font-size: 1rem;">Note: you can print the certificate on desktop or share the link for reference purposes</p>
 
     <a href="/certification/{{$name['slug']}}/download">
     <button class="btn btn-primary"><i class="fa fa-download"></i>&nbsp; DOWNLOAD CERTIFICATE</button>
     </a>
-    <a href="/certification/{slug}/view">
+    <a href="/certification/{{$name['slug']}}/view">
     <button class="btn btn-primary ml-2"><i class="fa fa-download"></i>&nbsp; VIEW CERTIFICATE</button>
     </a>
-    
+
 
     {{-- Enter the code for the instructions here --}}
 
