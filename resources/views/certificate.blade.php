@@ -66,8 +66,8 @@
     <a href="/certification/{{$name['slug']}}/download">
     <button class="btn btn-primary"><i class="fa fa-download"></i>&nbsp; DOWNLOAD CERTIFICATE</button>
     </a>
-    <a href="/certification/{{$name['slug']}}/view">
-    <button class="btn btn-primary ml-2"><i class="fa fa-download"></i>&nbsp; VIEW CERTIFICATE</button>
+    <a href="/certification/{{$name['slug']}}/view" target="_blank">
+    <button class="btn btn-primary ml-2"><i class="fa fa-external-link"></i>&nbsp; VIEW CERTIFICATE</button>
     </a>
 
 
