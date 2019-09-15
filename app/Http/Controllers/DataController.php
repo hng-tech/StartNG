@@ -25,7 +25,7 @@ class DataController extends Controller
         $shn = $request -> input('shn_code');
         $shn = strtolower($shn);
 
-        for ($i=0; $i < count($array); $i++) { 
+        for ($i=0; $i < count($array); $i++) {
             if ($array[$i]['code'] == $shn) {
                 return redirect('/certification/'.$array[$i]['slug']);
                 break;
@@ -44,9 +44,9 @@ class DataController extends Controller
         $intern_json = Storage::get('start-intern-data.json');
         $array = json_decode($intern_json,true);
         $id = strtoupper($id);
-        
 
-        for ($i=0; $i < count($array); $i++) { 
+
+        for ($i=0; $i < count($array); $i++) {
             if (isset($array[$i]["verify_id"]) && $array[$i]["verify_id"] == $id) {
                 return redirect('/confirmation/'.$array[$i]['slug']);
                 break;
@@ -57,14 +57,14 @@ class DataController extends Controller
         }
 
         return view('404');
-        
+
     }
 
     public function exportPDF($slug) {
         $intern_json = Storage::get('start-intern-data.json');
         $array = json_decode($intern_json,true);
 
-        for ($i=0; $i < count($array); $i++) { 
+        for ($i=0; $i < count($array); $i++) {
             if ($array[$i]['slug'] == $slug) {
                 $obj = $array[$i];
                 break;
@@ -74,7 +74,7 @@ class DataController extends Controller
             }
         }
 
-        
+
 
         $name = strtoupper($obj['name']);
         $link = 'start.ng/verify/'. $obj['verify_id'];
@@ -83,7 +83,87 @@ class DataController extends Controller
         // $fpdf = new Fpdf();
         Fpdf::AddPage('L','A4');
 
-        Fpdf::Image('images/bg.png', 0, 0);
+        Fpdf::Image('images/bg.png',3,3,30,27);
+        Fpdf::Image('images/bg.png',40,3,30, 27);
+        Fpdf::Image('images/bg.png',77,3,30, 27);
+        Fpdf::Image('images/bg.png',114,3,30, 27);
+        Fpdf::Image('images/bg.png',151,3,30, 27);
+        Fpdf::Image('images/bg.png',188,3,30, 27);
+        Fpdf::Image('images/bg.png',225,3,30, 27);
+        Fpdf::Image('images/bg.png',262,3,30, 27);
+        Fpdf::Image('images/bg.png',3,33,30,27);
+        Fpdf::Image('images/bg.png',40,33,30, 27);
+        Fpdf::Image('images/bg.png',77,33,30, 27);
+        Fpdf::Image('images/bg.png',114,33,30, 27);
+        Fpdf::Image('images/bg.png',151,33,30, 27);
+        Fpdf::Image('images/bg.png',188,33,30, 27);
+        Fpdf::Image('images/bg.png',225,33,30, 27);
+        Fpdf::Image('images/bg.png',262,33,30, 27);
+        Fpdf::Image('images/bg.png',3,63,30,27);
+        Fpdf::Image('images/bg.png',40,63,30, 27);
+        Fpdf::Image('images/bg.png',77,63,30, 27);
+        Fpdf::Image('images/bg.png',114,63,30, 27);
+        Fpdf::Image('images/bg.png',151,63,30, 27);
+        Fpdf::Image('images/bg.png',188,63,30, 27);
+        Fpdf::Image('images/bg.png',225,63,30, 27);
+        Fpdf::Image('images/bg.png',262,63,30, 27);
+        Fpdf::Image('images/bg.png',3,93,30,27);
+        Fpdf::Image('images/bg.png',40,93,30, 27);
+        Fpdf::Image('images/bg.png',77,93,30, 27);
+        Fpdf::Image('images/bg.png',114,93,30, 27);
+        Fpdf::Image('images/bg.png',151,93,30, 27);
+        Fpdf::Image('images/bg.png',188,93,30, 27);
+        Fpdf::Image('images/bg.png',225,93,30, 27);
+        Fpdf::Image('images/bg.png',262,93,30, 27);
+        Fpdf::Image('images/bg.png',3,123,30,27);
+        Fpdf::Image('images/bg.png',40,123,30, 27);
+        Fpdf::Image('images/bg.png',77,123,30, 27);
+        Fpdf::Image('images/bg.png',114,123,30, 27);
+        Fpdf::Image('images/bg.png',151,123,30, 27);
+        Fpdf::Image('images/bg.png',188,123,30, 27);
+        Fpdf::Image('images/bg.png',225,123,30, 27);
+        Fpdf::Image('images/bg.png',262,123,30, 27);
+
+        Fpdf::Image('images/bg.png',3,153,30,27);
+        Fpdf::Image('images/bg.png',40,153,30, 27);
+        Fpdf::Image('images/bg.png',77,153,30, 27);
+        Fpdf::Image('images/bg.png',114,153,30, 27);
+        Fpdf::Image('images/bg.png',151,153,30, 27);
+        Fpdf::Image('images/bg.png',188,153,30, 27);
+        Fpdf::Image('images/bg.png',225,153,30, 27);
+        Fpdf::Image('images/bg.png',262,153,30, 27);
+        Fpdf::Image('images/bg.png',3,183,30,27);
+        Fpdf::Image('images/bg.png',40,183,30, 27);
+        Fpdf::Image('images/bg.png',77,183,30, 27);
+        Fpdf::Image('images/bg.png',114,183,30, 27);
+        Fpdf::Image('images/bg.png',151,183,30, 27);
+        Fpdf::Image('images/bg.png',188,183,30, 27);
+        Fpdf::Image('images/bg.png',225,183,30, 27);
+        Fpdf::Image('images/bg.png',262,183,30, 27);
+        Fpdf::Image('images/bg.png',3,213,30,27);
+        Fpdf::Image('images/bg.png',40,213,30, 27);
+        Fpdf::Image('images/bg.png',77,213,30, 27);
+        Fpdf::Image('images/bg.png',114,213,30, 27);
+        Fpdf::Image('images/bg.png',151,213,30, 27);
+        Fpdf::Image('images/bg.png',188,213,30, 27);
+        Fpdf::Image('images/bg.png',225,213,30, 27);
+        Fpdf::Image('images/bg.png',262,213,30, 27);
+        Fpdf::Image('images/bg.png',3,243,30,27);
+        Fpdf::Image('images/bg.png',40,243,30, 27);
+        Fpdf::Image('images/bg.png',77,243,30, 27);
+        Fpdf::Image('images/bg.png',114,243,30, 27);
+        Fpdf::Image('images/bg.png',151,243,30, 27);
+        Fpdf::Image('images/bg.png',188,243,30, 27);
+        Fpdf::Image('images/bg.png',225,243,30, 27);
+        Fpdf::Image('images/bg.png',262,243,30, 27);
+        Fpdf::Image('images/bg.png',3,273,30,27);
+        Fpdf::Image('images/bg.png',40,273,30, 27);
+        Fpdf::Image('images/bg.png',77,273,30, 27);
+        Fpdf::Image('images/bg.png',114,273,30, 27);
+        Fpdf::Image('images/bg.png',151,273,30, 27);
+        Fpdf::Image('images/bg.png',188,273,30, 27);
+        Fpdf::Image('images/bg.png',225,273,30, 27);
+        Fpdf::Image('images/bg.png',262,273,30, 27);
 
         Fpdf::SetFont('Helvetica', '');
         Fpdf::SetX(47.244);
@@ -142,7 +222,7 @@ class DataController extends Controller
         Fpdf:: SetTextColor(8,68,130);
         Fpdf::MultiCell(0 , 8.604, "Development Training)", 0,  "L"); //true)
 
-        
+
         Fpdf::SetFont('Helvetica', '');
         Fpdf::SetX(47.244);
         Fpdf::SetY(124.654);
@@ -179,7 +259,7 @@ class DataController extends Controller
         Fpdf::output();
 
         exit;
-        
+
 
 
         // return view('certificate_fpdf')->with('data',$obj);
@@ -193,7 +273,7 @@ class DataController extends Controller
         $intern_json = Storage::get('start-intern-data.json');
         $array = json_decode($intern_json,true);
 
-        for ($i=0; $i < count($array); $i++) { 
+        for ($i=0; $i < count($array); $i++) {
             if ($array[$i]['slug'] == $slug) {
                 $obj = $array[$i];
                 break;
