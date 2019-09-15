@@ -23,7 +23,7 @@
     <link href='http://fonts.googleapis.com/css?family=Oleo+Script' rel='stylesheet' type='text/css'>
     <link href='http://fonts.googleapis.com/css?family=Pacifico' rel='stylesheet' type='text/css'>
     <style>
-        
+
         body {
             font-family: 'Lato', Arial, Helvetica, sans-serif;
             background-image: url('{{ asset('images/bgg.png') }}');
@@ -69,7 +69,7 @@
     <img src="{{ asset('/images/seal.png') }}" alt="" style=""><br>
     <!-- <button style="margin: 35pt 0 0 130pt;" class="btn btn-primary" onclick="window.print()"><i class="fa fa-download"></i>&nbsp; DOWNLOAD</button> -->
 </div>
-    
+
     <h1>CERTIFICATE</h1>
     <h3>OF COMPLETION</h3>
     <P style="margin-top: 121pt;">This is to certify that</P>
@@ -78,7 +78,7 @@
     <h5>Startdotng (Beginner Software Development Training)</h5>
     {{-- <p style="margin-bottom: 30pt;">with {{$data['score']}} out of 100 obtainable points on <strong>9th September, 2019</strong></p> --}}
     <p> with</p>
-    <h5>Grade <h5>
+    <h5>{{strtoupper($data['grade'])}}<h5>
     <!-- <p style="font-size:24pt;margin-bottom: -3pt; font-family: Pacifico, 'Oleo Script';"><i>Seyi Onifade </i></p>
     <p  style="font-size:12pt;margin-top: 0;">CEO, HNG Internship</p> -->
     <p style="margin-top: 28pt;">Supported by</p>
