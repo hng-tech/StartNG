@@ -27,6 +27,8 @@
         body {
             font-family: 'Lato', Arial, Helvetica, sans-serif;
             background-image: url('{{ asset('images/bgg.png') }}');
+            /* height: 595pt;
+            width: 842pt; */
         }
         h1, h5 {color: #084482;font-weight:bold;}
         h1 {margin-top: 25pt; font-size:48pt;}
@@ -42,7 +44,7 @@
         }
         .link-img img {margin: 60pt 0 0 80pt;width:184pt;}
         .intern-name {
-            font-family: 'Calibri', 'Roboto';
+            font-family: 'Pacifico','Calibri', 'Roboto';
         }
         .support {margin: 0 15pt 24pt 0; height: 28pt;}
         @media print {
@@ -70,7 +72,7 @@
     
     <h1>CERTIFICATE</h1>
     <h3>OF COMPLETION</h3>
-    <P style="margin-top: 21pt;">This is to certify that</P>
+    <P style="margin-top: 121pt;">This is to certify that</P>
     <p style="font-size:37pt;margin-bottom: 5pt;">{{strtoupper($data['name'])}}</p>
     <p style="margin-bottom: -12pt;">has successfully completed</p>
     <h5>Startdotng (Beginner Software Development Training)</h5>
