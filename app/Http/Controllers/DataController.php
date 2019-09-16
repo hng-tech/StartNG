@@ -251,7 +251,7 @@ class DataController extends Controller
         Fpdf::SetY(154.654);
         Fpdf::SetFontSize(12);
         Fpdf:: SetTextColor(0,0,0);
-        Fpdf::Cell(0 , 6.604, "on 9th September, 2019", 0, 1, "L"); //true)
+        Fpdf::Cell(0 , 6.604, "on the 9th of September, 2019.", 0, 1, "L"); //true)
 
 
         //Seal Image goes here
