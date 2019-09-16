@@ -221,13 +221,13 @@ class DataController extends Controller
         Fpdf::SetFont('lato', 'B');
         Fpdf::SetX(47.244);
         Fpdf::SetY(100.654);
-        Fpdf::SetFontSize(24);
+        Fpdf::SetFontSize(26);
         Fpdf:: SetTextColor(8,68,130);
         Fpdf::MultiCell(0 , 8.604, "Startdotng (Beginner Software", 0,  "L"); //true)
         Fpdf::SetFont('lato', 'B');
         Fpdf::SetX(47.244);
         Fpdf::SetY(109.654);
-        Fpdf::SetFontSize(24);
+        Fpdf::SetFontSize(26);
         Fpdf:: SetTextColor(8,68,130);
         Fpdf::MultiCell(0 , 8.604, "Development Training)", 0,  "L"); //true)
 
@@ -237,16 +237,32 @@ class DataController extends Controller
         Fpdf::SetY(124.654);
         Fpdf::SetFontSize(12);
         Fpdf:: SetTextColor(0,0,0);
-        Fpdf::Cell(0 , 6.604, "with $grade on 9th September, 2019", 0, 1, "L"); //true)
+        Fpdf::Cell(0 , 6.604, "with a score grade of:", 0, 1, "L"); //true)
+
+        Fpdf::SetFont('lato', 'b');
+        Fpdf::SetX(47.244);
+        Fpdf::SetY(139.654);
+        Fpdf::SetFontSize(15);
+        Fpdf:: SetTextColor(8,68,130);
+        Fpdf::Cell(0 , 6.604, strtoupper($grade), 0, 1, "L"); //true)
+
+        Fpdf::SetFont('roboto', '');
+        Fpdf::SetX(47.244);
+        Fpdf::SetY(154.654);
+        Fpdf::SetFontSize(12);
+        Fpdf:: SetTextColor(0,0,0);
+        Fpdf::Cell(0 , 6.604, "on 9th September, 2019", 0, 1, "L"); //true)
+
+
         //Seal Image goes here
         Fpdf::Image('images/seal.png',200, 49.926, 59.434, 72.926);
-        Fpdf::Image('images/hng.png',12, 196,10, 9);
-        Fpdf::Image('images/hotels.png',32, 195, 30, 11);
-        Fpdf::Image('images/ondo.png',72, 197, 25, 9);
-        Fpdf::Image('images/flutterwave.png',107, 197, 35, 9);
-        Fpdf::Image('images/chatdesk.png',152, 196, 35, 8);
-        Fpdf::Image('images/ekiti.jpg',197, 196, 11, 8);
-        Fpdf::Image('images/imo.jpg',218, 196, 11, 8);
+        Fpdf::Image('images/hng.png',12, 190,13, 11);
+        Fpdf::Image('images/hotels.png',32, 190, 35, 11);
+        Fpdf::Image('images/ondo.png',74, 190, 22, 13);
+        Fpdf::Image('images/flutterwave.png',103, 191, 60, 10);
+        Fpdf::Image('images/chatdesk.png',170, 190, 50, 10);
+        Fpdf::Image('images/ekiti.jpg',227, 190, 12, 10);
+        Fpdf::Image('images/imo.jpg',246, 190, 12, 10);
         // Fpdf::SetFont('Times', '');
         // Fpdf::SetX(47.244);
         // Fpdf::SetY(173.654);
@@ -259,11 +275,11 @@ class DataController extends Controller
         // Fpdf::SetFontSize(12);
         // Fpdf:: SetTextColor(0,0,0);
         // Fpdf::Cell(0 , 6.604, "CEO, HNG Internship", 0, 1, "L"); //true)
-        Fpdf::SetFont('roboto', '');
+        Fpdf::SetFont('roboto', 'b');
         Fpdf::SetX(47.244);
-        Fpdf::SetY(181.654);
-        Fpdf::SetFontSize(12);
-        Fpdf:: SetTextColor(0,0,0);
+        Fpdf::SetY(177.654);
+        Fpdf::SetFontSize(15);
+        Fpdf:: SetTextColor(8,68,130);
         Fpdf::Cell(0 , 7.604, "Supported By:", 0, 1, "L"); //true)
         Fpdf::output();
 
