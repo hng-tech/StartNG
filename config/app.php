@@ -165,7 +165,7 @@ return [
         /*
          * Package Service Providers...
          */
-        Anouar\Fpdf\FpdfServiceProvider::class,
+
 
         /*
          * Application Service Providers...
@@ -175,6 +175,7 @@ return [
         // App\Providers\BroadcastServiceProvider::class,
         App\Providers\EventServiceProvider::class,
         App\Providers\RouteServiceProvider::class,
+        Anouar\Fpdf\FpdfServiceProvider::class,
         // Barryvdh\DomPDF\ServiceProvider::class,
 
     ],
