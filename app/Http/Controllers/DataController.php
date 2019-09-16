@@ -8,6 +8,7 @@ use Spatie\Browsershot\Browsershot;
 use SnappyImage;
 use PDF;
 use Fpdf;
+define('FPDF_FONTPATH', public_path('fonts'));
 
 class DataController extends Controller
 {
@@ -82,7 +83,6 @@ class DataController extends Controller
 
         // $fpdf = new Fpdf();
         Fpdf::AddPage('L','A4');
-
         // Fpdf::MakeFont('fonts/Lato-Regular.ttf');
         Fpdf::AddFont('lato','','Lato-Regular.php');
         Fpdf::AddFont('lato','B','Lato-Bold.php');

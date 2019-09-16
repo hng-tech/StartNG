@@ -175,6 +175,7 @@ return [
         // App\Providers\BroadcastServiceProvider::class,
         App\Providers\EventServiceProvider::class,
         App\Providers\RouteServiceProvider::class,
+        Codedge\Fpdf\FpdfServiceProvider::class,
         Anouar\Fpdf\FpdfServiceProvider::class,
         // Barryvdh\DomPDF\ServiceProvider::class,
 
@@ -208,7 +209,8 @@ return [
         'Eloquent' => Illuminate\Database\Eloquent\Model::class,
         'Event' => Illuminate\Support\Facades\Event::class,
         'File' => Illuminate\Support\Facades\File::class,
-        'Fpdf' => Anouar\Fpdf\Facades\Fpdf::class,
+        'Fpdf' => Codedge\Fpdf\Facades\Fpdf::class,
+        'Pdf' => Anouar\Fpdf\Facades\Fpdf::class,
         'Gate' => Illuminate\Support\Facades\Gate::class,
         'Hash' => Illuminate\Support\Facades\Hash::class,
         'Lang' => Illuminate\Support\Facades\Lang::class,
