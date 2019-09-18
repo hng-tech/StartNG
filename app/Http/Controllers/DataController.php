@@ -76,10 +76,12 @@ class DataController extends Controller
         }
 
 
+        if (isset($obj["verify_id"])) {
+            $name = strtoupper($obj['name']);
+            $link = 'start.ng/verify/'. $obj['verify_id'];
+            $grade = strtoupper($obj['grade']);
+        }
 
-        $name = strtoupper($obj['name']);
-        $link = 'start.ng/verify/'. $obj['verify_id'];
-        $grade = strtoupper($obj['grade']);
 
         // $fpdf = new Fpdf();
         Fpdf::AddPage('L','A4');
