@@ -202,11 +202,11 @@
         "task1": 17,
         "task2": 15,
         "task3": 16,
-        "task4": 0,
+        "task4": 18,
         "task5": 0,
         "slug": "anthony-olasinde-shn00015",
-        "score": 48,
-        "grade": "Pass",
+        "score": 66,
+        "grade": "Upper Credit",
         "verify_id": "33BFS"
     },
     {
@@ -412,11 +412,11 @@
         "task1": 13,
         "task2": 17,
         "task3": 16,
-        "task4": 0,
+        "task4": 16,
         "task5": 0,
         "slug": "solomon-akanni-shn00032",
-        "score": 46,
-        "grade": "Pass",
+        "score": 62,
+        "grade": "Credit",
         "verify_id": "50H20V"
     },
     {
@@ -426,11 +426,11 @@
         "task1": 13,
         "task2": 17,
         "task3": 19,
-        "task4": 0,
+        "task4": 14,
         "task5": 0,
         "slug": "daniel-oladimeji-shn00034",
-        "score": 49,
-        "grade": "Pass",
+        "score": 63,
+        "grade": "Credit",
         "verify_id": "16N22Z"
     },
     {
@@ -538,11 +538,11 @@
         "task1": 13,
         "task2": 15,
         "task3": 19,
-        "task4": 0,
+        "task4": 8,
         "task5": 0,
         "slug": "adeola-olumide-oni-shn00044",
-        "score": 47,
-        "grade": "Pass",
+        "score": 55,
+        "grade": "Credit",
         "verify_id": "48R2CV"
     },
     {
@@ -594,10 +594,10 @@
         "task1": 20,
         "task2": 20,
         "task3": 17,
-        "task4": 0,
+        "task4": 6,
         "task5": 0,
         "slug": "ibrahim-gana-shn00048",
-        "score": 57,
+        "score": 63,
         "grade": "Credit",
         "verify_id": "34D30R"
     },
@@ -654,7 +654,8 @@
         "task5": 0,
         "slug": "jimoh-waliyullah-shn00053",
         "score": 37,
-        "grade": "Fail"
+        "grade": "Fail",
+        "verify_id": null
     },
     {
         "code": "shn00054",
@@ -1087,7 +1088,8 @@
         "task5": 0,
         "slug": "eze-thankgod-ugochukwu-shn00088",
         "score": 48,
-        "grade": "Pass"
+        "grade": "Pass",
+        "verify_id": null
     },
     {
         "code": "shn00089",
@@ -1208,10 +1210,10 @@
         "task1": 17,
         "task2": 20,
         "task3": 18,
-        "task4": 0,
+        "task4": 6,
         "task5": 0,
         "slug": "idowu-adewunmi-emmanuel-shn00099",
-        "score": 55,
+        "score": 61,
         "grade": "Credit",
         "verify_id": "77E63H"
     },
@@ -1222,11 +1224,11 @@
         "task1": 17,
         "task2": 17,
         "task3": 18,
-        "task4": 0,
+        "task4": 17,
         "task5": 0,
         "slug": "rita-anierobi-shn00110",
-        "score": 52,
-        "grade": "Credit",
+        "score": 69,
+        "grade": "Upper Credit",
         "verify_id": "25C6ED"
     },
     {
@@ -1268,7 +1270,8 @@
         "task5": 0,
         "slug": "bright-robert-shn00115",
         "score": 15,
-        "grade": "Fail"
+        "grade": "Fail",
+        "verify_id": null
     },
     {
         "code": "shn00116",
@@ -1277,10 +1280,10 @@
         "task1": 16,
         "task2": 18,
         "task3": 18,
-        "task4": 0,
+        "task4": 5,
         "task5": 0,
         "slug": "abel-joseph-ufot-shn00116",
-        "score": 52,
+        "score": 57,
         "grade": "Credit",
         "verify_id": "22C74E"
     },
@@ -1291,11 +1294,11 @@
         "task1": 16,
         "task2": 18,
         "task3": 17,
-        "task4": 0,
+        "task4": 16,
         "task5": 0,
         "slug": "sooter-saalu-shn00117",
-        "score": 51,
-        "grade": "Credit",
+        "score": 67,
+        "grade": "Upper Credit",
         "verify_id": "20J75V"
     },
     {
@@ -1501,11 +1504,11 @@
         "task1": 14,
         "task2": 18,
         "task3": 15,
-        "task4": 0,
+        "task4": 10,
         "task5": 0,
         "slug": "ayuba-abdullahi-jr-shn00136",
-        "score": 47,
-        "grade": "Pass",
+        "score": 57,
+        "grade": "Credit",
         "verify_id": "52T88X"
     },
     {
@@ -1641,11 +1644,11 @@
         "task1": 17,
         "task2": 17,
         "task3": 16,
-        "task4": 0,
+        "task4": 5,
         "task5": 0,
         "slug": "nwosu-nonso-michael-shn00148",
-        "score": 50,
-        "grade": "Pass",
+        "score": 55,
+        "grade": "Credit",
         "verify_id": "52A94J"
     },
     {
@@ -1725,11 +1728,11 @@
         "task1": 17,
         "task2": 18,
         "task3": 14,
-        "task4": 0,
+        "task4": 2,
         "task5": 0,
         "slug": "popoola-daniel-shn00154",
-        "score": 49,
-        "grade": "Pass",
+        "score": 51,
+        "grade": "Credit",
         "verify_id": "83E9AS"
     },
     {
@@ -1907,11 +1910,11 @@
         "task1": 18,
         "task2": 15,
         "task3": 17,
-        "task4": 0,
+        "task4": 6,
         "task5": 0,
         "slug": "fadoju-oluwaseyi-anuoluwapo-shn00167",
-        "score": 50,
-        "grade": "Pass",
+        "score": 56,
+        "grade": "Credit",
         "verify_id": "22HA7V"
     },
     {
@@ -1981,7 +1984,8 @@
         "task5": 0,
         "slug": "jerry-aaron-agbo-shn00173",
         "score": 55,
-        "grade": "Credit"
+        "grade": "Credit",
+        "verify_id": null
     },
     {
         "code": "shn00174",
@@ -2087,11 +2091,11 @@
         "task1": 13,
         "task2": 18,
         "task3": 18,
-        "task4": 0,
+        "task4": 18,
         "task5": 0,
         "slug": "agharaye-emmanuel-shn00181",
-        "score": 49,
-        "grade": "Pass",
+        "score": 67,
+        "grade": "Upper Credit",
         "verify_id": "17AB5W"
     },
     {
@@ -2100,11 +2104,11 @@
         "username": "chrisungarro",
         "task1": 15,
         "task2": 17,
+        "task4": 6,
         "task3": 0,
-        "task4": 0,
         "task5": 0,
         "slug": "manasseh-christopher-bassey-shn00182",
-        "score": 32,
+        "score": 38,
         "grade": "Fail",
         "verify_id": "63AB6Y"
     },
@@ -2157,10 +2161,10 @@
         "task1": 18,
         "task2": 18,
         "task3": 16,
-        "task4": 0,
+        "task4": 4,
         "task5": 0,
         "slug": "calvin-ebun-amu-shn00186",
-        "score": 52,
+        "score": 56,
         "grade": "Credit",
         "verify_id": "46FBAV"
     },
@@ -2171,10 +2175,10 @@
         "task1": 20,
         "task2": 17,
         "task3": 17,
-        "task4": 0,
+        "task4": 6,
         "task5": 0,
         "slug": "ojo-ahmed-adedoyin-shn00187",
-        "score": 54,
+        "score": 60,
         "grade": "Credit",
         "verify_id": "46PBBT"
     },
@@ -2227,10 +2231,10 @@
         "task1": 17,
         "task2": 17,
         "task3": 18,
-        "task4": 0,
+        "task4": 6,
         "task5": 0,
         "slug": "peter-james-shn00191",
-        "score": 52,
+        "score": 58,
         "grade": "Credit",
         "verify_id": "45BBFY"
     },
@@ -2241,11 +2245,11 @@
         "task1": 10,
         "task2": 13,
         "task3": 19,
-        "task4": 0,
+        "task4": 19,
         "task5": 0,
         "slug": "adedapo-taiwo-adeyemi-shn00192",
-        "score": 42,
-        "grade": "Pass",
+        "score": 61,
+        "grade": "Credit",
         "verify_id": "86FC0T"
     },
     {
@@ -2381,11 +2385,11 @@
         "task1": 20,
         "task2": 20,
         "task3": 15,
-        "task4": 0,
+        "task4": 14,
         "task5": 0,
         "slug": "taiwo-ibukunoluwa-ajiboye-shn00207",
-        "score": 55,
-        "grade": "Credit",
+        "score": 69,
+        "grade": "Upper Credit",
         "verify_id": "84NCFP"
     },
     {
@@ -2455,7 +2459,8 @@
         "task5": 0,
         "slug": "ogunpitan-oladipo-shn00213",
         "score": 14,
-        "grade": "Fail"
+        "grade": "Fail",
+        "verify_id": null
     },
     {
         "code": "shn00214",
@@ -2464,10 +2469,10 @@
         "task1": 17,
         "task2": 17,
         "task3": 17,
-        "task4": 0,
+        "task4": 14,
         "task5": 0,
         "slug": "olajire-oladunni-olawunmi-shn00214",
-        "score": 51,
+        "score": 65,
         "grade": "Credit",
         "verify_id": "76XD6Z"
     },
@@ -2520,11 +2525,11 @@
         "task1": 10,
         "task2": 17,
         "task3": 12,
-        "task4": 0,
+        "task4": 5,
         "task5": 0,
         "slug": "oluwaseun-iyadi-shn00218",
-        "score": 39,
-        "grade": "Fail",
+        "score": 44,
+        "grade": "Pass",
         "verify_id": "27BDAP"
     },
     {
@@ -2538,7 +2543,8 @@
         "task5": 0,
         "slug": "gideon-idam-shn00219",
         "score": 17,
-        "grade": "Fail"
+        "grade": "Fail",
+        "verify_id": null
     },
     {
         "code": "shn00220",
@@ -2551,7 +2557,8 @@
         "task5": 0,
         "slug": "richard-kalu-shn00220",
         "score": 31,
-        "grade": "Fail"
+        "grade": "Fail",
+        "verify_id": null
     },
     {
         "code": "shn00221",
@@ -2756,10 +2763,10 @@
         "task1": 18,
         "task2": 18,
         "task3": 19,
-        "task4": 0,
+        "task4": 8,
         "task5": 0,
         "slug": "josh-obinna-shn00236",
-        "score": 55,
+        "score": 63,
         "grade": "Credit",
         "verify_id": "85MECV"
     },
@@ -2770,11 +2777,11 @@
         "task1": 15,
         "task2": 17,
         "task3": 19,
-        "task4": 0,
+        "task4": 18,
         "task5": 0,
         "slug": "james-chima-shn00237",
-        "score": 51,
-        "grade": "Credit",
+        "score": 69,
+        "grade": "Upper Credit",
         "verify_id": "18DEDK"
     },
     {
@@ -2784,11 +2791,11 @@
         "task1": 20,
         "task2": 16,
         "task3": 19,
-        "task4": 0,
+        "task4": 12,
         "task5": 0,
         "slug": "kamar-folarin-shn00238",
-        "score": 55,
-        "grade": "Credit",
+        "score": 67,
+        "grade": "Upper Credit",
         "verify_id": "14HEER"
     },
     {
@@ -2812,11 +2819,11 @@
         "task1": 18,
         "task2": 18,
         "task3": 19,
-        "task4": 0,
+        "task4": 14,
         "task5": 0,
         "slug": "adeniyi-bella-shn00240",
-        "score": 55,
-        "grade": "Credit",
+        "score": 69,
+        "grade": "Upper Credit",
         "verify_id": "34AF0R"
     },
     {
@@ -2826,11 +2833,11 @@
         "task1": 20,
         "task2": 17,
         "task3": 17,
-        "task4": 0,
+        "task4": 15,
         "task5": 0,
         "slug": "iwuji-bethel-chinemere-shn00241",
-        "score": 54,
-        "grade": "Credit",
+        "score": 69,
+        "grade": "Upper Credit",
         "verify_id": "95RF1S"
     },
     {
@@ -3078,11 +3085,11 @@
         "task1": 17,
         "task2": 17,
         "task3": 17,
-        "task4": 0,
+        "task4": 16,
         "task5": 0,
         "slug": "dahunsi-akinleye-shn00259",
-        "score": 51,
-        "grade": "Credit",
+        "score": 67,
+        "grade": "Upper Credit",
         "verify_id": "40G103N"
     },
     {
@@ -3166,7 +3173,8 @@
         "task5": 0,
         "slug": "olasumbo-shn00266",
         "score": 18,
-        "grade": "Fail"
+        "grade": "Fail",
+        "verify_id": null
     },
     {
         "code": "shn00267",
@@ -3287,11 +3295,11 @@
         "task1": 18,
         "task2": 15,
         "task3": 17,
-        "task4": 20,
+        "task4": 6,
         "task5": 0,
         "slug": "seidu-rufai-shn00275",
-        "score": 70,
-        "grade": "Upper Credit",
+        "score": 56,
+        "grade": "Credit",
         "verify_id": "45X113Y"
     },
     {
@@ -3315,11 +3323,11 @@
         "task1": 14,
         "task2": 17,
         "task3": 17,
-        "task4": 0,
+        "task4": 14,
         "task5": 0,
         "slug": "emmanuel-jolaiya-shn00277",
-        "score": 48,
-        "grade": "Pass",
+        "score": 62,
+        "grade": "Credit",
         "verify_id": "12G115V"
     },
     {
@@ -3329,10 +3337,10 @@
         "task1": 14,
         "task2": 14,
         "task3": 14,
-        "task4": 0,
+        "task4": 2,
         "task5": 0,
         "slug": "aderibigbe-moshood-adeniyi-shn00278",
-        "score": 42,
+        "score": 44,
         "grade": "Pass",
         "verify_id": "15G116Q"
     },
@@ -3455,10 +3463,10 @@
         "task1": 17,
         "task2": 17,
         "task3": 18,
-        "task4": 0,
+        "task4": 6,
         "task5": 0,
         "slug": "feyisayo-oredein-shn00292",
-        "score": 52,
+        "score": 58,
         "grade": "Credit",
         "verify_id": "76F124M"
     },
@@ -3483,11 +3491,11 @@
         "task1": 18,
         "task2": 18,
         "task3": 19,
-        "task4": 0,
+        "task4": 14,
         "task5": 0,
         "slug": "amanam-israel-akpan-shn00294",
-        "score": 55,
-        "grade": "Credit",
+        "score": 69,
+        "grade": "Upper Credit",
         "verify_id": "14Q126X"
     },
     {
@@ -3706,12 +3714,12 @@
         "username": "Oluwasegun Seriki",
         "task1": 17,
         "task2": 16,
+        "task4": 14,
         "task3": 0,
-        "task4": 0,
         "task5": 0,
         "slug": "oluwasegun-seriki-shn00320",
-        "score": 33,
-        "grade": "Fail",
+        "score": 47,
+        "grade": "Pass",
         "verify_id": "81C140R"
     },
     {
@@ -3819,11 +3827,11 @@
         "task1": 20,
         "task2": 17,
         "task3": 19,
-        "task4": 0,
+        "task4": 14,
         "task5": 0,
         "slug": "abdulazeez-gbindinninuola-shn00329",
-        "score": 56,
-        "grade": "Credit",
+        "score": 70,
+        "grade": "Upper Credit",
         "verify_id": "51E149L"
     },
     {
@@ -3889,11 +3897,11 @@
         "task1": 19,
         "task2": 19,
         "task3": 17,
-        "task4": 0,
+        "task4": 16,
         "task5": 0,
         "slug": "olayemi-damilola-emmanuel-shn00335",
-        "score": 55,
-        "grade": "Credit",
+        "score": 71,
+        "grade": "Upper Credit",
         "verify_id": "92A14FY"
     },
     {
@@ -3902,12 +3910,12 @@
         "username": "Bisola",
         "task1": 15,
         "task2": 16,
+        "task4": 16,
         "task3": 0,
-        "task4": 0,
         "task5": 0,
         "slug": "bisola-adediran-shn00336",
-        "score": 31,
-        "grade": "Fail",
+        "score": 47,
+        "grade": "Pass",
         "verify_id": "17E150L"
     },
     {
@@ -3931,11 +3939,11 @@
         "task1": 20,
         "task2": 15,
         "task3": 19,
-        "task4": 0,
+        "task4": 17,
         "task5": 0,
         "slug": "akuagwu-philemon-shn00338",
-        "score": 54,
-        "grade": "Credit",
+        "score": 71,
+        "grade": "Upper Credit",
         "verify_id": "31C152Q"
     },
     {
@@ -3987,10 +3995,10 @@
         "task1": 18,
         "task2": 18,
         "task3": 18,
-        "task4": 0,
+        "task4": 10,
         "task5": 0,
         "slug": "macaulay-micheal-shn00342",
-        "score": 54,
+        "score": 64,
         "grade": "Credit",
         "verify_id": "70C156Z"
     },
@@ -4295,11 +4303,11 @@
         "task1": 15,
         "task2": 17,
         "task3": 18,
-        "task4": 0,
+        "task4": 5,
         "task5": 0,
         "slug": "iloanya-obianuju-blessing-shn00368",
-        "score": 50,
-        "grade": "Pass",
+        "score": 55,
+        "grade": "Credit",
         "verify_id": "81E170R"
     },
     {
@@ -4379,11 +4387,11 @@
         "task1": 17,
         "task2": 18,
         "task3": 15,
-        "task4": 0,
+        "task4": 14,
         "task5": 0,
         "slug": "abdulrahman-mohammed-shn00375",
-        "score": 50,
-        "grade": "Pass",
+        "score": 64,
+        "grade": "Credit",
         "verify_id": "78R177Z"
     },
     {
@@ -4547,11 +4555,11 @@
         "task1": 17,
         "task2": 18,
         "task3": 15,
-        "task4": 0,
+        "task4": 14,
         "task5": 0,
         "slug": "badmus-akeem-adedayo-shn00394",
-        "score": 50,
-        "grade": "Pass",
+        "score": 64,
+        "grade": "Credit",
         "verify_id": "47B18AN"
     },
     {
@@ -4561,11 +4569,11 @@
         "task1": 16,
         "task2": 18,
         "task3": 15,
-        "task4": 0,
+        "task4": 10,
         "task5": 0,
         "slug": "obinna-alajemba-shn00395",
-        "score": 49,
-        "grade": "Pass",
+        "score": 59,
+        "grade": "Credit",
         "verify_id": "38D18BS"
     },
     {
@@ -4659,11 +4667,11 @@
         "task1": 17,
         "task2": 18,
         "task3": 15,
-        "task4": 0,
+        "task4": 16,
         "task5": 0,
         "slug": "chukwuebuka-anyadiegwu-shn00405",
-        "score": 50,
-        "grade": "Pass",
+        "score": 66,
+        "grade": "Upper Credit",
         "verify_id": "68G195W"
     },
     {
@@ -4672,12 +4680,12 @@
         "username": "emjayekanem",
         "task1": 17,
         "task2": 18,
+        "task4": 6,
         "task3": 0,
-        "task4": 0,
         "task5": 0,
         "slug": "emmanuel-ekanem-shn00406",
-        "score": 35,
-        "grade": "Fail",
+        "score": 41,
+        "grade": "Pass",
         "verify_id": "28E196L"
     },
     {
@@ -4831,7 +4839,8 @@
         "task5": 0,
         "slug": "haruna-george-adejoh-shn00419",
         "score": 13,
-        "grade": "Fail"
+        "grade": "Fail",
+        "verify_id": null
     },
     {
         "code": "shn00422",
@@ -4980,10 +4989,10 @@
         "task1": 17,
         "task2": 17,
         "task3": 19,
-        "task4": 0,
+        "task4": 12,
         "task5": 0,
         "slug": "moyib-ayomide-adetola-shn00434",
-        "score": 53,
+        "score": 65,
         "grade": "Credit",
         "verify_id": "78F1B2T"
     },
@@ -5148,10 +5157,10 @@
         "task1": 17,
         "task2": 18,
         "task3": 19,
-        "task4": 0,
+        "task4": 11,
         "task5": 0,
         "slug": "omikunle-okiki-joshua-shn00448",
-        "score": 54,
+        "score": 65,
         "grade": "Credit",
         "verify_id": "98N1C0Z"
     },
@@ -5232,10 +5241,10 @@
         "task1": 17,
         "task2": 16,
         "task3": 19,
-        "task4": 0,
+        "task4": 12,
         "task5": 0,
         "slug": "okenwa-chimaobi-franklyn-shn00455",
-        "score": 52,
+        "score": 64,
         "grade": "Credit",
         "verify_id": "41L1C7X"
     },
@@ -5302,11 +5311,11 @@
         "task1": 17,
         "task2": 16,
         "task3": 15,
-        "task4": 0,
+        "task4": 16,
         "task5": 0,
         "slug": "lasisi-salmah-shn00462",
-        "score": 48,
-        "grade": "Pass",
+        "score": 64,
+        "grade": "Credit",
         "verify_id": "98C1CEG"
     },
     {
@@ -5330,11 +5339,11 @@
         "task1": 13,
         "task2": 13,
         "task3": 15,
-        "task4": 0,
+        "task4": 14,
         "task5": 0,
         "slug": "ayinde-khairat-shn00465",
-        "score": 41,
-        "grade": "Pass",
+        "score": 55,
+        "grade": "Credit",
         "verify_id": "63B1D1H"
     },
     {
@@ -5498,11 +5507,11 @@
         "task1": 16,
         "task2": 18,
         "task3": 16,
-        "task4": 0,
+        "task4": 16,
         "task5": 0,
         "slug": "usman-sakirat-kehinde-shn00482",
-        "score": 50,
-        "grade": "Pass",
+        "score": 66,
+        "grade": "Upper Credit",
         "verify_id": "37Q1E2V"
     },
     {
@@ -5568,11 +5577,11 @@
         "task1": 17,
         "task2": 17,
         "task3": 15,
-        "task4": 0,
+        "task4": 14,
         "task5": 0,
         "slug": "ayobami-oguntolu-shn00487",
-        "score": 49,
-        "grade": "Pass",
+        "score": 63,
+        "grade": "Credit",
         "verify_id": "35E1E7N"
     },
     {
@@ -5610,10 +5619,10 @@
         "task1": 17,
         "task2": 18,
         "task3": 18,
-        "task4": 0,
+        "task4": 3,
         "task5": 0,
         "slug": "jenniline-ebai-shn00491",
-        "score": 53,
+        "score": 56,
         "grade": "Credit",
         "verify_id": "45N1EBT"
     },
@@ -5904,10 +5913,10 @@
         "task1": 17,
         "task2": 12,
         "task3": 15,
-        "task4": 0,
+        "task4": 3,
         "task5": 0,
         "slug": "idris-hassan-shn00519",
-        "score": 44,
+        "score": 47,
         "grade": "Pass",
         "verify_id": "57D207U"
     },
@@ -6072,10 +6081,10 @@
         "task1": 17,
         "task2": 19,
         "task3": 17,
-        "task4": 0,
+        "task4": 6,
         "task5": 0,
         "slug": "odii-victor-chetachukwu-shn00536",
-        "score": 53,
+        "score": 59,
         "grade": "Credit",
         "verify_id": "34K218Z"
     },
@@ -6184,10 +6193,10 @@
         "task1": 20,
         "task2": 19,
         "task3": 18,
-        "task4": 0,
+        "task4": 5,
         "task5": 0,
         "slug": "ayoola-ayomide-abraham-shn00545",
-        "score": 57,
+        "score": 62,
         "grade": "Credit",
         "verify_id": "43A221Z"
     },
@@ -6226,11 +6235,11 @@
         "task1": 17,
         "task2": 18,
         "task3": 15,
-        "task4": 0,
+        "task4": 10,
         "task5": 0,
         "slug": "deborah-ajayi-shn00548",
-        "score": 50,
-        "grade": "Pass",
+        "score": 60,
+        "grade": "Credit",
         "verify_id": "94G224R"
     },
     {
@@ -6282,10 +6291,10 @@
         "task1": 17,
         "task2": 20,
         "task3": 15,
-        "task4": 0,
+        "task4": 10,
         "task5": 0,
         "slug": "olasumbo-afolabi-shn00552",
-        "score": 52,
+        "score": 62,
         "grade": "Credit",
         "verify_id": "86F228V"
     },
@@ -6748,7 +6757,8 @@
         "task5": 0,
         "slug": "daniel-oluwatishe-oshinaike-shn00592",
         "score": 16,
-        "grade": "Fail"
+        "grade": "Fail",
+        "verify_id": null
     },
     {
         "code": "shn00593",
@@ -6784,12 +6794,12 @@
         "username": "@Ebere Uzodufa",
         "task1": 18,
         "task2": 19,
+        "task4": 16,
         "task3": 0,
-        "task4": 0,
         "task5": 0,
         "slug": "ebere-uzodufa-shn00596",
-        "score": 37,
-        "grade": "Fail",
+        "score": 53,
+        "grade": "Credit",
         "verify_id": "57C254F"
     },
     {
@@ -6869,11 +6879,11 @@
         "task1": 16,
         "task2": 19,
         "task3": 15,
-        "task4": 0,
+        "task4": 10,
         "task5": 0,
         "slug": "ibrahim-umar-shn00603",
-        "score": 50,
-        "grade": "Pass",
+        "score": 60,
+        "grade": "Credit",
         "verify_id": "33A25BT"
     },
     {
@@ -6939,11 +6949,11 @@
         "task1": 15,
         "task2": 15,
         "task3": 15,
-        "task4": 0,
+        "task4": 14,
         "task5": 0,
         "slug": "naomi-ebong-shn00609",
-        "score": 45,
-        "grade": "Pass",
+        "score": 59,
+        "grade": "Credit",
         "verify_id": "81M261Z"
     },
     {
@@ -6967,11 +6977,11 @@
         "task1": 18,
         "task2": 17,
         "task3": 19,
-        "task4": 0,
+        "task4": 17,
         "task5": 0,
         "slug": "victoria-ajise-shn00611",
-        "score": 54,
-        "grade": "Credit",
+        "score": 71,
+        "grade": "Upper Credit",
         "verify_id": "27A263G"
     },
     {
@@ -7037,11 +7047,11 @@
         "task1": 18,
         "task2": 17,
         "task3": 14,
-        "task4": 0,
+        "task4": 18,
         "task5": 0,
         "slug": "emmanuel-oreoluwa-shn00616",
-        "score": 49,
-        "grade": "Pass",
+        "score": 67,
+        "grade": "Upper Credit",
         "verify_id": "47A268H"
     },
     {
@@ -7065,11 +7075,11 @@
         "task1": 15,
         "task2": 18,
         "task3": 15,
-        "task4": 0,
+        "task4": 14,
         "task5": 0,
         "slug": "david-e-marshal-shn00618",
-        "score": 48,
-        "grade": "Pass",
+        "score": 62,
+        "grade": "Credit",
         "verify_id": "28S26AZ"
     },
     {
@@ -7149,11 +7159,11 @@
         "task1": 17,
         "task2": 18,
         "task3": 15,
-        "task4": 0,
+        "task4": 15,
         "task5": 0,
         "slug": "nabilah-usman-shn00625",
-        "score": 50,
-        "grade": "Pass",
+        "score": 65,
+        "grade": "Credit",
         "verify_id": "83J271Q"
     },
     {
@@ -7219,11 +7229,11 @@
         "task1": 12,
         "task2": 17,
         "task3": 19,
-        "task4": 0,
+        "task4": 14,
         "task5": 0,
         "slug": "beatrice-ebirim-shn00630",
-        "score": 48,
-        "grade": "Pass",
+        "score": 62,
+        "grade": "Credit",
         "verify_id": "85W276Z"
     },
     {
@@ -7387,11 +7397,11 @@
         "task1": 18,
         "task2": 16,
         "task3": 19,
-        "task4": 0,
+        "task4": 16,
         "task5": 0,
         "slug": "amadi-onengiye-williams-shn00645",
-        "score": 53,
-        "grade": "Credit",
+        "score": 69,
+        "grade": "Upper Credit",
         "verify_id": "67C285F"
     },
     {
@@ -7414,12 +7424,12 @@
         "username": "Emi",
         "task1": 15,
         "task2": 17,
+        "task4": 14,
         "task3": 0,
-        "task4": 0,
         "task5": 0,
         "slug": "opaluwa-emidowo-ojo-shn00647",
-        "score": 32,
-        "grade": "Fail",
+        "score": 46,
+        "grade": "Pass",
         "verify_id": "65A287C"
     },
     {
@@ -7639,11 +7649,11 @@
         "task1": 18,
         "task2": 14,
         "task3": 17,
-        "task4": 0,
+        "task4": 12,
         "task5": 0,
         "slug": "salawu-abdulmalik-adewale-shn00667",
-        "score": 49,
-        "grade": "Pass",
+        "score": 61,
+        "grade": "Credit",
         "verify_id": "36E29BR"
     },
     {
@@ -7751,11 +7761,11 @@
         "task1": 15,
         "task2": 16,
         "task3": 18,
-        "task4": 0,
+        "task4": 5,
         "task5": 0,
         "slug": "saratu-muazu-bello-shn00676",
-        "score": 49,
-        "grade": "Pass",
+        "score": 54,
+        "grade": "Credit",
         "verify_id": "78F2A4G"
     },
     {
@@ -7779,11 +7789,11 @@
         "task1": 16,
         "task2": 13,
         "task3": 15,
-        "task4": 0,
+        "task4": 14,
         "task5": 0,
         "slug": "tochukwu-uzoho-shn00678",
-        "score": 44,
-        "grade": "Pass",
+        "score": 58,
+        "grade": "Credit",
         "verify_id": "67S2A6T"
     },
     {
@@ -7793,11 +7803,11 @@
         "task1": 18,
         "task2": 16,
         "task3": 18,
-        "task4": 0,
+        "task4": 16,
         "task5": 0,
         "slug": "mathilda-imadojiemu-shn00680",
-        "score": 52,
-        "grade": "Credit",
+        "score": 68,
+        "grade": "Upper Credit",
         "verify_id": "56C2A8N"
     },
     {
@@ -7891,11 +7901,11 @@
         "task1": 18,
         "task2": 18,
         "task3": 15,
-        "task4": 0,
+        "task4": 16,
         "task5": 0,
         "slug": "chukwuma-valentine-onwujiuba-shn00689",
-        "score": 51,
-        "grade": "Credit",
+        "score": 67,
+        "grade": "Upper Credit",
         "verify_id": "97C2B1Q"
     },
     {
@@ -7975,11 +7985,11 @@
         "task1": 13,
         "task2": 18,
         "task3": 15,
-        "task4": 0,
+        "task4": 14,
         "task5": 0,
         "slug": "chisom-mbama-shn00696",
-        "score": 46,
-        "grade": "Pass",
+        "score": 60,
+        "grade": "Credit",
         "verify_id": "98R2B8W"
     },
     {
@@ -8031,11 +8041,11 @@
         "task1": 16,
         "task2": 17,
         "task3": 17,
-        "task4": 0,
+        "task4": 14,
         "task5": 0,
         "slug": "oluwaseyi-ogunjuyigbe-shn00701",
-        "score": 50,
-        "grade": "Pass",
+        "score": 64,
+        "grade": "Credit",
         "verify_id": "50E2BDX"
     },
     {
@@ -8045,10 +8055,10 @@
         "task1": 17,
         "task2": 18,
         "task3": 17,
-        "task4": 0,
+        "task4": 6,
         "task5": 0,
         "slug": "onu-chukwuma-shn00702",
-        "score": 52,
+        "score": 58,
         "grade": "Credit",
         "verify_id": "53R2BES"
     },
@@ -8091,7 +8101,8 @@
         "task5": 0,
         "slug": "olajesu-adelugba-shn00705",
         "score": 16,
-        "grade": "Fail"
+        "grade": "Fail",
+        "verify_id": null
     },
     {
         "code": "shn00706",
@@ -8170,11 +8181,11 @@
         "task1": 17,
         "task2": 20,
         "task3": 15,
-        "task4": 0,
+        "task4": 14,
         "task5": 0,
         "slug": "saudat-salawudeen-shn00712",
-        "score": 52,
-        "grade": "Credit",
+        "score": 66,
+        "grade": "Upper Credit",
         "verify_id": "35E2C8T"
     },
     {
@@ -8184,11 +8195,11 @@
         "task1": 17,
         "task2": 18,
         "task3": 19,
-        "task4": 0,
+        "task4": 16,
         "task5": 0,
         "slug": "theresa-nnenna-anyadike-shn00713",
-        "score": 54,
-        "grade": "Credit",
+        "score": 70,
+        "grade": "Upper Credit",
         "verify_id": "27L2C9N"
     },
     {
@@ -8230,7 +8241,8 @@
         "task5": 0,
         "slug": "obiako-obinna-jason-shn00717",
         "score": 16,
-        "grade": "Fail"
+        "grade": "Fail",
+        "verify_id": null
     },
     {
         "code": "shn00718",
@@ -8351,11 +8363,11 @@
         "task1": 18,
         "task2": 17,
         "task3": 15,
-        "task4": 0,
+        "task4": 14,
         "task5": 0,
         "slug": "chimdi-nzenwa-shn00729",
-        "score": 50,
-        "grade": "Pass",
+        "score": 64,
+        "grade": "Credit",
         "verify_id": "17C2D9K"
     },
     {
@@ -8421,10 +8433,10 @@
         "task1": 17,
         "task2": 17,
         "task3": 17,
-        "task4": 0,
+        "task4": 6,
         "task5": 0,
         "slug": "meed-muh'd-ubarab-shn00734",
-        "score": 51,
+        "score": 57,
         "grade": "Credit",
         "verify_id": "92P2DEV"
     },
@@ -8547,10 +8559,10 @@
         "task1": 16,
         "task2": 18,
         "task3": 19,
-        "task4": 0,
+        "task4": 10,
         "task5": 0,
         "slug": "adedapo-adeniji-shn00744",
-        "score": 53,
+        "score": 63,
         "grade": "Credit",
         "verify_id": "84C2E8Y"
     },
@@ -8673,10 +8685,10 @@
         "task1": 18,
         "task2": 17,
         "task3": 19,
-        "task4": 0,
+        "task4": 10,
         "task5": 0,
         "slug": "olaere-sandra-mohammed-shn00754",
-        "score": 54,
+        "score": 64,
         "grade": "Credit",
         "verify_id": "60F2F2M"
     },
@@ -8743,11 +8755,11 @@
         "task1": 17,
         "task2": 16,
         "task3": 17,
-        "task4": 0,
+        "task4": 16,
         "task5": 0,
         "slug": "obaji-samuel-ekene-17",
-        "score": 50,
-        "grade": "Pass",
+        "score": 66,
+        "grade": "Upper Credit",
         "verify_id": "87T11U"
     },
     {
@@ -8813,10 +8825,10 @@
         "task1": 18,
         "task2": 15,
         "task3": 14,
-        "task4": 0,
+        "task4": 2,
         "task5": 0,
         "slug": "chidera-anichebe-shn00764",
-        "score": 47,
+        "score": 49,
         "grade": "Pass",
         "verify_id": "35K2FCY"
     },
@@ -8869,11 +8881,11 @@
         "task1": 17,
         "task2": 17,
         "task3": 15,
-        "task4": 0,
+        "task4": 16,
         "task5": 0,
         "slug": "eferha-mamus-shn00769",
-        "score": 49,
-        "grade": "Pass",
+        "score": 65,
+        "grade": "Credit",
         "verify_id": "78L301P"
     },
     {
@@ -8897,11 +8909,11 @@
         "task1": 17,
         "task2": 20,
         "task3": 15,
-        "task4": 0,
+        "task4": 14,
         "task5": 0,
         "slug": "chidubem-emmanuel-nwodo-shn00772",
-        "score": 52,
-        "grade": "Credit",
+        "score": 66,
+        "grade": "Upper Credit",
         "verify_id": "13C304T"
     },
     {
@@ -8939,10 +8951,10 @@
         "task1": 17,
         "task2": 18,
         "task3": 17,
-        "task4": 0,
+        "task4": 6,
         "task5": 0,
         "slug": "horace-akpan-saturday-shn00776",
-        "score": 52,
+        "score": 58,
         "grade": "Credit",
         "verify_id": "95N308Z"
     },
@@ -8953,10 +8965,10 @@
         "task1": 18,
         "task2": 18,
         "task3": 18,
-        "task4": 0,
+        "task4": 10,
         "task5": 0,
         "slug": "bello-fatima-modupe-shn00777",
-        "score": 54,
+        "score": 64,
         "grade": "Credit",
         "verify_id": "12E309S"
     },
@@ -9177,11 +9189,11 @@
         "task1": 15,
         "task2": 18,
         "task3": 15,
-        "task4": 0,
+        "task4": 14,
         "task5": 0,
         "slug": "situ-aminat-shn00793",
-        "score": 48,
-        "grade": "Pass",
+        "score": 62,
+        "grade": "Credit",
         "verify_id": "42H319T"
     },
     {
@@ -9246,11 +9258,11 @@
         "username": "Salowright",
         "task1": 15,
         "task2": 13,
+        "task4": 3,
         "task3": 0,
-        "task4": 0,
         "task5": 0,
         "slug": "solomon-ubokulo-essang-shn00799",
-        "score": 28,
+        "score": 31,
         "grade": "Fail",
         "verify_id": "36B31FW"
     },
@@ -9265,7 +9277,8 @@
         "task5": 0,
         "slug": "azeez-riskat-adeola-shn00800",
         "score": 27,
-        "grade": "Fail"
+        "grade": "Fail",
+        "verify_id": null
     },
     {
         "code": "shn00801",
@@ -9372,11 +9385,11 @@
         "task1": 15,
         "task2": 16,
         "task3": 15,
-        "task4": 0,
+        "task4": 14,
         "task5": 0,
         "slug": "maimuna-yusuf-umar-shn00810",
-        "score": 46,
-        "grade": "Pass",
+        "score": 60,
+        "grade": "Credit",
         "verify_id": "65X32AZ"
     },
     {
@@ -9441,11 +9454,11 @@
         "username": "ehiemere victor",
         "task1": 18,
         "task2": 16,
+        "task4": 6,
         "task3": 0,
-        "task4": 0,
         "task5": 0,
         "slug": "ehiemere-victor-shn00815",
-        "score": 34,
+        "score": 40,
         "grade": "Fail",
         "verify_id": "77D32FS"
     },
@@ -9470,11 +9483,11 @@
         "task1": 18,
         "task2": 17,
         "task3": 16,
-        "task4": 0,
+        "task4": 16,
         "task5": 0,
         "slug": "joseph-burutu-shn00817",
-        "score": 51,
-        "grade": "Credit",
+        "score": 67,
+        "grade": "Upper Credit",
         "verify_id": "92X331Y"
     },
     {
@@ -9498,11 +9511,11 @@
         "task1": 17,
         "task2": 18,
         "task3": 19,
-        "task4": 0,
+        "task4": 12,
         "task5": 0,
         "slug": "emmanuel-ekeoma-shn00819",
-        "score": 54,
-        "grade": "Credit",
+        "score": 66,
+        "grade": "Upper Credit",
         "verify_id": "79C333L"
     },
     {
@@ -9637,12 +9650,12 @@
         "username": "Larry ",
         "task1": 18,
         "task2": 18,
+        "task4": 16,
         "task3": 0,
-        "task4": 0,
         "task5": 0,
         "slug": "eban-larry-shn00830",
-        "score": 36,
-        "grade": "Fail",
+        "score": 52,
+        "grade": "Credit",
         "verify_id": "98B33EQ"
     },
     {
@@ -9652,11 +9665,11 @@
         "task1": 18,
         "task2": 18,
         "task3": 19,
-        "task4": 0,
+        "task4": 14,
         "task5": 0,
         "slug": "emediong-okon-shn00831",
-        "score": 55,
-        "grade": "Credit",
+        "score": 69,
+        "grade": "Upper Credit",
         "verify_id": "42D33FP"
     },
     {
@@ -9694,11 +9707,11 @@
         "task1": 18,
         "task2": 16,
         "task3": 15,
-        "task4": 0,
+        "task4": 14,
         "task5": 0,
         "slug": "cynthia-omovoiye-shn00834",
-        "score": 49,
-        "grade": "Pass",
+        "score": 63,
+        "grade": "Credit",
         "verify_id": "54G342T"
     },
     {
@@ -9862,11 +9875,11 @@
         "task1": 17,
         "task2": 15,
         "task3": 15,
-        "task4": 0,
+        "task4": 14,
         "task5": 0,
         "slug": "celestine-stephen-shn00846",
-        "score": 47,
-        "grade": "Pass",
+        "score": 61,
+        "grade": "Credit",
         "verify_id": "53H34EJ"
     },
     {
@@ -10016,11 +10029,11 @@
         "task1": 17,
         "task2": 18,
         "task3": 19,
-        "task4": 0,
+        "task4": 14,
         "task5": 0,
         "slug": "victor-ezeh-shn00860",
-        "score": 54,
-        "grade": "Credit",
+        "score": 68,
+        "grade": "Upper Credit",
         "verify_id": "32T35CX"
     },
     {
@@ -10296,10 +10309,10 @@
         "task1": 15,
         "task2": 18,
         "task3": 18,
-        "task4": 0,
+        "task4": 4,
         "task5": 0,
         "slug": "thankgod-nnaemeka-nzenwa-shn00882",
-        "score": 51,
+        "score": 55,
         "grade": "Credit",
         "verify_id": "94J372M"
     },
@@ -10482,7 +10495,8 @@
         "task5": 0,
         "slug": "gracia-bonire-shn00896",
         "score": 18,
-        "grade": "Fail"
+        "grade": "Fail",
+        "verify_id": null
     },
     {
         "code": "shn00898",
@@ -10561,10 +10575,10 @@
         "task1": 16,
         "task2": 18,
         "task3": 17,
-        "task4": 0,
+        "task4": 6,
         "task5": 0,
         "slug": "lucky-dennis-shn00905",
-        "score": 51,
+        "score": 57,
         "grade": "Credit",
         "verify_id": "74A389C"
     },
@@ -10771,10 +10785,10 @@
         "task1": 17,
         "task2": 18,
         "task3": 18,
-        "task4": 0,
+        "task4": 4,
         "task5": 0,
         "slug": "ifoghale-eguwe-shn00923",
-        "score": 53,
+        "score": 57,
         "grade": "Credit",
         "verify_id": "11P39BQ"
     },
@@ -10813,11 +10827,11 @@
         "task1": 17,
         "task2": 18,
         "task3": 18,
-        "task4": 0,
+        "task4": 17,
         "task5": 0,
         "slug": "itunu-olurin-shn00927",
-        "score": 53,
-        "grade": "Credit",
+        "score": 70,
+        "grade": "Upper Credit",
         "verify_id": "29A39FS"
     },
     {
@@ -10883,11 +10897,11 @@
         "task1": 17,
         "task2": 16,
         "task3": 15,
-        "task4": 0,
+        "task4": 16,
         "task5": 0,
         "slug": "ogunfemi-micheal-olamide-shn00933",
-        "score": 48,
-        "grade": "Pass",
+        "score": 64,
+        "grade": "Credit",
         "verify_id": "21H3A5N"
     },
     {
@@ -10911,10 +10925,10 @@
         "task1": 17,
         "task2": 16,
         "task3": 19,
-        "task4": 0,
+        "task4": 10,
         "task5": 0,
         "slug": "jacqueline-okonko-shn00935",
-        "score": 52,
+        "score": 62,
         "grade": "Credit",
         "verify_id": "18B3A7D"
     },
@@ -11041,7 +11055,8 @@
         "task5": 0,
         "slug": "richard-isaac-shn00946",
         "score": 15,
-        "grade": "Fail"
+        "grade": "Fail",
+        "verify_id": null
     },
     {
         "code": "shn00948",
@@ -11092,11 +11107,11 @@
         "task1": 17,
         "task2": 18,
         "task3": 17,
-        "task4": 0,
+        "task4": 16,
         "task5": 0,
         "slug": "nkechi-christabel-udenkwor-shn00952",
-        "score": 52,
-        "grade": "Credit",
+        "score": 68,
+        "grade": "Upper Credit",
         "verify_id": "30F3B8X"
     },
     {
@@ -11133,12 +11148,12 @@
         "username": "@jasper",
         "task1": 16,
         "task3": 19,
+        "task4": 12,
         "task2": 0,
-        "task4": 0,
         "task5": 0,
         "slug": "james-dayo-shn00958",
-        "score": 35,
-        "grade": "Fail",
+        "score": 47,
+        "grade": "Pass",
         "verify_id": "66F3BEN"
     },
     {
@@ -11287,12 +11302,12 @@
         "username": "Nduka",
         "task1": 17,
         "task2": 16,
+        "task4": 16,
         "task3": 0,
-        "task4": 0,
         "task5": 0,
         "slug": "ndukaku-sunday-shn00969",
-        "score": 33,
-        "grade": "Fail",
+        "score": 49,
+        "grade": "Pass",
         "verify_id": "63K3C9W"
     },
     {
@@ -11329,12 +11344,12 @@
         "username": "taj",
         "task1": 18,
         "task2": 16,
+        "task4": 15,
         "task3": 0,
-        "task4": 0,
         "task5": 0,
         "slug": "joseph-alfred-shn00972",
-        "score": 34,
-        "grade": "Fail",
+        "score": 49,
+        "grade": "Pass",
         "verify_id": "67A3CCV"
     },
     {
@@ -11568,11 +11583,11 @@
         "task1": 17,
         "task2": 18,
         "task3": 19,
-        "task4": 0,
+        "task4": 14,
         "task5": 0,
         "slug": "ogunfuwa-tolulope-shn00990",
-        "score": 54,
-        "grade": "Credit",
+        "score": 68,
+        "grade": "Upper Credit",
         "verify_id": "46S3DEX"
     },
     {
@@ -11624,11 +11639,11 @@
         "task1": 17,
         "task2": 18,
         "task3": 18,
-        "task4": 0,
+        "task4": 19,
         "task5": 0,
         "slug": "ogunsumi-joel-abiodun-shn00994",
-        "score": 53,
-        "grade": "Credit",
+        "score": 72,
+        "grade": "Upper Credit",
         "verify_id": "57L3E2S"
     },
     {
@@ -11721,12 +11736,12 @@
         "username": "Femi Jaiye",
         "task1": 17,
         "task2": 18,
+        "task4": 16,
         "task3": 0,
-        "task4": 0,
         "task5": 0,
         "slug": "olorunfemi-jaiyeoba-shn01001",
-        "score": 35,
-        "grade": "Fail",
+        "score": 51,
+        "grade": "Credit",
         "verify_id": "64Q3E9T"
     },
     {
@@ -11973,12 +11988,12 @@
         "username": "Otuekong Idongesit ",
         "task1": 17,
         "task2": 17,
+        "task4": 8,
         "task3": 0,
-        "task4": 0,
         "task5": 0,
         "slug": "otuekong-idongesit-shn01028",
-        "score": 34,
-        "grade": "Fail",
+        "score": 42,
+        "grade": "Pass",
         "verify_id": "72N404S"
     },
     {
@@ -12244,7 +12259,8 @@
         "task5": 0,
         "slug": "ugochukwu-augustine-nwosu-shn01053",
         "score": 18,
-        "grade": "Fail"
+        "grade": "Fail",
+        "verify_id": null
     },
     {
         "code": "shn01054",
@@ -12463,10 +12479,10 @@
         "task1": 18,
         "task2": 18,
         "task3": 15,
-        "task4": 0,
+        "task4": 14,
         "task5": 0,
         "slug": "abdullah-muhammad-salisu-shn01077",
-        "score": 51,
+        "score": 65,
         "grade": "Credit",
         "verify_id": "13R435Y"
     },
@@ -12771,12 +12787,25 @@
         "task1": 15,
         "task2": 16,
         "task3": 15,
-        "task4": 0,
+        "task4": 16,
         "task5": 0,
         "slug": "adeyemi-temitope-shn01106",
-        "score": 46,
-        "grade": "Pass",
+        "score": 62,
+        "grade": "Credit",
         "verify_id": "50A452L"
+    },
+    {
+        "code": "shn01107",
+        "name": "BALOGUN AHMED",
+        "username": "AHMED",
+        "task1": 0,
+        "task3": 2,
+        "task2": 0,
+        "task4": 0,
+        "task5": 0,
+        "slug": "balogun-ahmed-shn01107",
+        "score": 2,
+        "grade": "Fail"
     },
     {
         "code": "shn01108",
@@ -12939,11 +12968,11 @@
         "task1": 17,
         "task2": 14,
         "task3": 19,
-        "task4": 0,
+        "task4": 18,
         "task5": 0,
         "slug": "nnaemeka-agwu-shn01121",
-        "score": 50,
-        "grade": "Pass",
+        "score": 68,
+        "grade": "Upper Credit",
         "verify_id": "37G461J"
     },
     {
@@ -12995,11 +13024,11 @@
         "task1": 10,
         "task2": 16,
         "task3": 15,
-        "task4": 0,
+        "task4": 17,
         "task5": 0,
         "slug": "nnebue-desmond-shn01126",
-        "score": 41,
-        "grade": "Pass",
+        "score": 58,
+        "grade": "Credit",
         "verify_id": "39L466M"
     },
     {
@@ -13013,7 +13042,8 @@
         "task5": 0,
         "slug": "nneoma-otudoh-shn01127",
         "score": 15,
-        "grade": "Fail"
+        "grade": "Fail",
+        "verify_id": null
     },
     {
         "code": "shn01128",
@@ -13274,11 +13304,11 @@
         "task1": 17,
         "task2": 15,
         "task3": 17,
-        "task4": 0,
+        "task4": 6,
         "task5": 0,
         "slug": "oladapo-ajayi-shn01149",
-        "score": 49,
-        "grade": "Pass",
+        "score": 55,
+        "grade": "Credit",
         "verify_id": "42J47DZ"
     },
     {
@@ -13330,10 +13360,10 @@
         "task1": 19,
         "task2": 16,
         "task3": 17,
-        "task4": 0,
+        "task4": 2,
         "task5": 0,
         "slug": "peter-emmanuel-shn01153",
-        "score": 52,
+        "score": 54,
         "grade": "Credit",
         "verify_id": "39C481N"
     },
@@ -13372,11 +13402,11 @@
         "task1": 17,
         "task2": 18,
         "task3": 19,
-        "task4": 0,
+        "task4": 18,
         "task5": 0,
         "slug": "obieri-grace-chiamaka-shn01156",
-        "score": 54,
-        "grade": "Credit",
+        "score": 72,
+        "grade": "Upper Credit",
         "verify_id": "91B484V"
     },
     {
@@ -13414,11 +13444,11 @@
         "task1": 15,
         "task2": 18,
         "task3": 19,
-        "task4": 0,
+        "task4": 14,
         "task5": 0,
         "slug": "osayi-ekekhor-abraham-shn01159",
-        "score": 52,
-        "grade": "Credit",
+        "score": 66,
+        "grade": "Upper Credit",
         "verify_id": "47D487H"
     },
     {
@@ -13428,11 +13458,11 @@
         "task1": 12,
         "task2": 17,
         "task3": 15,
-        "task4": 0,
+        "task4": 10,
         "task5": 0,
         "slug": "opeyemi-falooto-shn01160",
-        "score": 44,
-        "grade": "Pass",
+        "score": 54,
+        "grade": "Credit",
         "verify_id": "37Q488X"
     },
     {
@@ -13479,14 +13509,14 @@
     },
     {
         "code": "shn01165",
-        "name": "i     Victor Opara Ndubuisi",
+        "name": "Victor Opara Ndubuisi",
         "username": "vicky",
         "task1": 16,
         "task2": 0,
         "task3": 0,
         "task4": 0,
         "task5": 0,
-        "slug": "i-----victor-opara-ndubuisi-shn01165",
+        "slug": "Victor-opara-ndubuisi-shn01165",
         "score": 16,
         "grade": "Fail",
         "verify_id": "14F48DL"
@@ -13638,11 +13668,11 @@
         "task1": 17,
         "task2": 18,
         "task3": 15,
-        "task4": 0,
+        "task4": 17,
         "task5": 0,
         "slug": "ezeumeh-chidiebere-shn01176",
-        "score": 50,
-        "grade": "Pass",
+        "score": 67,
+        "grade": "Upper Credit",
         "verify_id": "95B498G"
     },
     {
@@ -13764,11 +13794,11 @@
         "task1": 10,
         "task2": 16,
         "task3": 15,
-        "task4": 0,
+        "task4": 14,
         "task5": 0,
         "slug": "ofonime-eset-shn01186",
-        "score": 41,
-        "grade": "Pass",
+        "score": 55,
+        "grade": "Credit",
         "verify_id": "48P4A2W"
     },
     {
@@ -13848,11 +13878,11 @@
         "task1": 17,
         "task2": 20,
         "task3": 15,
-        "task4": 0,
+        "task4": 14,
         "task5": 0,
         "slug": "udim-akpan-shn01194",
-        "score": 52,
-        "grade": "Credit",
+        "score": 66,
+        "grade": "Upper Credit",
         "verify_id": "46N4AAT"
     },
     {
@@ -13861,12 +13891,12 @@
         "username": "Aina",
         "task1": 18,
         "task2": 16,
+        "task4": 16,
         "task3": 0,
-        "task4": 0,
         "task5": 0,
         "slug": "tobi-aina-shn01195",
-        "score": 34,
-        "grade": "Fail",
+        "score": 50,
+        "grade": "Pass",
         "verify_id": "57K4ABZ"
     },
     {
@@ -14030,10 +14060,10 @@
         "task1": 17,
         "task2": 18,
         "task3": 17,
-        "task4": 0,
+        "task4": 6,
         "task5": 0,
         "slug": "anifowose-ibraheem-bolaji-shn01210",
-        "score": 52,
+        "score": 58,
         "grade": "Credit",
         "verify_id": "89D4BAQ"
     },
@@ -14198,10 +14228,10 @@
         "task1": 15,
         "task2": 18,
         "task3": 19,
-        "task4": 0,
+        "task4": 9,
         "task5": 0,
         "slug": "isioma-andrew-shn01224",
-        "score": 52,
+        "score": 61,
         "grade": "Credit",
         "verify_id": "20T4C8V"
     },
@@ -14226,11 +14256,11 @@
         "task1": 17,
         "task2": 17,
         "task3": 19,
-        "task4": 0,
+        "task4": 13,
         "task5": 0,
         "slug": "oluwanifemi-bamgbose-shn01226",
-        "score": 53,
-        "grade": "Credit",
+        "score": 66,
+        "grade": "Upper Credit",
         "verify_id": "98D4CAJ"
     },
     {
@@ -14244,7 +14274,8 @@
         "task5": 0,
         "slug": "awa-ekekwe-shn01228",
         "score": 17,
-        "grade": "Fail"
+        "grade": "Fail",
+        "verify_id": null
     },
     {
         "code": "shn01229",
@@ -14337,11 +14368,11 @@
         "task1": 15,
         "task2": 17,
         "task3": 15,
-        "task4": 0,
+        "task4": 15,
         "task5": 0,
         "slug": "joel-joshua-shn01235",
-        "score": 47,
-        "grade": "Pass",
+        "score": 62,
+        "grade": "Credit",
         "verify_id": "60L4D3V"
     },
     {
@@ -14397,7 +14428,8 @@
         "task5": 0,
         "slug": "olaiya-shakiru-adolu-shn01240",
         "score": 10,
-        "grade": "Fail"
+        "grade": "Fail",
+        "verify_id": null
     },
     {
         "code": "shn01241",
@@ -14420,10 +14452,10 @@
         "task1": 15,
         "task2": 15,
         "task3": 14,
-        "task4": 0,
+        "task4": 2,
         "task5": 0,
         "slug": "ezebuka-frank-shn01242",
-        "score": 44,
+        "score": 46,
         "grade": "Pass",
         "verify_id": "33H4DAP"
     },
@@ -14504,10 +14536,10 @@
         "task1": 16,
         "task2": 17,
         "task3": 18,
-        "task4": 0,
+        "task4": 14,
         "task5": 0,
         "slug": "olanase-yezid-shn01249",
-        "score": 51,
+        "score": 65,
         "grade": "Credit",
         "verify_id": "99N4E1R"
     },
@@ -14686,10 +14718,10 @@
         "task1": 18,
         "task2": 17,
         "task3": 18,
-        "task4": 0,
+        "task4": 4,
         "task5": 0,
         "slug": "takuro-gbemisola-shn01264",
-        "score": 53,
+        "score": 57,
         "grade": "Credit",
         "verify_id": "13C4F0W"
     },
@@ -14812,11 +14844,11 @@
         "task1": 16,
         "task2": 15,
         "task3": 16,
-        "task4": 0,
+        "task4": 5,
         "task5": 0,
         "slug": "omidiora-emmanuel-shn01274",
-        "score": 47,
-        "grade": "Pass",
+        "score": 52,
+        "grade": "Credit",
         "verify_id": "47H4FAR"
     },
     {
@@ -14826,11 +14858,11 @@
         "task1": 17,
         "task2": 18,
         "task3": 19,
-        "task4": 0,
+        "task4": 12,
         "task5": 0,
         "slug": "omodele-olumide-shn01275",
-        "score": 54,
-        "grade": "Credit",
+        "score": 66,
+        "grade": "Upper Credit",
         "verify_id": "34R4FBU"
     },
     {
@@ -14900,7 +14932,8 @@
         "task5": 0,
         "slug": "chukwunweike-chinaza-shn01284",
         "score": 13,
-        "grade": "Fail"
+        "grade": "Fail",
+        "verify_id": null
     },
     {
         "code": "shn01285",
@@ -14969,7 +15002,8 @@
         "task5": 0,
         "slug": "uthman-opeyemi-abdullahi-shn01292",
         "score": 36,
-        "grade": "Fail"
+        "grade": "Fail",
+        "verify_id": null
     },
     {
         "code": "shn01293",
@@ -14978,11 +15012,11 @@
         "task1": 17,
         "task2": 15,
         "task3": 15,
-        "task4": 0,
+        "task4": 17,
         "task5": 0,
         "slug": "omodo-kome-shn01293",
-        "score": 47,
-        "grade": "Pass",
+        "score": 64,
+        "grade": "Credit",
         "verify_id": "15D50DS"
     },
     {
@@ -14992,11 +15026,11 @@
         "task1": 17,
         "task2": 15,
         "task3": 15,
-        "task4": 0,
+        "task4": 13,
         "task5": 0,
         "slug": "utibeka-theresa-raymond-nde-shn01294",
-        "score": 47,
-        "grade": "Pass",
+        "score": 60,
+        "grade": "Credit",
         "verify_id": "52A50EE"
     },
     {
@@ -15118,11 +15152,11 @@
         "task1": 16,
         "task2": 18,
         "task3": 18,
-        "task4": 0,
+        "task4": 14,
         "task5": 0,
         "slug": "oyelaja-hussein-shn01303",
-        "score": 52,
-        "grade": "Credit",
+        "score": 66,
+        "grade": "Upper Credit",
         "verify_id": "15L517Q"
     },
     {
@@ -15132,11 +15166,11 @@
         "task1": 16,
         "task2": 17,
         "task3": 15,
-        "task4": 0,
+        "task4": 20,
         "task5": 0,
         "slug": "oyelami-temidayo-mary-shn01304",
-        "score": 48,
-        "grade": "Pass",
+        "score": 68,
+        "grade": "Upper Credit",
         "verify_id": "63H518Z"
     },
     {
@@ -15369,11 +15403,11 @@
         "username": "Tony Emeka",
         "task1": 16,
         "task2": 15,
+        "task4": 3,
         "task3": 0,
-        "task4": 0,
         "task5": 0,
         "slug": "tony-emeka-shn01322",
-        "score": 31,
+        "score": 34,
         "grade": "Fail",
         "verify_id": "58A52AT"
     },
@@ -15864,7 +15898,8 @@
         "task5": 0,
         "slug": "princewill-ahante-shn01363",
         "score": 13,
-        "grade": "Fail"
+        "grade": "Fail",
+        "verify_id": null
     },
     {
         "code": "shn01364",
@@ -16027,11 +16062,11 @@
         "task1": 18,
         "task2": 13,
         "task3": 15,
-        "task4": 0,
+        "task4": 14,
         "task5": 0,
         "slug": "samuel-asiyanbi-shn01378",
-        "score": 46,
-        "grade": "Pass",
+        "score": 60,
+        "grade": "Credit",
         "verify_id": "89H562X"
     },
     {
@@ -16059,7 +16094,8 @@
         "task5": 0,
         "slug": "sarah-udoh-shn01382",
         "score": 27,
-        "grade": "Fail"
+        "grade": "Fail",
+        "verify_id": null
     },
     {
         "code": "shn01383",
@@ -16100,7 +16136,8 @@
         "task5": 0,
         "slug": "sherif-siyanbola-shn01385",
         "score": 20,
-        "grade": "Fail"
+        "grade": "Fail",
+        "verify_id": null
     },
     {
         "code": "shn01386",
@@ -16122,12 +16159,13 @@
         "username": "Siji_B",
         "task2": 17,
         "task3": 14,
+        "task4": 2,
         "task1": 0,
-        "task4": 0,
         "task5": 0,
         "slug": "sijibomi-bello-shn01387",
-        "score": 31,
-        "grade": "Fail"
+        "score": 33,
+        "grade": "Fail",
+        "verify_id": null
     },
     {
         "code": "shn01388",
@@ -16168,7 +16206,8 @@
         "task5": 0,
         "slug": "stephen-ezennwa-shn01392",
         "score": 18,
-        "grade": "Fail"
+        "grade": "Fail",
+        "verify_id": null
     },
     {
         "code": "shn01393",
@@ -16190,12 +16229,12 @@
         "username": "Steve Kay",
         "task1": 15,
         "task2": 17,
+        "task4": 14,
         "task3": 0,
-        "task4": 0,
         "task5": 0,
         "slug": "stephen-olanrewaju-shn01394",
-        "score": 32,
-        "grade": "Fail",
+        "score": 46,
+        "grade": "Pass",
         "verify_id": "98E572N"
     },
     {
@@ -16289,11 +16328,11 @@
         "task1": 15,
         "task2": 17,
         "task3": 15,
-        "task4": 0,
+        "task4": 14,
         "task5": 0,
         "slug": "malik-abdulaziz-shn01401",
-        "score": 47,
-        "grade": "Pass",
+        "score": 61,
+        "grade": "Credit",
         "verify_id": "49J579W"
     },
     {
@@ -16357,12 +16396,12 @@
         "name": "Ebuka Harry",
         "username": "Ebuka Harry",
         "task1": 15,
-        "task2": 18,
+        "task2": 17,
         "task3": 17,
         "task4": 11,
         "task5": 0,
         "slug": "ebuka-harry-shn01407",
-        "score": 61,
+        "score": 60,
         "grade": "Credit",
         "verify_id": "92A57FV"
     },
@@ -16415,11 +16454,11 @@
         "task1": 20,
         "task2": 18,
         "task3": 19,
-        "task4": 0,
+        "task4": 14,
         "task5": 0,
         "slug": "iroegbu-lynda-shn01412",
-        "score": 57,
-        "grade": "Credit",
+        "score": 71,
+        "grade": "Upper Credit",
         "verify_id": "33G584Y"
     },
     {
@@ -16485,11 +16524,11 @@
         "task1": 16,
         "task2": 18,
         "task3": 19,
-        "task4": 0,
+        "task4": 14,
         "task5": 0,
         "slug": "austin-ilozumba-shn01417",
-        "score": 53,
-        "grade": "Credit",
+        "score": 67,
+        "grade": "Upper Credit",
         "verify_id": "74A589W"
     },
     {
@@ -16639,11 +16678,11 @@
         "task1": 18,
         "task2": 15,
         "task3": 17,
-        "task4": 0,
+        "task4": 2,
         "task5": 0,
         "slug": "kolawole-ezekiel-shn01432",
-        "score": 50,
-        "grade": "Pass",
+        "score": 52,
+        "grade": "Credit",
         "verify_id": "99S598X"
     },
     {
@@ -16737,11 +16776,11 @@
         "task1": 17,
         "task2": 17,
         "task3": 15,
-        "task4": 0,
+        "task4": 14,
         "task5": 0,
         "slug": "adenuga-oluwafemi-stephen-shn01441",
-        "score": 49,
-        "grade": "Pass",
+        "score": 63,
+        "grade": "Credit",
         "verify_id": "55A5A1P"
     },
     {
@@ -16933,11 +16972,11 @@
         "task1": 16,
         "task2": 20,
         "task3": 19,
-        "task4": 0,
+        "task4": 14,
         "task5": 0,
         "slug": "samsudeen-opeyemi-alao-shn01456",
-        "score": 55,
-        "grade": "Credit",
+        "score": 69,
+        "grade": "Upper Credit",
         "verify_id": "24G5B0K"
     },
     {
@@ -17059,11 +17098,11 @@
         "task1": 15,
         "task2": 18,
         "task3": 16,
-        "task4": 0,
+        "task4": 16,
         "task5": 0,
         "slug": "aruma-charles-chukwuebuka-shn01465",
-        "score": 49,
-        "grade": "Pass",
+        "score": 65,
+        "grade": "Credit",
         "verify_id": "66N5B9W"
     },
     {
@@ -17087,11 +17126,11 @@
         "task1": 20,
         "task2": 17,
         "task3": 15,
-        "task4": 0,
+        "task4": 14,
         "task5": 0,
         "slug": "emmanuel-okon-shn01467",
-        "score": 52,
-        "grade": "Credit",
+        "score": 66,
+        "grade": "Upper Credit",
         "verify_id": "76L5BBP"
     },
     {
@@ -17129,10 +17168,10 @@
         "task1": 19,
         "task2": 17,
         "task3": 18,
-        "task4": 0,
+        "task4": 4,
         "task5": 0,
         "slug": "mbanude-victor-shn01470",
-        "score": 54,
+        "score": 58,
         "grade": "Credit",
         "verify_id": "94A5BEZ"
     },
@@ -17254,11 +17293,11 @@
         "task1": 16,
         "task2": 18,
         "task3": 17,
-        "task4": 0,
+        "task4": 16,
         "task5": 0,
         "slug": "ifeoluwa-olaiya-shn01479",
-        "score": 51,
-        "grade": "Credit",
+        "score": 67,
+        "grade": "Upper Credit",
         "verify_id": "48N5C7Q"
     },
     {
@@ -17268,10 +17307,10 @@
         "task1": 16,
         "task2": 16,
         "task3": 19,
-        "task4": 0,
+        "task4": 8,
         "task5": 0,
         "slug": "ismail-musa-kallah-shn01480",
-        "score": 51,
+        "score": 59,
         "grade": "Credit",
         "verify_id": "43F5C8L"
     },
@@ -17282,11 +17321,11 @@
         "task1": 15,
         "task2": 18,
         "task3": 19,
-        "task4": 0,
+        "task4": 14,
         "task5": 0,
         "slug": "emmanuel-kene-shn01481",
-        "score": 52,
-        "grade": "Credit",
+        "score": 66,
+        "grade": "Upper Credit",
         "verify_id": "19Q5C9S"
     },
     {
@@ -17436,11 +17475,11 @@
         "task1": 10,
         "task2": 20,
         "task3": 18,
-        "task4": 0,
+        "task4": 4,
         "task5": 0,
         "slug": "etumudon-emmanuel-shn01493",
-        "score": 48,
-        "grade": "Pass",
+        "score": 52,
+        "grade": "Credit",
         "verify_id": "23P5D5U"
     },
     {
@@ -17534,11 +17573,11 @@
         "task1": 15,
         "task2": 17,
         "task3": 15,
-        "task4": 0,
+        "task4": 10,
         "task5": 0,
         "slug": "obideje-chidera-godswill-shn01500",
-        "score": 47,
-        "grade": "Pass",
+        "score": 57,
+        "grade": "Credit",
         "verify_id": "64M5DCZ"
     },
     {
@@ -17604,11 +17643,11 @@
         "task1": 16,
         "task2": 16,
         "task3": 15,
-        "task4": 0,
+        "task4": 16,
         "task5": 0,
         "slug": "femi-odejide-shn01506",
-        "score": 47,
-        "grade": "Pass",
+        "score": 63,
+        "grade": "Credit",
         "verify_id": "82B5E2C"
     },
     {
@@ -17799,11 +17838,11 @@
         "task1": 14,
         "task2": 18,
         "task3": 16,
-        "task4": 0,
+        "task4": 17,
         "task5": 0,
         "slug": "toluwalope-olasupo-shn01520",
-        "score": 48,
-        "grade": "Pass",
+        "score": 65,
+        "grade": "Credit",
         "verify_id": "50E5F0V"
     },
     {
@@ -17896,12 +17935,12 @@
         "username": "ANJOLA BADARU",
         "task1": 14,
         "task2": 16,
+        "task4": 14,
         "task3": 0,
-        "task4": 0,
         "task5": 0,
         "slug": "anjola-badaru-shn01527",
-        "score": 30,
-        "grade": "Fail",
+        "score": 44,
+        "grade": "Pass",
         "verify_id": "51K5F7P"
     },
     {
@@ -17925,10 +17964,10 @@
         "task1": 15,
         "task2": 17,
         "task3": 19,
-        "task4": 0,
+        "task4": 14,
         "task5": 0,
         "slug": "ilesanmi-ezekiel-olalekan-shn01529",
-        "score": 51,
+        "score": 65,
         "grade": "Credit",
         "verify_id": "41N5F9W"
     },
@@ -18022,12 +18061,12 @@
         "username": "bodethomson",
         "task1": 15,
         "task2": 16,
+        "task4": 15,
         "task3": 0,
-        "task4": 0,
         "task5": 0,
         "slug": "abass-nurudeen-olabode-shn01536",
-        "score": 31,
-        "grade": "Fail",
+        "score": 46,
+        "grade": "Pass",
         "verify_id": "46E600M"
     },
     {
@@ -18079,10 +18118,10 @@
         "task1": 19,
         "task2": 17,
         "task3": 15,
-        "task4": 0,
+        "task4": 14,
         "task5": 0,
         "slug": "abdullahi-mohammed-yelwa-shn01540",
-        "score": 51,
+        "score": 65,
         "grade": "Credit",
         "verify_id": "75E604U"
     },
@@ -18093,10 +18132,10 @@
         "task1": 17,
         "task2": 18,
         "task3": 18,
-        "task4": 0,
+        "task4": 5,
         "task5": 0,
         "slug": "nsofor-chigozie-shn01541",
-        "score": 53,
+        "score": 58,
         "grade": "Credit",
         "verify_id": "82J605Y"
     },
@@ -18149,11 +18188,11 @@
         "task1": 17,
         "task2": 17,
         "task3": 19,
-        "task4": 0,
+        "task4": 14,
         "task5": 0,
         "slug": "adelakun-sulaimon-kolawole-shn01545",
-        "score": 53,
-        "grade": "Credit",
+        "score": 67,
+        "grade": "Upper Credit",
         "verify_id": "59E609K"
     },
     {
@@ -18205,11 +18244,11 @@
         "task1": 17,
         "task2": 17,
         "task3": 19,
-        "task4": 0,
+        "task4": 14,
         "task5": 0,
         "slug": "jimoh-lukman-adeyemi-shn01549",
-        "score": 53,
-        "grade": "Credit",
+        "score": 67,
+        "grade": "Upper Credit",
         "verify_id": "33A60DG"
     },
     {
@@ -18233,11 +18272,11 @@
         "task1": 18,
         "task2": 17,
         "task3": 15,
-        "task4": 0,
+        "task4": 18,
         "task5": 0,
         "slug": "john-ibiang-ebri-shn01551",
-        "score": 50,
-        "grade": "Pass",
+        "score": 68,
+        "grade": "Upper Credit",
         "verify_id": "99G60FL"
     },
     {
@@ -18247,10 +18286,10 @@
         "task1": 18,
         "task2": 17,
         "task3": 16,
-        "task4": 0,
+        "task4": 3,
         "task5": 0,
         "slug": "ipoola-peter-blessing-shn01552",
-        "score": 51,
+        "score": 54,
         "grade": "Credit",
         "verify_id": "91R610U"
     },
@@ -18331,10 +18370,10 @@
         "task1": 17,
         "task2": 17,
         "task3": 19,
-        "task4": 0,
+        "task4": 7,
         "task5": 0,
         "slug": "sidney-ihunwaeze-shn01559",
-        "score": 53,
+        "score": 60,
         "grade": "Credit",
         "verify_id": "55G617N"
     },
@@ -18442,12 +18481,12 @@
         "username": "Hameedah",
         "task1": 17,
         "task2": 18,
+        "task4": 16,
         "task3": 0,
-        "task4": 0,
         "task5": 0,
         "slug": "adesola-hameedah-shn01567",
-        "score": 35,
-        "grade": "Fail",
+        "score": 51,
+        "grade": "Credit",
         "verify_id": "29W3AEY"
     },
     {
@@ -18583,11 +18622,11 @@
         "task1": 15,
         "task2": 17,
         "task3": 15,
-        "task4": 0,
+        "task4": 17,
         "task5": 0,
         "slug": "akanbi-ganiyat-yetunde-shn01577",
-        "score": 47,
-        "grade": "Pass",
+        "score": 64,
+        "grade": "Credit",
         "verify_id": "79L629R"
     },
     {
@@ -18681,11 +18720,11 @@
         "task1": 17,
         "task2": 17,
         "task3": 15,
-        "task4": 0,
+        "task4": 16,
         "task5": 0,
         "slug": "babatunde-solomon-olotu-shn01584",
-        "score": 49,
-        "grade": "Pass",
+        "score": 65,
+        "grade": "Credit",
         "verify_id": "98L630T"
     },
     {
@@ -18819,12 +18858,12 @@
         "name": "Oladimeji Ridwan Pamilerin",
         "username": "@dimeji Smile",
         "task1": 16,
+        "task4": 13,
         "task2": 0,
         "task3": 0,
-        "task4": 0,
         "task5": 0,
         "slug": "oladimeji-ridwan-pamilerin-shn01594",
-        "score": 16,
+        "score": 29,
         "grade": "Fail",
         "verify_id": "11U63AW"
     },
@@ -19017,11 +19056,11 @@
         "task1": 16,
         "task2": 17,
         "task3": 15,
-        "task4": 0,
+        "task4": 4,
         "task5": 0,
         "slug": "olayinka-shittu-shn01609",
-        "score": 48,
-        "grade": "Pass",
+        "score": 52,
+        "grade": "Credit",
         "verify_id": "11W649Y"
     },
     {
@@ -19031,11 +19070,11 @@
         "task1": 16,
         "task2": 18,
         "task3": 15,
-        "task4": 0,
+        "task4": 14,
         "task5": 0,
         "slug": "abimbola-okubadejo-shn01610",
-        "score": 49,
-        "grade": "Pass",
+        "score": 63,
+        "grade": "Credit",
         "verify_id": "21J64AW"
     },
     {
@@ -19114,11 +19153,11 @@
         "username": "Abubakar",
         "task1": 16,
         "task2": 16,
+        "task4": 2,
         "task3": 0,
-        "task4": 0,
         "task5": 0,
         "slug": "amodu-abubakar-shn01616",
-        "score": 32,
+        "score": 34,
         "grade": "Fail",
         "verify_id": "14J650V"
     },
@@ -19185,11 +19224,11 @@
         "task1": 17,
         "task2": 15,
         "task3": 15,
-        "task4": 0,
+        "task4": 10,
         "task5": 0,
         "slug": "innocent-thomas-shn01623",
-        "score": 47,
-        "grade": "Pass",
+        "score": 57,
+        "grade": "Credit",
         "verify_id": "77S657Y"
     },
     {
@@ -19226,12 +19265,12 @@
         "username": "Duru Chuks",
         "task1": 17,
         "task2": 17,
+        "task4": 16,
         "task3": 0,
-        "task4": 0,
         "task5": 0,
         "slug": "duru-rowland-chuks-shn01626",
-        "score": 34,
-        "grade": "Fail",
+        "score": 50,
+        "grade": "Pass",
         "verify_id": "95S65AU"
     },
     {
@@ -19297,11 +19336,11 @@
         "task1": 17,
         "task2": 18,
         "task3": 15,
-        "task4": 0,
+        "task4": 14,
         "task5": 0,
         "slug": "adenike-salau-shn01631",
-        "score": 50,
-        "grade": "Pass",
+        "score": 64,
+        "grade": "Credit",
         "verify_id": "54H65FV"
     },
     {
@@ -19394,12 +19433,12 @@
         "username": "Adeyanju",
         "task1": 17,
         "task2": 18,
+        "task4": 14,
         "task3": 0,
-        "task4": 0,
         "task5": 0,
         "slug": "adeyanju-tobi-shn01638",
-        "score": 35,
-        "grade": "Fail",
+        "score": 49,
+        "grade": "Pass",
         "verify_id": "67P666W"
     },
     {
@@ -19423,11 +19462,11 @@
         "task1": 17,
         "task2": 20,
         "task3": 15,
-        "task4": 0,
+        "task4": 14,
         "task5": 0,
         "slug": "ayokunle-saba-shn01640",
-        "score": 52,
-        "grade": "Credit",
+        "score": 66,
+        "grade": "Upper Credit",
         "verify_id": "99A668M"
     },
     {
@@ -19675,11 +19714,11 @@
         "task1": 16,
         "task2": 18,
         "task3": 19,
-        "task4": 0,
+        "task4": 16,
         "task5": 0,
         "slug": "chris-andasei-shn01661",
-        "score": 53,
-        "grade": "Credit",
+        "score": 69,
+        "grade": "Upper Credit",
         "verify_id": "59R67DY"
     },
     {
@@ -19701,13 +19740,13 @@
         "name": "Dolapo Layode",
         "username": "@DollyQxeen",
         "task1": 16,
-        "task2": 10,
+        "task2": 8,
         "undefined": "Success Ndubuisi Egesi",
         "task3": 0,
         "task4": 0,
         "task5": 0,
         "slug": "dolapo-layode-shn01665",
-        "score": 26,
+        "score": 24,
         "grade": "Fail",
         "verify_id": "34L681T"
     },
@@ -19760,10 +19799,10 @@
         "task1": 17,
         "task2": 18,
         "task3": 19,
-        "task4": 0,
+        "task4": 8,
         "task5": 0,
         "slug": "mary-uchendu-shn01670",
-        "score": 54,
+        "score": 62,
         "grade": "Credit",
         "verify_id": "19K686Z"
     },
@@ -19970,11 +20009,11 @@
         "task1": 12,
         "task2": 13,
         "task3": 18,
-        "task4": 0,
+        "task4": 14,
         "task5": 0,
         "slug": "akinola-uthman-ayomipo-shn01686",
-        "score": 43,
-        "grade": "Pass",
+        "score": 57,
+        "grade": "Credit",
         "verify_id": "25A696B"
     },
     {
@@ -20095,12 +20134,12 @@
         "username": "Aka David",
         "task1": 17,
         "task2": 20,
+        "task4": 14,
         "task3": 0,
-        "task4": 0,
         "task5": 0,
         "slug": "aka-david-emeka-shn01695",
-        "score": 37,
-        "grade": "Fail",
+        "score": 51,
+        "grade": "Credit",
         "verify_id": "85H69FK"
     },
     {
@@ -20236,10 +20275,10 @@
         "task1": 16,
         "task2": 18,
         "task3": 18,
-        "task4": 0,
+        "task4": 6,
         "task5": 0,
         "slug": "ashioma-medi-shn01711",
-        "score": 52,
+        "score": 58,
         "grade": "Credit",
         "verify_id": "13K6AFV"
     },
@@ -20268,7 +20307,8 @@
         "task5": 0,
         "slug": "obinna-shn01714",
         "score": 18,
-        "grade": "Fail"
+        "grade": "Fail",
+        "verify_id": null
     },
     {
         "code": "shn01715",
@@ -20291,10 +20331,10 @@
         "task1": 16,
         "task2": 17,
         "task3": 19,
-        "task4": 0,
+        "task4": 10,
         "task5": 0,
         "slug": "martins-mikaels-shn01716",
-        "score": 52,
+        "score": 62,
         "grade": "Credit",
         "verify_id": "98J6B4V"
     },
@@ -20375,10 +20415,10 @@
         "task1": 17,
         "task2": 18,
         "task3": 18,
-        "task4": 0,
+        "task4": 1,
         "task5": 0,
         "slug": "anne-abasifreke-usoroh-shn01722",
-        "score": 53,
+        "score": 54,
         "grade": "Credit",
         "verify_id": "89G6BAK"
     },
@@ -20599,11 +20639,11 @@
         "task1": 17,
         "task2": 17,
         "task3": 19,
-        "task4": 0,
+        "task4": 17,
         "task5": 0,
         "slug": "chibueze-ughanze-shn01738",
-        "score": 53,
-        "grade": "Credit",
+        "score": 70,
+        "grade": "Upper Credit",
         "verify_id": "71B6CAW"
     },
     {
@@ -20822,12 +20862,12 @@
         "username": "Musa Bello",
         "task1": 18,
         "task2": 16,
+        "task4": 16,
         "task3": 0,
-        "task4": 0,
         "task5": 0,
         "slug": "musa-bello-ibrahim-shn01755",
-        "score": 34,
-        "grade": "Fail",
+        "score": 50,
+        "grade": "Pass",
         "verify_id": "28K6DBZ"
     },
     {
@@ -20995,7 +21035,8 @@
         "task5": 0,
         "slug": "morakinyo-oluwapelumi-shn01768",
         "score": 38,
-        "grade": "Fail"
+        "grade": "Fail",
+        "verify_id": null
     },
     {
         "code": "shn01769",
@@ -21046,11 +21087,11 @@
         "task1": 17,
         "task2": 18,
         "task3": 15,
-        "task4": 0,
+        "task4": 18,
         "task5": 0,
         "slug": "abdulsalam-shuaib-shn01772",
-        "score": 50,
-        "grade": "Pass",
+        "score": 68,
+        "grade": "Upper Credit",
         "verify_id": "30Q6ECZ"
     },
     {
@@ -21116,11 +21157,11 @@
         "task1": 17,
         "task2": 17,
         "task3": 15,
-        "task4": 0,
+        "task4": 10,
         "task5": 0,
         "slug": "adaoma-onyeukwu-shn01777",
-        "score": 49,
-        "grade": "Pass",
+        "score": 59,
+        "grade": "Credit",
         "verify_id": "54Q6F1V"
     },
     {
@@ -21298,10 +21339,10 @@
         "task1": 16,
         "task2": 17,
         "task3": 18,
-        "task4": 0,
+        "task4": 6,
         "task5": 0,
         "slug": "abdulhakeem-hamza-shn01791",
-        "score": 51,
+        "score": 57,
         "grade": "Credit",
         "verify_id": "45J6FFT"
     },
@@ -21372,7 +21413,8 @@
         "task5": 0,
         "slug": "ezzim-louis-ramsey-shn01797",
         "score": 20,
-        "grade": "Fail"
+        "grade": "Fail",
+        "verify_id": null
     },
     {
         "code": "shn01798",
@@ -21549,11 +21591,11 @@
         "task1": 19,
         "task2": 16,
         "task3": 19,
-        "task4": 0,
+        "task4": 16,
         "task5": 0,
         "slug": "agbo-daniel-onuoha-shn01810",
-        "score": 54,
-        "grade": "Credit",
+        "score": 70,
+        "grade": "Upper Credit",
         "verify_id": "29J712Y"
     },
     {
@@ -21605,10 +21647,10 @@
         "task1": 17,
         "task2": 18,
         "task3": 16,
-        "task4": 0,
+        "task4": 8,
         "task5": 0,
         "slug": "aderoju-adewale-timothy-shn01816",
-        "score": 51,
+        "score": 59,
         "grade": "Credit",
         "verify_id": "66J718K"
     },
@@ -21675,11 +21717,11 @@
         "task1": 15,
         "task2": 17,
         "task3": 18,
-        "task4": 0,
+        "task4": 18,
         "task5": 0,
         "slug": "john-peter-shn01821",
-        "score": 50,
-        "grade": "Pass",
+        "score": 68,
+        "grade": "Upper Credit",
         "verify_id": "27T71DV"
     },
     {
@@ -21744,11 +21786,11 @@
         "username": "MB Mudiaga",
         "task1": 12,
         "task2": 18,
+        "task4": 6,
         "task3": 0,
-        "task4": 0,
         "task5": 0,
         "slug": "bright-mudiaga-mebitaghan-shn01826",
-        "score": 30,
+        "score": 36,
         "grade": "Fail",
         "verify_id": "14H722P"
     },
@@ -21759,11 +21801,11 @@
         "task1": 15,
         "task2": 18,
         "task3": 18,
-        "task4": 0,
+        "task4": 15,
         "task5": 0,
         "slug": "akinwande-gbenga-vincent-shn01827",
-        "score": 51,
-        "grade": "Credit",
+        "score": 66,
+        "grade": "Upper Credit",
         "verify_id": "71B723P"
     },
     {
@@ -21856,12 +21898,12 @@
         "username": "Francis Etim",
         "task1": 17,
         "task2": 17,
+        "task4": 16,
         "task3": 0,
-        "task4": 0,
         "task5": 0,
         "slug": "francis-bassey-etim-shn01836",
-        "score": 34,
-        "grade": "Fail",
+        "score": 50,
+        "grade": "Pass",
         "verify_id": "46B72CG"
     },
     {
@@ -21941,10 +21983,10 @@
         "task1": 18,
         "task2": 18,
         "task3": 15,
-        "task4": 0,
+        "task4": 6,
         "task5": 0,
         "slug": "alimi-ismail-babatunde-shn01842",
-        "score": 51,
+        "score": 57,
         "grade": "Credit",
         "verify_id": "40S732T"
     },
@@ -22079,12 +22121,12 @@
         "name": "Ihesiulor Dan",
         "username": "Megamind",
         "task1": 16,
+        "task4": 6,
         "task2": 0,
         "task3": 0,
-        "task4": 0,
         "task5": 0,
         "slug": "ihesiulor-dan-shn01852",
-        "score": 16,
+        "score": 22,
         "grade": "Fail",
         "verify_id": "58P73CX"
     },
@@ -22192,11 +22234,11 @@
         "username": "ossi",
         "task1": 17,
         "task2": 10,
+        "task4": 3,
         "task3": 0,
-        "task4": 0,
         "task5": 0,
         "slug": "ighodaro-egharevba-osahon-shn01862",
-        "score": 27,
+        "score": 30,
         "grade": "Fail",
         "verify_id": "48B746D"
     },
@@ -22235,10 +22277,10 @@
         "task1": 18,
         "task2": 17,
         "task3": 18,
-        "task4": 0,
+        "task4": 5,
         "task5": 0,
         "slug": "nwogu-lyndaline-shn01865",
-        "score": 53,
+        "score": 58,
         "grade": "Credit",
         "verify_id": "22L749M"
     },
@@ -22305,11 +22347,11 @@
         "task1": 18,
         "task2": 17,
         "task3": 15,
-        "task4": 0,
+        "task4": 9,
         "task5": 0,
         "slug": "precious-orukwo-shn01871",
-        "score": 50,
-        "grade": "Pass",
+        "score": 59,
+        "grade": "Credit",
         "verify_id": "77G74FP"
     },
     {
@@ -22445,10 +22487,10 @@
         "task1": 18,
         "task2": 18,
         "task3": 15,
-        "task4": 0,
+        "task4": 14,
         "task5": 0,
         "slug": "clement-nduonyi-shn01884",
-        "score": 51,
+        "score": 65,
         "grade": "Credit",
         "verify_id": "27J75CL"
     },
@@ -22613,11 +22655,11 @@
         "task1": 17,
         "task2": 18,
         "task3": 15,
-        "task4": 0,
+        "task4": 14,
         "task5": 0,
         "slug": "daramola-olawale-shn01898",
-        "score": 50,
-        "grade": "Pass",
+        "score": 64,
+        "grade": "Credit",
         "verify_id": "91K76AX"
     },
     {
@@ -22641,11 +22683,11 @@
         "task1": 16,
         "task2": 17,
         "task3": 15,
-        "task4": 0,
+        "task4": 12,
         "task5": 0,
         "slug": "uche--etu--cynthia-shn01900",
-        "score": 48,
-        "grade": "Pass",
+        "score": 60,
+        "grade": "Credit",
         "verify_id": "48B76CL"
     },
     {
@@ -22725,11 +22767,11 @@
         "task1": 18,
         "task2": 18,
         "task3": 18,
-        "task4": 0,
+        "task4": 16,
         "task5": 0,
         "slug": "arinola-abisogun-shn01906",
-        "score": 54,
-        "grade": "Credit",
+        "score": 70,
+        "grade": "Upper Credit",
         "verify_id": "44M772U"
     },
     {
@@ -22781,10 +22823,10 @@
         "task1": 19,
         "task2": 15,
         "task3": 17,
-        "task4": 0,
+        "task4": 12,
         "task5": 0,
         "slug": "chimezie-emeka-great-shn01911",
-        "score": 51,
+        "score": 63,
         "grade": "Credit",
         "verify_id": "12F777Q"
     },
@@ -22835,12 +22877,12 @@
         "name": "Norah Eka Ebiefie",
         "username": "Norahe",
         "task1": 17,
+        "task4": 15,
         "task2": 0,
         "task3": 0,
-        "task4": 0,
         "task5": 0,
         "slug": "norah-eka-ebiefie-shn01915",
-        "score": 17,
+        "score": 32,
         "grade": "Fail",
         "verify_id": "93M77BY"
     },
@@ -22851,11 +22893,11 @@
         "task1": 18,
         "task2": 18,
         "task3": 19,
-        "task4": 0,
+        "task4": 14,
         "task5": 0,
         "slug": "chinaza-obiekwe-shn01917",
-        "score": 55,
-        "grade": "Credit",
+        "score": 69,
+        "grade": "Upper Credit",
         "verify_id": "83V77DZ"
     },
     {
@@ -22977,11 +23019,11 @@
         "task1": 18,
         "task2": 15,
         "task3": 15,
-        "task4": 0,
+        "task4": 7,
         "task5": 0,
         "slug": "abdulrahman-abu-shn01929",
-        "score": 48,
-        "grade": "Pass",
+        "score": 55,
+        "grade": "Credit",
         "verify_id": "94A789P"
     },
     {
@@ -23145,11 +23187,11 @@
         "task1": 18,
         "task2": 18,
         "task3": 14,
-        "task4": 0,
+        "task4": 4,
         "task5": 0,
         "slug": "idowu-iretomiwa-olubunmi-shn01945",
-        "score": 50,
-        "grade": "Pass",
+        "score": 54,
+        "grade": "Credit",
         "verify_id": "70T799U"
     },
     {
@@ -23242,12 +23284,12 @@
         "username": "Nteoniro Bertram",
         "task1": 18,
         "task2": 16,
+        "task4": 7,
         "task3": 0,
-        "task4": 0,
         "task5": 0,
         "slug": "nteoniro-robert-shn01954",
-        "score": 34,
-        "grade": "Fail",
+        "score": 41,
+        "grade": "Pass",
         "verify_id": "14C7A2M"
     },
     {
@@ -23256,12 +23298,12 @@
         "username": "@ose",
         "task1": 15,
         "task2": 17,
+        "task4": 16,
         "task3": 0,
-        "task4": 0,
         "task5": 0,
         "slug": "osemudiamen-idio-shn01955",
-        "score": 32,
-        "grade": "Fail",
+        "score": 48,
+        "grade": "Pass",
         "verify_id": "95L7A3T"
     },
     {
@@ -23285,11 +23327,11 @@
         "task1": 18,
         "task2": 17,
         "task3": 16,
-        "task4": 0,
+        "task4": 20,
         "task5": 0,
         "slug": "qoyum-olatunde-yusuf-shn01957",
-        "score": 51,
-        "grade": "Credit",
+        "score": 71,
+        "grade": "Upper Credit",
         "verify_id": "53H7A5N"
     },
     {
@@ -23327,11 +23369,11 @@
         "task1": 17,
         "task2": 19,
         "task3": 17,
-        "task4": 0,
+        "task4": 14,
         "task5": 0,
         "slug": "abulwasiu-adewale-balogun-shn01961",
-        "score": 53,
-        "grade": "Credit",
+        "score": 67,
+        "grade": "Upper Credit",
         "verify_id": "25A7A9M"
     },
     {
@@ -23397,11 +23439,11 @@
         "task1": 15,
         "task2": 18,
         "task3": 14,
-        "task4": 0,
+        "task4": 14,
         "task5": 0,
         "slug": "otuekong-nkwa-shn01966",
-        "score": 47,
-        "grade": "Pass",
+        "score": 61,
+        "grade": "Credit",
         "verify_id": "88V7AEW"
     },
     {
@@ -23513,7 +23555,8 @@
         "task5": 0,
         "slug": "vincent-shn01980",
         "score": 15,
-        "grade": "Fail"
+        "grade": "Fail",
+        "verify_id": null
     },
     {
         "code": "shn01982",
@@ -23536,11 +23579,11 @@
         "task1": 15,
         "task2": 16,
         "task3": 19,
-        "task4": 0,
+        "task4": 14,
         "task5": 0,
         "slug": "daniel-okeme-omale-shn01983",
-        "score": 50,
-        "grade": "Pass",
+        "score": 64,
+        "grade": "Credit",
         "verify_id": "99B7BFV"
     },
     {
@@ -23576,12 +23619,12 @@
         "name": "Iheakanwa Desmond Nnamdi",
         "username": "Desmond",
         "task1": 15,
+        "task4": 2,
         "task2": 0,
         "task3": 0,
-        "task4": 0,
         "task5": 0,
         "slug": "iheakanwa-desmond-nnamdi-shn01986",
-        "score": 15,
+        "score": 17,
         "grade": "Fail",
         "verify_id": "53H7C2Y"
     },
@@ -23592,11 +23635,11 @@
         "task1": 15,
         "task2": 12,
         "task3": 14,
-        "task4": 0,
+        "task4": 14,
         "task5": 0,
         "slug": "okeke-adaku-lynda-shn01987",
-        "score": 41,
-        "grade": "Pass",
+        "score": 55,
+        "grade": "Credit",
         "verify_id": "53L7C3T"
     },
     {
@@ -23606,11 +23649,11 @@
         "task1": 16,
         "task2": 17,
         "task3": 15,
-        "task4": 0,
+        "task4": 16,
         "task5": 0,
         "slug": "olusegun-olalere-shn01988",
-        "score": 48,
-        "grade": "Pass",
+        "score": 64,
+        "grade": "Credit",
         "verify_id": "93G7C4V"
     },
     {
@@ -23718,10 +23761,10 @@
         "task1": 15,
         "task2": 17,
         "task3": 14,
-        "task4": 0,
+        "task4": 3,
         "task5": 0,
         "slug": "ehiem-kingsley-uchenna-shn01996",
-        "score": 46,
+        "score": 49,
         "grade": "Pass",
         "verify_id": "61K7CCQ"
     },
@@ -23731,11 +23774,11 @@
         "username": "Oghenekaro Onothoja",
         "task1": 17,
         "task2": 16,
+        "task4": 6,
         "task3": 0,
-        "task4": 0,
         "task5": 0,
         "slug": "onothoja-oghenekaro-shn01997",
-        "score": 33,
+        "score": 39,
         "grade": "Fail",
         "verify_id": "61H7CDP"
     },
@@ -23773,12 +23816,12 @@
         "username": "Angel Cynthia",
         "task1": 16,
         "task2": 20,
+        "task4": 14,
         "task3": 0,
-        "task4": 0,
         "task5": 0,
         "slug": "achiwu-cynthia-oluomachi-shn02000",
-        "score": 36,
-        "grade": "Fail",
+        "score": 50,
+        "grade": "Pass",
         "verify_id": "88C7D0P"
     },
     {
@@ -23816,11 +23859,11 @@
         "task1": 16,
         "task2": 15,
         "task3": 14,
-        "task4": 0,
-        "task5": 0,
+        "task4": 17,
+        "task5": 19,
         "slug": "okereke-emmanuel-onyekachukwu-shn02003",
-        "score": 45,
-        "grade": "Pass",
+        "score": 81,
+        "grade": "Distinction",
         "verify_id": "96F7D3V"
     },
     {
@@ -23857,11 +23900,11 @@
         "username": "brightegbo",
         "task1": 16,
         "task2": 17,
+        "task4": 6,
         "task3": 0,
-        "task4": 0,
         "task5": 0,
         "slug": "bright-ogechukwu-egbo-shn02006",
-        "score": 33,
+        "score": 39,
         "grade": "Fail",
         "verify_id": "58D7D6J"
     },
@@ -23927,11 +23970,11 @@
         "username": "Dani-tech",
         "task1": 16,
         "task2": 18,
+        "task4": 5,
         "task3": 0,
-        "task4": 0,
         "task5": 0,
         "slug": "daniel-ogiku-shn02011",
-        "score": 34,
+        "score": 39,
         "grade": "Fail",
         "verify_id": "30K7DBS"
     },
@@ -24068,10 +24111,10 @@
         "task1": 16,
         "task2": 17,
         "task3": 14,
-        "task4": 0,
+        "task4": 3,
         "task5": 0,
         "slug": "isola-abdulrahman-shn02024",
-        "score": 47,
+        "score": 50,
         "grade": "Pass",
         "verify_id": "91E7E8N"
     },
@@ -24081,12 +24124,12 @@
         "username": "@Miracle",
         "task1": 15,
         "task2": 16,
+        "task4": 16,
         "task3": 0,
-        "task4": 0,
         "task5": 0,
         "slug": "miracle-c-alex-shn02025",
-        "score": 31,
-        "grade": "Fail",
+        "score": 47,
+        "grade": "Pass",
         "verify_id": "91T7E9W"
     },
     {
@@ -24417,11 +24460,11 @@
         "username": "Doubrapade Ikporukpo",
         "task1": 16,
         "task2": 18,
+        "task4": 4,
         "task3": 0,
-        "task4": 0,
         "task5": 0,
         "slug": "doubrapade-jonathan-ikporukpo-shn02064",
-        "score": 34,
+        "score": 38,
         "grade": "Fail",
         "verify_id": "53T810W"
     },
@@ -24600,11 +24643,11 @@
         "task1": 18,
         "task2": 17,
         "task3": 14,
-        "task4": 0,
+        "task4": 3,
         "task5": 0,
         "slug": "francis-oyetimehin-shn02078",
-        "score": 49,
-        "grade": "Pass",
+        "score": 52,
+        "grade": "Credit",
         "verify_id": "24K81EQ"
     },
     {
@@ -24655,11 +24698,11 @@
         "username": "Bimie",
         "task1": 17,
         "task2": 17,
+        "task4": 2,
         "task3": 0,
-        "task4": 0,
         "task5": 0,
         "slug": "temitope-bimbo-babatola-shn02083",
-        "score": 34,
+        "score": 36,
         "grade": "Fail",
         "verify_id": "73F823Q"
     },
@@ -24893,11 +24936,11 @@
         "username": "Imaluvtom",
         "task1": 17,
         "task2": 15,
+        "task4": 3,
         "task3": 0,
-        "task4": 0,
         "task5": 0,
         "slug": "imaobong-tom-shn02106",
-        "score": 32,
+        "score": 35,
         "grade": "Fail",
         "verify_id": "16D83AU"
     },
@@ -24992,10 +25035,10 @@
         "task1": 16,
         "task2": 15,
         "task3": 14,
-        "task4": 0,
+        "task4": 2,
         "task5": 0,
         "slug": "orighomisan-peace-nemi-shn02117",
-        "score": 45,
+        "score": 47,
         "grade": "Pass",
         "verify_id": "69A845S"
     },
@@ -25174,11 +25217,11 @@
         "task1": 17,
         "task2": 14,
         "task3": 18,
-        "task4": 0,
+        "task4": 4,
         "task5": 0,
         "slug": "affiong-umana-okoko-shn02132",
-        "score": 49,
-        "grade": "Pass",
+        "score": 53,
+        "grade": "Credit",
         "verify_id": "84B854S"
     },
     {
