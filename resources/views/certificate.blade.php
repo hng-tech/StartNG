@@ -63,12 +63,14 @@
 
     <p style="color: #FFA800; font-size: 1rem;">Note: you can print the certificate on desktop or share the link for reference purposes</p>
 
-    <a href="/certification/{{$name['slug']}}/download">
-    <button class="btn btn-primary"><i class="fa fa-download"></i>&nbsp; DOWNLOAD CERTIFICATE</button>
-    </a>
     <a href="/certification/{{$name['slug']}}/view" target="_blank">
     <button class="btn btn-primary ml-2"><i class="fa fa-external-link"></i>&nbsp; VIEW CERTIFICATE</button>
     </a>
+    <br><br>
+    <a href="/certification/{{$name['slug']}}/download">
+    <button class="btn btn-primary ml-2"><i class="fa fa-download"></i>&nbsp; DOWNLOAD CERTIFICATE</button>
+    </a>
+
 
 
     {{-- Enter the code for the instructions here --}}
